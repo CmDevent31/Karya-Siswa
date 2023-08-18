@@ -16,51 +16,58 @@ use App\Http\Controllers\ProductImageController;
 class ProductController extends Controller
 {
     public function index(Request $request)
-    {
-       $perPage = $request->query('limit', 10); // Menentukan jumlah ite m per halaman, defaultnya 10
-        
-        try {
-            $validator = Validator::make($request->all(), [
-                'limit' => 'integer|min:1|max:100' // Validasi input limit
-            ]);
-    
-            if ($validator->fails()) {
-                return response()->json([
-                    'success' => false,
-                    'message' => 'Invalid Request',
-                    'errors' => $validator->errors()
-                ], 400);
-            }
-            
-            $Product = Product::paginate($perPage);
-            $Product->makeHidden(['updated_at', 'deleted','deleted_at']);
-            return response()->json([
-                'success' => true,
-                'message' => 'List Semua Product!',
-                'data' => $Product->loadMissing(['ProductStock', 'images']),
-            ], 200);
+{
+    $perPage = $request->query('limit', 10);
 
-        } catch (Exception $e) {
+    try {
+        $validator = Validator::make($request->all(), [
+            'limit' => 'integer|min:1|max:100',
+        ]);
+
+        if ($validator->fails()) {
             return response()->json([
                 'success' => false,
-                'message' => 'Internal Server Error',
-            ], 500);
+                'message' => 'Invalid Request',
+                'errors' => $validator->errors(),
+            ], 400);
         }
+
+        $products = Product::paginate($perPage);
+        $products->makeHidden(['created_at','updated_at', 'deleted', 'deleted_at']);
+
+        foreach ($products as $product) {
+            $productStocks = ProductStock::where('product_id', $product->id)->get();
+            $productStocks->makeHidden(['created_at','updated_at', 'deleted', 'deleted_at']);
+            $product->loadMissing(['images']);
+            $product->productStocks = $productStocks;
+        }
+
+        return response()->json([
+            'success' => true,
+            'message' => 'List Semua Product!',
+            'data' => $products,
+        ], 200);
+
+    } catch (Exception $e) {
+        return response()->json([
+            'success' => false,
+            'message' => 'Internal Server Error',
+        ], 500);
     }
+}
 
     
     
-public function create(Request $request)
+    
+public function add(Request $request)
     {
         $validated = $request->validate([
             'name' => 'required|max:255',
-            'categori_id' => 'required',
+            'categori_id' => 'required|exists:table_categories,id',
             'description' => 'required',
             'price' => 'required',
-            'discount' => 'required',
-            'rating' => 'required',
             'brand' => 'required',
-            'user_id' => 'required',
+            'user_id' => 'required|exists:users,id',
             'image.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
     
@@ -69,8 +76,6 @@ public function create(Request $request)
         $Product->categori_id = $validated['categori_id'];
         $Product->description = $validated['description'];
         $Product->price = $validated['price'];
-        $Product->discount = $validated['discount'];
-        $Product->rating = $validated['rating'];
         $Product->brand = $validated['brand'];
         $Product->user_id = $validated['user_id'];
     
@@ -137,13 +142,11 @@ public function create(Request $request)
     // Define validation rules
     $validator = Validator::make($request->all(), [
         'name' => 'sometimes|required|max:255',
-        'categori_id' => 'sometimes|required',
+        'categori_id' => 'sometimes|required|exists:table_categories,id',
         'description' => 'sometimes|required',
         'price' => 'sometimes|required',
-        'discount' => 'sometimes|required',
-        'rating' => 'sometimes|required',
         'brand' => 'sometimes|required',
-        'user_id' => 'sometimes|required',
+        'user_id' => 'sometimes|required|exists:users,id',
         'image.*' => 'sometimes|image|mimes:jpeg,png,jpg,gif|max:2048',
     ]);
 

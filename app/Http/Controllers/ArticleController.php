@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Comment;
 use App\Models\ArticleImage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -15,8 +16,8 @@ class ArticleController extends Controller
 {
     public function index(Request $request)
     {
-        $perPage = $request->query('limit', 10); // Menentukan jumlah item per halaman, defaultnya 10
-        
+        $perPage = $request->query('limit', 10);
+    
         try {
             $validator = Validator::make($request->all(), [
                 'limit' => 'integer|min:1|max:100' // Validasi input limit
@@ -24,18 +25,22 @@ class ArticleController extends Controller
     
             if ($validator->fails()) {
                 return response()->json([
-                    'success' => false, 
+                    'success' => false,
                     'message' => 'Invalid Request',
                     'errors' => $validator->errors()
                 ], 400);
             }
-            
-            $article = Article::paginate($perPage);
-            $article->makeHidden(['updated_at', 'deleted','deleted_at']);
+    
+            $articles = Article::paginate($perPage);
+            $articles->makeHidden(['created_at', 'updated_at', 'deleted', 'deleted_at']);
+            $articles->loadMissing('images');
+    
+            // Load total comment count for each article and update the total_comments field
+    
             return response()->json([
                 'success' => true,
                 'message' => 'List Semua Article!',
-                'data' => $article->loadMissing('images'),
+                'data' => $articles,
             ], 200);
     
         } catch (Exception $e) {
@@ -45,6 +50,7 @@ class ArticleController extends Controller
             ], 500);
         }
     }
+    
 
   
     public function add(Request $request)
@@ -53,7 +59,7 @@ class ArticleController extends Controller
             $validated = $request->validate([
                 'title' => 'required|max:255',
                 'description' => 'required',
-                'user_id' => 'required|exists:user,id', // Check if member_id exists in the 'table_member' table
+                'user_id' => 'required|exists:users,id', // Check if member_id exists in the 'table_member' table
                 'categori_id' => 'required|exists:table_categories,id', // Check if categori_id exists in the 'table_categories' table
                 'image.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
             ]);
@@ -83,6 +89,7 @@ class ArticleController extends Controller
                     $article->images()->save($articleImage);
                 }
             }
+            
     
             // Hide 'updated_at' and 'deleted_at' columns
             $article->makeHidden(['updated_at', 'deleted_at']);

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
@@ -61,14 +62,12 @@ class AuthController extends Controller
 
 
     
-
     public function register(Request $request){
         try {
             $validator = Validator::make($request->all(), [
-              
                 'email' => 'required|string|email|max:255|unique:users',
                 'password' => 'required|string|min:6',
-                'username' => 'required|string|max:255',
+                'username' => 'required|string|max:255|unique:users',
                 'kelas' => 'required|string|max:11',
                 'dob' => 'required|date|max:255',
                 'bio' => 'required|string|max:255',
@@ -82,36 +81,39 @@ class AuthController extends Controller
                 ], 422);
             }
     
-
-        $user = User::create([
-            'email' => $request->email,
-            'password' => Hash::make($request->password),
-            'username' => $request->username,
-            'kelas' => $request->kelas,
-            'dob' => $request->dob,
-            'bio' => $request->bio,
-            'phone_number' => $request->phone_number,
-            
-        ]);
-
-        $token = Auth::login($user);
-        return response()->json([
-            'status' => 'success',
-            'message' => 'User created successfully',
-            'data' => $user,
-            'authorisation' => [
-                'token' => $token,
-                'type' => 'bearer',
-            ]
-        ]);
-    } catch (\Exception $exception) {
-        return response()->json([
-            'success' => false,
-            'message' => 'An error occurred during registration',
-            'data' => (object) [],
-        ], 500);
+            $user = User::create([
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+                'username' => $request->username,
+                'kelas' => $request->kelas,
+                'dob' => $request->dob,
+                'bio' => $request->bio,
+                'phone_number' => $request->phone_number,
+                'role' => $request->role, // Assign peran yang dipilih dari permintaan
+            ]);
+    
+            $token = Auth::login($user);
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Pengguna berhasil dibuat',
+                'data' => $user,
+                'authorisation' => [
+                    'token' => $token,
+                    'type' => 'bearer',
+                ]
+            ]);
+        } catch (\Exception $exception) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Terjadi kesalahan selama registrasi',
+                'data' => (object) [],
+            ], 500);
+        }
     }
-}
+    
+    
+
+    
     
 
     public function update(Request $request)

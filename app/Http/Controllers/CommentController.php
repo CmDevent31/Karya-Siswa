@@ -12,31 +12,30 @@ class CommentController extends Controller
 {
     public function index(Request $request)
     {
-        $perPage = $request->query('limit', 10); // Menentukan jumlah item per halaman, defaultnya 10
-        
         try {
             $validator = Validator::make($request->all(), [
-                'limit' => 'integer|min:1|max:100' // Validasi input limit
+                'limit' => 'integer|min:1|max:100', // Validasi input limit
             ]);
     
             if ($validator->fails()) {
                 return response()->json([
                     'success' => false,
                     'message' => 'Invalid Request',
-                    'errors' => $validator->errors()
+                    'errors' => $validator->errors(),
                 ], 400);
             }
     
-            $Comment = Comment::paginate($perPage);
-            $Comment->makeHidden(['updated_at', 'deleted']);
+            $limit = $request->query('limit', 10);
+    
+            $comments = Comment::all();
+            $comments->each(function ($comment) {
+                $comment->makeHidden(['updated_at', 'deleted']);
+            });
+    
             return response()->json([
                 'success' => true,
                 'message' => 'List Semua Comment!',
-                // 'current_page' => $posts->currentPage(),
-                // 'per_page' => $posts->perPage(),
-                // 'total_data' => $posts->total(),
-                // 'last_page' => $posts->lastPage(),
-                'data' => $Comment,
+                'data' => $comments,
             ], 200);
     
         } catch (Exception $e) {
@@ -46,21 +45,29 @@ class CommentController extends Controller
             ], 500);
         }
     }
+    
 
     public function create(Request $request)
     {
         $validated = $request->validate([
-            'article_id' => 'required',
+            'article_id' => 'required|exists:table_articles,id',
             'comment' => 'required',
-            'member_id' => 'required'
+            'member_id' => 'required|exists:users,id'
         ]);
     
         $Comment = new Comment;
-        $Comment->article_id= $validated['article_id'];
-        $Comment->comment= $validated['comment'];
+        $Comment->article_id = $validated['article_id'];
+        $Comment->comment = $validated['comment'];
         $Comment->member_id = $validated['member_id'];
     
         $Comment->save();
+    
+        // Update total_comments in the related article
+        $article = Article::find($validated['article_id']);
+        if ($article) {
+            $article->total_comment = $article->total_comment + 1;
+            $article->save();
+        }
     
         return response()->json([
             'success' => true,
@@ -68,6 +75,7 @@ class CommentController extends Controller
             'data' => $Comment,
         ], 201);
     }
+    
     
 
     /**

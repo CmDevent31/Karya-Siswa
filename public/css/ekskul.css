@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card {
+      background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      color:#000000;
+      border-radius: 20px;
+      border: rounded;
+      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      overflow: hidden;
+
+  }
+  h1 {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    
+  }
+
+  p {
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .card-footer {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+  }
+
+  button {
+width: 140px;
+border: 0;
+padding: 12px 10px;
+outline: none;
+color: #fff;
+background: linear-gradient(to right, #fb4283, #ff3527);
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.1ms, transform 0.2s;
+}
+
+button:hover {
+background: linear-gradient(to right, #ff3527, #fb4283);
+transform: scale(1.05);
+}
+/* Tombol Prev dan Next pada Carousel */
+.carousel-control-prev,
+.carousel-control-next {
+width: 75px;
+height: 75px;
+border-radius: 80%;
+display: flex;
+background-color: #fc2727;
+align-items: center;
+justify-content: center;
+opacity: 0.2;
+transition: opacity 0.3s;
+}
+
+
+.carousel-control-prev {
+margin-left: 20px;
+margin-top: 385px
+}
+
+.carousel-control-next {
+  margin-right: 20px;
+margin-top: 385px
+}
+
+
+
+.tales {
+width: 100%;
+height: auto;
+max-width: none; /* Hapus batasan lebar maksimum */
+transform: scale(1);
+}
+
+.featurette-divider {
+margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+letter-spacing: -.05rem;
+color: #000000;
+}
+p.lead{
+  text-align-last: right;
+}
+p.lead-left{
+  text-align-last: left;
+}
+h2.featurette-heading{
+  text-align-last: right;
+}
+h2.featurette-heading-left{
+  text-align-last: left;
+}

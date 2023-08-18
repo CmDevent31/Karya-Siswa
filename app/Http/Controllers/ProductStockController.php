@@ -14,23 +14,23 @@ class ProductStockController extends Controller
 {
     public function index(Request $request)
     {
-        $perPage = $request->query('limit', 10); // Set default limit to 10 items per page
-    
-        // Validate the 'limit' parameter
-        $validator = Validator::make($request->all(), [
-            'limit' => 'integer|min:1|max:100', // Limit should be an integer between 1 and 100
-        ]);
-    
-        // Check if validation fails
-        if ($validator->fails()) {
-            return response()->json([
-                'success' => false,
-                'message' => 'Invalid Request',
-                'errors' => $validator->errors(),
-            ], 400);
-        }
-    
         try {
+            // Validate the 'limit' parameter
+            $validator = Validator::make($request->all(), [
+                'limit' => 'integer|min:1|max:100', // Limit should be an integer between 1 and 100
+            ]);
+    
+            // Check if validation fails
+            if ($validator->fails()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Invalid Request',
+                    'errors' => $validator->errors(),
+                ], 400);
+            }
+    
+            $perPage = $request->query('limit', 10); // Set default limit to 10 items per page
+    
             // Fetch paginated ProductStock data
             $productStock = ProductStock::paginate($perPage);
     
@@ -56,11 +56,12 @@ class ProductStockController extends Controller
             ], 500);
         }
     }
+    
 
     public function add(Request $request)
     {
         $validated = $request->validate([
-            'product_id' => 'required',
+            'product_id' => 'required|exists:table_products,id|unique:table_product_stocks,product_id',
             'qty' => 'required',
         ]);
     
@@ -119,23 +120,24 @@ class ProductStockController extends Controller
     {
         // Define validation rules
         $validator = Validator::make($request->all(), [
+            'product_id' => 'required|exists:table_products,id',
             'qty' => 'required',
-            'product_id' => 'required',
         ]);
     
         // Check if validation fails
         if ($validator->fails()) {
             return response()->json([
                 'success' => false,
-                'message' => $validator->errors(),
-            ], 422);
+                'message' => 'Invalid Request',
+                'errors' => $validator->errors(),
+            ], 400);
         }
     
-        // Find article by ID
-        $Product = ProductStock::find($id);
+        // Find product stock by ID
+        $productStock = ProductStock::find($id);
     
-        // Check if article exists
-        if (!$Product) {
+        // Check if product stock exists
+        if (!$productStock) {
             return response()->json([
                 'success' => false,
                 'message' => 'Product Tidak Ditemukan!',
@@ -143,20 +145,20 @@ class ProductStockController extends Controller
             ], 404);
         }
     
-        // Update the article fields
-        $Product->product_id = $validated['product_id'];
-        $Product->qty = $validated['qty'];
+        // Update the product stock fields
+        $productStock->product_id = $request->input('product_id');
+        $productStock->qty = $request->input('qty');
     
         // Save the changes
-        $Product->save();
+        $productStock->save();
     
         return response()->json([
             'success' => true,
             'message' => 'Product Berhasil Diupdate!',
-            'data' => $Product,
+            'data' => $productStock,
         ], 200);
     }
-
+    
     /**
      * Remove the specified resource from storage.
      */
