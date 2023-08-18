@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CommentController;
@@ -28,6 +29,16 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('refresh', [AuthController::class, 'refresh']);
     Route::put('update-profile/{id}', [AuthController::class, 'update']);
 
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::post('login', [AdminController::class, 'login']);
+    Route::post('register', [AdminController::class, 'register']);
+
+    Route::group(['middleware' => 'auth:api'], function () {
+        Route::post('logout', [AdminController::class, 'logout']);
+        Route::post('refresh', [AdminController::class, 'refresh']);
+    });
 });
 
 Route::get('/list',[TableCategoryController::class,'index']);
