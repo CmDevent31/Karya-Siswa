@@ -17,6 +17,16 @@ class EkskulController extends Controller
         return view('ekskul');
     }
 
+    public function getDataFromApi()
+    {
+        // Panggil API atau gunakan data dari Postman
+        // Proses data jika diperlukan
+    
+        $data = []; // Data yang akan ditampilkan di view
+    
+        return view('ekskul', ['data' => $data]);
+    }
+
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [

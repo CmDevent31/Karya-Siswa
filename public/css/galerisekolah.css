@@ -80,77 +80,16 @@
     padding: 8px 24px ;
     color: #ffffff;
     font-weight: 500;
-    box-shadow: 0 0 0 #ffffff;
+    box-shadow: 4px 4px 0 #ffffff;
     transition: all .2s !important;
 }
 .my-button:hover {
-    transform: right(4px, 4px) !important;
+    transform: translate(4px, 4px) !important;
     color: #ffffff !important;
     box-shadow: 0px 0px 0 #FD2E2E !important;
-    transform: scale(1.05);
-
 }
 .rounded-xl {
     border-radius: 16px;
-}
-.content {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .card {
-      background: transparent;
-      border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
-      border-radius: 20px;
-      border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
-      overflow: hidden;
-
-  }
-.card-footer {
-    background-color: transparent;
-    border: none;
-    text-align: center;
-  }
-
-  button {
-    width: 140px;
-    border: 0;
-    padding: 12px 10px;
-    outline: none;
-    color: #fff;
-    background: linear-gradient(to right, #fb4283, #ff3527);
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.1ms, transform 0.2s;
-    }
-    
-    button:hover {
-    background: linear-gradient(to right, #ff3527, #fb4283);
-    transform: scale(1.05);
-    }
-.modal {
-    padding: 0 !important;
-}
-.modal-wrapper  {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    width: 100%;
-}
-.modal-fullscreen {
-    height: 95vh;
-}
-.modal-content {
-    border-radius: 18px 18px 0 0 !important;
-}
-.img-karya {
-    width: 100% ;
-    padding-top: 100%;
-    position: relative;
 }
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -509,10 +448,11 @@
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 0, 0, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, .1);
 }
+
 .footer .footer-menu a:last-child {
     margin-right: 0;
     padding-right: 0;
-    border-right: 1px solid rgba(239, 0, 0, 0.1);
+    border-right: none;
 }

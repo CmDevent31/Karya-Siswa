@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -28,7 +27,7 @@ body {
   h1 {
     color: #000000;
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     
   }
 
@@ -41,9 +40,8 @@ body {
     background-color: transparent;
     border: none;
     text-align: center;
-  }
-
-  button {
+}
+button {
 width: 140px;
 border: 0;
 padding: 12px 10px;
@@ -59,6 +57,7 @@ button:hover {
 background: linear-gradient(to right, #ff3527, #fb4283);
 transform: scale(1.05);
 }
+
 /* Tombol Prev dan Next pada Carousel */
 .carousel-control-prev,
 .carousel-control-next {

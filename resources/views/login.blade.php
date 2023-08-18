@@ -56,19 +56,20 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
+                    <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <a href="/Guru" class="nav-item nav-link">GuruKami</a>
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
+                <a href="/Login" class="nav-item nav-link active">Login</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
@@ -531,11 +532,11 @@
     padding-right: 0;
     border-right: none;
 }
-                    *{
-                        margin: 0;
-                        padding: 0;
-                        outline: 0;
-                        font-family: 'Open Sans', sans-serif;}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}                 
 
 body{
     height: 100vh;
@@ -545,42 +546,46 @@ body{
     background-repeat: no-repeat;
 }
 p {
-  color: rgb(165, 165, 165);
+  color: rgb(8, 8, 8);
   font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
 }
 
 h1 {
   text-align: center;
-  padding-left: 100px;
+  padding-left: 26px;
   padding-bottom: 20px;
 }
 
 a {
-  color: rgb(235, 235, 235);
-  font-family: 'Open Sans', sans-serif;
+  color: rgb(255, 0, 0);
 }
 .container{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 20px 25px;
+    padding: 20px 20px;
     width: 300px;
-
-    background-color: rgba(0,0,0,.7);
-    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    
+    background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      color:#000000;
+      border-radius: 20px;
+      border: rounded;
+      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      overflow: hidden;
 }
 .container h1{
     text-align: left;
-    color: #fafafa;
+    color: #fa0303;
     margin-bottom: 30px;
     text-transform: uppercase;
-    border-bottom: 4px solid #535353;
+    border-bottom: 4px solid #3a2e2e;
 }
 .container label{
     text-align: left;
-    color: #e8ebec;
+    color: #f31414;
 }
 .container form input{
     width: calc(100% - 20px);
@@ -588,19 +593,28 @@ a {
     margin-bottom: 15px;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid #6b6868;
-    color: #fff;
+    border-bottom: 2px solid #302525;
+    color: #0f0202;
     font-size: 20px;
 }
 .container form button{
-    width: 100%;
-    height: 40px;
-    padding: 5px 0;
-    border: none;
-    background-color:#c94b4b;
-    font-size: 18px;
-    color: #fafafa;
-    border-radius: 20px;
+   width: 100%;
+    height: 30px;
+    padding: 20px ;
+    font-size: 20;
+    border: 0;
+padding: 12px 10px;
+outline: none;
+color: #fff;
+background: linear-gradient(to right, #fb4283, #ff3527);
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.1ms, transform 0.2s;
+}
+
+button:hover {
+background: linear-gradient(to right, #ff3527, #fb4283);
+transform: scale(1.05);
 }
 </style>
             </form>

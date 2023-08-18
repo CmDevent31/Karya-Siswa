@@ -53,11 +53,12 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
+                    <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item bg-danger text-white active">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
@@ -65,7 +66,7 @@
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
@@ -137,9 +138,9 @@
                 </div>
                 <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
                     <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Puan_Maharani%2C_Ketua_DPR_RI_%28cropped%29.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="data:image/jpeg;base64,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" alt="" style="object-fit: cover;">
                         <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
-                            <h5 class="m-0">Bonus</h5>
+                            <h5 class="m-0">Sejak saat itu senyumanku berubah menjadi pulsa</h5>
                             <small class="text-danger">Wkwkwkwk</small>
                         </div>
                     </a>
@@ -152,47 +153,31 @@
     <!-- Service Start -->
     <div class="container-xxl py-5"class= "text-secondary">
         <div class="container">
-            <div class="row g-4">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
-                <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
-            </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3 "style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-dark mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
+            <div class="row g-4 justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
+                    <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;">
+                
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;"><a href="#" class="text-dark">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-dark mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fa fa-3x fa-laptop text-dark mb-4"></i>
+                            <h5 class="mb-3">Produktif</h5>
+                            <p >Produktif adalah pembelajaran kejuruan yang merupakan kemampuan khusus yang diberikan kepada siswa sesuai dengan program keahlian yang dipilihnya.</p>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;"><a href="#" class="text-dark">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-home text-dark mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fa fa-3x fa-book text-dark mb-4"></i>
+                            <h5 class="mb-3">Normatif & Adaptif</h5>
+                            <p>Pelajaran normatif dan adaptif merupakan pelajaran non kejuruan yang diberikan kepada siswa sebagai penunjang kemampuan produktif.</p>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-dark mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -204,11 +189,9 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
+                    <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
+                    <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
+                    <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
@@ -216,10 +199,7 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-danger btn btn-outline-light btn-social" href="https://www.instagram.com/ghinanms/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -237,8 +217,8 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"style="border-radius: 0 30px 30px 0;">
+                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"style="border-radius: 0 30px 30px 0;">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -255,9 +235,7 @@
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="/Home">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="/FaqsHelp">FQAs</a>
                         </div>
                     </div>
                 </div>
