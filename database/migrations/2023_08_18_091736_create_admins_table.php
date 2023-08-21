@@ -13,8 +13,18 @@ return new class extends Migration
     {
         Schema::create('admins', function (Blueprint $table) {
             $table->id();
+            $table->enum('role', ['Admin', 'User'])->default('Admin');
+            $table->string('email')->unique();
+            $table->string('password');
+            $table->string('username')->unique();
+            $table->string('bagian');
+            $table->date('dob');
+            $table->text('bio');
+            $table->string('phone_number');
+            $table->rememberToken();
             $table->timestamps();
         });
+        
     }
 
     /**

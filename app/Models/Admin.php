@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
- use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
+use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Foundation\Auth\Admin as Authenticatable;
 
-class Admin  extends Model
+class Admin extends Model implements JWTSubject
 {
     use HasFactory, Notifiable;
 
@@ -19,7 +19,7 @@ class Admin  extends Model
      * @var array<int, string>
      */
 
-     protected $table = 'admin';
+     protected $table = 'admins';
 
     protected $fillable = [
             'email' ,
@@ -60,15 +60,12 @@ class Admin  extends Model
         return $this->getKey();
     }
 
-    /**
-     * Return a key value array, containing any custom claims to be added to the JWT.
-     *
-     * @return array
-     */
     public function getJWTCustomClaims()
     {
         return [];
     }
 
+    // ...
 }
+
 

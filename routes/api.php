@@ -3,11 +3,11 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\AdminController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AdminAuthController;
 use App\Http\Controllers\ProductStockController;
 use App\Http\Controllers\TableCategoryController;
 
@@ -31,15 +31,13 @@ Route::controller(AuthController::class)->group(function () {
 
 });
 
-Route::group(['prefix' => 'admin'], function () {
-    Route::post('login', [AdminController::class, 'login']);
-    Route::post('register', [AdminController::class, 'register']);
+// routes/api.php
 
-    Route::group(['middleware' => 'auth:api'], function () {
-        Route::post('logout', [AdminController::class, 'logout']);
-        Route::post('refresh', [AdminController::class, 'refresh']);
-    });
-});
+
+Route::post('admin/register', [AdminAuthController::class, 'register']);
+Route::post('admin/login', [AdminAuthController::class, 'login']);
+
+
 
 Route::get('/list',[TableCategoryController::class,'index']);
 Route::post('/store',[TableCategoryController::class,'create']);
