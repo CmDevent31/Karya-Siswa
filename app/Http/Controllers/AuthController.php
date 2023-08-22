@@ -62,56 +62,59 @@ class AuthController extends Controller
 
 
     
-    public function register(Request $request){
-        try {
-            $validator = Validator::make($request->all(), [
-                'role' =>  'required|string|in:Admin,User',
-                'email' => 'required|string|email|max:255|unique:users',
-                'password' => 'required|string|min:6',
-                'username' => 'required|string|max:255|unique:users',
-                'kelas' => 'required|string|max:11',
-                'dob' => 'required|date|max:255',
-                'bio' => 'required|string|max:255',
-                'phone_number' => 'required|string|max:14',
-            ]);
-    
-            if ($validator->fails()) {
-                return response()->json([
-                    'success' => false,
-                    'errors' => $validator->errors(),
-                ], 422);
-            }
-    
-            $user = User::create([
-               
-                'email' => $request->email,
-                'password' => Hash::make($request->password),
-                'username' => $request->username,
-                'kelas' => $request->kelas,
-                'dob' => $request->dob,
-                'bio' => $request->bio,
-                'phone_number' => $request->phone_number,
-                'role' => $request->role, // Assign peran yang dipilih dari permintaan
-            ]);
-    
-            $token = Auth::login($user);
-            return response()->json([
-                'status' => 'success',
-                'message' => 'Pengguna berhasil dibuat',
-                'data' => $user,
-                'authorisation' => [
-                    'token' => $token,
-                    'type' => 'bearer',
-                ]
-            ]);
-        } catch (\Exception $exception) {
+public function register(Request $request)
+{
+    try {
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|string|email|max:255|unique:users',
+            'password' => 'required|string|min:6',
+            'username' => 'required|string|max:255|unique:users',
+            'kelas' => 'required|string|max:11',
+            'dob' => 'required|date|max:255',
+            'bio' => 'required|string|max:255',
+            'phone_number' => 'required|string|max:14',
+        ]);
+
+        if ($validator->fails()) {
             return response()->json([
                 'success' => false,
-                'message' => 'Terjadi kesalahan selama registrasi',
-                'data' => (object) [],
-            ], 500);
+                'errors' => $validator->errors(),
+            ], 422);
         }
+
+        // Set nilai default 'User' jika 'role' tidak diisi
+        $role = $request->input('role', 'User');
+
+        $user = User::create([
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            'username' => $request->username,
+            'kelas' => $request->kelas,
+            'dob' => $request->dob,
+            'bio' => $request->bio,
+            'phone_number' => $request->phone_number,
+            'role' => $role,
+        ]);
+
+        $token = Auth::login($user);
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Pengguna berhasil dibuat',
+            'data' => $user,
+            'authorisation' => [
+                'token' => $token,
+                'type' => 'bearer',
+            ]
+        ]);
+    } catch (\Exception $exception) {
+        return response()->json([
+            'success' => false,
+            'message' => 'Terjadi kesalahan selama registrasi',
+            'data' => (object) [],
+        ], 500);
     }
+}
+
     
     
 
