@@ -10,6 +10,7 @@ use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
 use App\Http\Controllers\PrestasiController;
+use App\Http\Controllers\PrestasiAController;
 use App\Http\Controllers\TestimoniController;
 use App\Http\Controllers\KaryaSiswaController;
 use App\Http\Controllers\RegistrasiController;
@@ -51,6 +52,7 @@ Route::get('/TermsCondition', [TermsConditionController ::class, 'index']);
 Route::get('/FaqsHelp', [FAQSHelpController ::class, 'index']);
 Route::get('/Quotes', [QuotesController ::class, 'index']);
 Route::get('/data',  [DataController ::class, 'index']);
+Route::get('/PrestasiA',  [PrestasiAController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

@@ -255,7 +255,7 @@
                             <h4 align="left" class="text-white mb-3">Quick Link</h4>
                             <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
                             <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
-                            <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
+                            <a class="btn btn-link text-danger active" href="/FaqsHelp">FAQs & Help</a>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h4 align="left"class="text-white mb-3">Contact</h4>
