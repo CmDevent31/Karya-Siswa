@@ -1,3 +1,6 @@
+@extends('layouts.main')
+@section('ekskul')
+    
 
 
 
@@ -38,49 +41,7 @@
   </head>
   <body class="">
 <main>
-  <!-- Spinner Start -->
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-          <span class="sr-only">Loading...</span>
-      </div>
-  </div>
-  <!-- Spinner End -->
-      
-      <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-        <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                <a href="/Home" class="nav-item nav-link">Home</a>
-                <div class="nav-item dropdown text-danger">
-                    <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
-                        <a href="/Ekskul" class="dropdown-item bg-danger text-white active">Ekskul</a>
-                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Quotes" class="dropdown-item">Quotes</a>
-                    </div>
-                </div>
-                <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
-                <a href="/Guru" class="nav-item nav-link">GuruKami</a>
-                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
-                <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+ 
 
     <!-- Header Start -->
     <div class="container-fluid bg-danger py-5 mb-5 page-header">
@@ -151,10 +112,10 @@
                     <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
+                    <h4 align="left" class="text-white mb-3">Contact</h4>
+                    <p align="left" class="text-white mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p align="left" class="text-white mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p align="left" class="text-white mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2"> 
                         <a class="text-danger btn btn-outline-light btn-social" href="https://www.instagram.com/ghinanms/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
@@ -203,7 +164,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -218,3 +179,4 @@
 
   </body>
 </html>
+@endsection
