@@ -127,25 +127,33 @@
         <h6 class="section-title bg-white text-center text-danger px-3">Filter</h6>
         <h1 class="mb-5">Kategori</h1>
     </div>
-    <div class="row g-4 justify-content-center" >
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <a href="#"class="btn my-button align-self-start px-3" data-bs-toggle="modal" data-bs-target="#TentangKami"class="btn btn-red btn-detail " style="border-radius: 0 0 0 0;">Read More</a>                
+    
+
+    <div class="row g-4 justify-content-center" id="TentangKami">
+        <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="text-center position-relative overflow-hidden">  
+            <a href="#TentangKami"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#TentangKami</a>                
+            <a href="#Studi"class="btn my-button align-self-start " style="border-radius: 30px 30px 30px 30px;">#Studi</a>                
+            <a href="#Karya"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Karya</a>                
+            <a href="#Guru"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Guru</a>                
+            <a href="#Prestasi"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Prestasi</a>                
+        </div>
 
         </div>
     </div>
-
+    
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" >
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
                     <div class="position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-danger pe-3">TentangKami</h6>
+                    <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
                     <h1 class="mb-4">Welcome to KaryaSiswa</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
@@ -177,11 +185,11 @@
 
 
     <!-- Categories Start -->
-    <div class="container-xxl py-5 category">
+    <div class="container-xxl py-5 category" >
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-danger px-3">Studi</h6>
-                <h1 class="mb-5">Program Studi</h1>
+                <h1 class="mb-5"id="Studi">Program Studi</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-7 col-md-6">
@@ -230,7 +238,7 @@
     <!-- Categories Start -->
     
 {{-- card title --}}
-<div class="container ">
+<div class="container "id="Karya">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">Karya</h6>
         <h1 class="mb-5">Karya Siswa</h1>
@@ -306,7 +314,7 @@
 
 
     <!-- Courses Start -->
-    <div class="container-xxl py-5" >
+    <div class="container-xxl py-5" id="Guru">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-danger px-3">Guru</h6>
@@ -359,7 +367,7 @@
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="Prestasi">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-danger px-3">Prestasi</h6>

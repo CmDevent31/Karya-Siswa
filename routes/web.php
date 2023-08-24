@@ -51,6 +51,7 @@ Route::get('/PrivacyPolicy', [PrivacyPolicyController ::class, 'index']);
 Route::get('/TermsCondition', [TermsConditionController ::class, 'index']);
 Route::get('/FaqsHelp', [FAQSHelpController ::class, 'index']);
 Route::get('/Quotes', [QuotesController ::class, 'index']);
+Route::get('/data', 'DataController@index');
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
