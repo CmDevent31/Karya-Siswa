@@ -9,6 +9,9 @@
     <meta charset="utf-8">
     <title>KaryaSiswa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <meta content="" name="keywords">
     <meta content="" name="description">
 
@@ -37,11 +40,51 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
+
+    <style>
+      .mySlides {display:none;}
+      </style>
     
 </head>
 
 <body>
-    
+
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
+      <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+          <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
+      </a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0"> 
+              <a href="/Home" class="nav-item nav-link">Home</a>
+              <div class="nav-item dropdown text-danger">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                      <a href="/Ekskul" class="dropdown-item">Ekskul</a>
+                      <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                      <a href="/Quotes" class="dropdown-item">Quotes</a>
+                  </div>
+              </div>
+              <a href="/Prestasi" class="nav-item nav-link active">Prestasi</a>
+              <a href="/Login" class="nav-item nav-link">Login</a>
+              <div class="nav-item dropdown text-danger">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                      <a href="/Guru" class="dropdown-item">GuruKami</a>
+                      <a href="/TimKami" class="dropdown-item">TimKami</a>
+                      <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <!-- Navbar End -->
 
     <!-- Header Start -->
     <div class="container-fluid bg-dark py-5 mb-5 page-header">
@@ -117,17 +160,12 @@
             <div class="modal-body">
                 <div class="container">
                     <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                        <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active" data-bs-interval="1000">
-                                <img src="img/kate.jpeg" class="d-block w-100 " alt="..." style="border-radius: 30px 30px 30px 30px;">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="1200">
-                                <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
-                              </div>
-                            </div>
-                            
-                        </div>
+                      <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="img/kate.jpeg" style="width:100%">
+                        <img class="mySlides" src="img/campuran1.jpeg" style="width:100%">
+                      </div>
+                      
+                      
                         <div class="col">
                           <div class="card text-center  h-100 mb-3">
                             <div class="card-body bg-light">
@@ -218,21 +256,12 @@
                               <div class="modal-body">
                                   <div class="container">
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                          <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
-                                              <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
-                                                  <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
-                                                </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
-                                                  <img src="img/tedo2.jpeg" class="d-block w-100" alt="...">
-                                                </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
-                                                  <img src="img/tedo3.jpeg" class="d-block w-100" alt="...">
-                                                </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
-                                                  <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
-                                                </div>
-                                              </div>
+                                        <div class="w3-content w3-section" style="max-width:500px">
+                                          <img class="mySlides" src="img/tedo1.jpeg" style="width:100%">
+                                          <img class="mySlides" src="img/tedo2.jpeg" style="width:100%">
+                                          <img class="mySlides" src="img/tedo3.jpeg" style="width:100%">
+                                          <img class="mySlides" src="img/tedo4.jpeg" style="width:100%">
+                                        </div>
                                               
                                           </div>
                                           <div class="col">
@@ -2147,6 +2176,22 @@ Sekolahnya Sang Juara
         </div>
     </div>
     
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 1000); // Change image every 2 seconds
+      }
+      </script>
     <!-- Team End -->
 
 
