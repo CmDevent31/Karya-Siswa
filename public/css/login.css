@@ -1,4 +1,3 @@
-/********** Template CSS **********/
 :root {
     --primary: #ff0000;
     --light: #F0FBFC;
@@ -44,8 +43,9 @@
     transition: .5s;
 }
 
+.btn.btn-primary,
 .btn.btn-secondary {
-    color: #ff0000;
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -73,81 +73,7 @@
     font-weight: normal;
     border-radius: 0px;
 }
-.my-button {
-    display: inline-block ;
-    background-color: transparent;
-    border: 2px solid #ff0000;
-    padding: 8px 24px ;
-    color: #ff0000;
-    font-weight: 500;
-    box-shadow: 0 0 0 #ffffff;
-    transition: all .2s !important;
-}
-.my-button:hover {
-    transform: right(4px, 4px) !important;
-    color: #ffffff !important;
-    box-shadow: 0px 0px 0 #ff0000 !important;
-    transform: scale(1.05);
-    background-color: #ff0000;
 
-}
-.rounded-xl {
-    border-radius: 16px;
-}
-.content {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .card {
-      background: transparent;
-      border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
-      border-radius: 20px;
-      border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
-      overflow: hidden;
-
-  }
-.card-footer {
-    background-color: transparent;
-    border: none;
-    text-align: center;
-  }
-
-  button {
-    width: 140px;
-    border: 0;
-    padding: 12px 10px;
-    outline: none;
-    color: #fff;
-    background: linear-gradient(to right, #fb4283, #ff3527);
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.1ms, transform 0.2s;
-    }
-    
-    button:hover {
-    background: linear-gradient(to right, #ff3527, #fb4283);
-    transform: scale(1.05);
-    }
-.modal {
-    padding: 0 !important;
-}
-.modal-wrapper  {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    width: 100%;
-}
-.modal-fullscreen {
-    height: 95vh;
-}
-.modal-content {
-    border-radius: 18px 18px 0 0 !important;
-}
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -209,8 +135,6 @@
     }
 
     .navbar .dropdown-menu.fade-down {
-        position: absolute;
-        right:  1rem;
         top: 100%;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
@@ -274,8 +198,8 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/SMK.jpg);
-    background-position: top center;
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -288,13 +212,8 @@
     color: var(--light);
 }
 
-.slider {
 
-  
-    -webkit-overflow-scrolling: touch;
-  }
 /*** Section Title ***/
-
 .section-title {
     position: relative;
     display: inline-block;
@@ -506,10 +425,98 @@
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 0, 0, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, .1);
 }
+
 .footer .footer-menu a:last-child {
     margin-right: 0;
     padding-right: 0;
-    border-right: 1px solid rgba(239, 0, 0, 0.1);
+    border-right: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}                 
+
+body{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p {
+  color: rgb(8, 8, 8);
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: rgb(231, 45, 45);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 20px;
+    width: 375px;
+    height: 425px;
+    
+    background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      color:#000000;
+      border-radius: 20px;
+      border: rounded;
+      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      overflow: hidden;
+}
+.container h1{
+    text-align: left;
+    color: #ff3b3b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3a2e2e;
+}
+.container label{
+    text-align: right;
+    color: #ff4646;
+}
+.container form input{
+    width: calc(100% - 30px);
+    padding: 0px 1px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #302525;
+    color: #0f0202;
+    font-size: 20px;
+}
+.container form button{
+   width: 100%;
+    height: 45px;
+    padding: 20px ;
+    font-size: 22;
+    border: 0;
+    margin-top: 20px;
+padding: 0px 10px;
+outline: none;
+color: #fff;
+background: linear-gradient(to right, #fb4283, #ff3527);
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.1ms, transform 0.2s;
+}
+
+button:hover {
+background: linear-gradient(to right, #ff3527, #fb4283);
+transform: scale(1.05);
 }

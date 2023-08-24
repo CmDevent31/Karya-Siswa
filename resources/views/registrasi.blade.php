@@ -33,8 +33,8 @@
 
 
     
-        <title>Registre</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Register</title>
+        <link rel="stylesheet" href="css/register.css">
 
 
     <body>
@@ -98,98 +98,11 @@
                 <label>Password</label><br>
                 <input type="password"><br>
                 <button class="text-center" >Register</button>
-                <p> Sudah punya akun?
-                  <a href="/Login">Login di sini</a>
+                <p class="text-center"> Sudah punya akun?
+                  <a href="/Login">Login</a>
                 </p></form>
             </div>
-                
-                <style>
-                   
-                    *{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-}
-body{
-    height: 100vh;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-p {
-  color: rgb(7, 0, 0);
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 8px;
-}
-
-h1 {
-  text-align: center;
-  padding-left: 28px;
-  padding-bottom: 15px;
-}
-
-a {
-  color: rgb(255, 0, 0);
-}
-.container{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    padding: 20px 20px;
-    width: 300px;
-    
-    background: transparent;
-      border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
-      border-radius: 20px;
-      border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
-      overflow: hidden;
-}
-.container h1{
-    text-align: left;
-    color: #ff0000;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    border-bottom: 4px solid #535353;
-}
-.container label{
-    text-align: left;
-    color: #ff0000;
-}
-.container form input{
-    width: calc(100% - 20px);
-    padding: 6px 10px;
-    margin-bottom: 10px;
-    border: rgb(255, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid #6b6868;
-    color: #000000;
-    font-size: 20px;
-    
-}
-.container form button {
-    width: 100%;
-    height: 30px;
-    padding: 20px ;
-    font-size: 20;
-border: 0;
-padding: 12px 10px;
-outline: none;
-color: #fff;
-background: linear-gradient(to right, #fb4283, #ff3527);
-border-radius: 6px;
-cursor: pointer;
-transition: background-color 0.1ms, transform 0.2s;
-}
-
-button:hover {
-background: linear-gradient(to right, #ff3527, #fb4283);
-transform: scale(1.05);
-}
-</style>
+  
 
 
             

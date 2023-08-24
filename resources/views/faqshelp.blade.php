@@ -310,7 +310,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
