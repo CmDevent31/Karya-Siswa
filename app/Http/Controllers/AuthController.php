@@ -13,7 +13,7 @@ class AuthController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth:api', ['except' => ['login','register']]);
+        $this->middleware('auth:api', ['except' => ['login','register','update']]);
     }
 
 
@@ -52,19 +52,23 @@ class AuthController extends Controller
                     'data' => (Object)[],
                 ], 401);
             }
-    
+           
+
             $authorization = [
                 'token' => $token,
                 'type' => 'bearer',
             ];
-    
+            session(['api_token' => $token]);
             $role = $user->role;
     
             return response()->json([
                 'status' => 'success',
                 'message' => 'Berhasil Login!',
                 'data' => $user,
-                'authorization' => $authorization,
+                'authorization' => [
+                    'token' => $token,
+                    'type' => 'bearer',
+                ],
                 'role' => $role,
             ]);
         } catch (Exception $exception) {
@@ -111,7 +115,11 @@ public function register(Request $request)
             'phone_number' => $request->phone_number,
             'role' => $role,
         ]);
-
+        $credentials = [
+            'email' => $request->email,
+            'password' => $request->password,
+        ];
+    
         $token = Auth::login($user);
         return response()->json([
             'status' => 'success',
@@ -138,16 +146,16 @@ public function register(Request $request)
     
     public function update(Request $request)
     {
-        $user = Auth::user(); // Mendapatkan informasi user yang sedang terautentikasi
+        $user = Auth::user();
+
     
-        if ($user->role === 'User') {
-            return response()->json([
-                'success' => false,
-                'message' => 'Unauthorized. Only Admin can update user information.',
-                'data' => (object) [], // Empty object
-            ], 403);
-        }
-    
+       if (!$user || $user->role === 'User') {
+        return response()->json([
+            'success' => false,
+            'message' => 'Unauthorized. Only Admin can update user information.',
+            'data' => (object) [],
+        ], 403);
+    }
         $validator = Validator::make($request->all(), [
             'email' => 'sometimes|required|string|email|max:255|unique:users,email,' . $user->id,
             'password' => 'sometimes|required|string|min:6',
@@ -176,11 +184,18 @@ public function register(Request $request)
     
         // Memperbarui informasi user
         $user->update($userData);
-    
+        
+        $token = Auth::tokenById($user->id);
+
+       
         return response()->json([
             'status' => 'success',
             'message' => 'User information updated successfully',
             'data' => $user,
+            'authorization' => [
+                'token' => $token,
+                'type' => 'bearer',
+            ],
         ]);
     }
     
