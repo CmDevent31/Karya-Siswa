@@ -15,7 +15,7 @@
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,24 +24,61 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/ekskul.css">    
+    <link rel ="stylesheet" href="style.css">
   </head>
   <body class="">
 <main>
  
 
+
+    <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
+    <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0"> 
+            <a href="/Home" class="nav-item nav-link ">Home</a>
+            <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                    <a href="/Ekskul" class="dropdown-item  bg-danger text-white active">Ekskul</a>
+                    <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                    <a href="/Quotes" class="dropdown-item">Quotes</a>
+                </div>
+            </div>
+            <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+            <a href="/Login" class="nav-item nav-link">Login</a>
+            <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                    <a href="/Guru" class="dropdown-item">GuruKami</a>
+                    <a href="/TimKami" class="dropdown-item">TimKami</a>
+                    <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
     <!-- Header Start -->
     <div class="container-fluid bg-danger py-5 mb-5 page-header">
         <div class="container py-5">
@@ -100,6 +137,10 @@
     
 </main>
 
+
+
+
+    <!-- Back to Top -->
 <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
