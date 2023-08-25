@@ -18,7 +18,7 @@ class ArticleController extends Controller
     {
         $perPage = $request->query('limit', 10);
     
-        try {
+        // try {
             $validator = Validator::make($request->all(), [
                 'limit' => 'integer|min:1|max:100' // Validasi input limit
             ]);
@@ -31,24 +31,23 @@ class ArticleController extends Controller
                 ], 400);
             }
     
-            $articles = Article::paginate($perPage);
-            $articles->makeHidden(['created_at', 'updated_at', 'deleted', 'deleted_at']);
-            $articles->loadMissing('images');
+            // $articles = Article::paginate($perPage);
+            // $articles->makeHidden(['created_at', 'updated_at', 'deleted', 'deleted_at']);
+            // $articles->loadMissing('images');
     
             // Load total comment count for each article and update the total_comments field
     
-            return response()->json([
-                'success' => true,
-                'message' => 'List Semua Article!',
-                'data' => $articles,
-            ], 200);
+            $data = Article::with('images')->get(); // Load the associated images
+ 
+            return response()->json($data);
+            
     
-        } catch (Exception $e) {
-            return response()->json([
-                'success' => false,
-                'message' => 'Internal Server Error',
-            ], 500);
-        }
+        // } catch (Exception $e) {
+        //     return response()->json([
+        //         'success' => false,
+        //         'message' => 'Internal Server Error',
+        //     ], 500);
+        // }
     }
     
 
