@@ -58,8 +58,8 @@
             <div class="nav-item dropdown text-danger">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                 <div class="dropdown-menu fade-down m-9">
-                    <a href="/Pembelajaran" class="dropdown-item">Studi</a>
-                    <a href="/Ekskul" class="dropdown-item  bg-danger text-white active">Ekskul</a>
+                    <a href="/Pembelajaran" class="dropdown-item bg-danger text-white active">Studi</a>
+                    <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                     <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                     <a href="/Quotes" class="dropdown-item">Quotes</a>
                 </div>
@@ -84,11 +84,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Ekskul</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Studi</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Ekskul</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="/Pembelajaran">Program Studi</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Jurusan</li>
                         </ol>
                     </nav>
                 </div>
@@ -103,37 +104,24 @@
 {{-- content --}}
 <div class="container mt-5">
   <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-    <h6 class="section-title bg-white text-center text-danger px-3">Ekskul</h6>
-    <h1 class="mb-5">Ekstrakulikuler</h1>
+    <h6 class="section-title bg-white text-center text-danger px-3">Jurusan</h6>
+    <h1 class="mb-5">DKV</h1>
 </div>
-<div id="ekskul-container">
-  <!-- Data ekskul akan ditampilkan di sini -->
-</div>
-<script>
-  $(document).ready(function() {
-      $.get('/api/listekskul', function(data) {
-          var ekskulContainer = $('#ekskul-container'); // Pilih elemen kontainer
-          
-          data.forEach(function(ekskul, index) {
-              var ekskulHtml = `
-                  <hr class="featurette-divider">
-                  <div class="row featurette">
-                      <div class="col-md-7 ${index % 2 === 0 ? 'order-md-2' : ''}">
-                          <h2 ${index % 2 === 0 ? 'align="left"' : 'align="right"'} id="ekskul-title">${ekskul.title}</h2>
-                          <p align="justify" class="${index % 2 === 0 ? 'lead-left' : ''}" id="ekskul-description">${ekskul.description}</p>
-                      </div>
-                      <div class="col-md-4 ${index % 2 === 0 ? 'order-md-1' : ''}">
-                          <img src="${ekskul.image}" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
-                      </div>
-                  </div>
-              `;
-              
-              ekskulContainer.append(ekskulHtml); // Tambahkan elemen baru ke kontainer
-          });
-      });
-  });
-</script>
-<hr class="featurette-divider">
+
+{{-- content --}}
+<div class="container mt-5">
+   
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading-left fw-normal lh-1 ">DKV</h2>
+          <p class="lead-left">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-4 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        </div>
+      </div>
+
+     
     
 </main>
 

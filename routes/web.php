@@ -1,12 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DkvController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TjktController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\QuotesController;
+use App\Http\Controllers\AnimasiController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
 use App\Http\Controllers\PrestasiController;
@@ -52,6 +55,9 @@ Route::get('/PrivacyPolicy', [PrivacyPolicyController ::class, 'index']);
 Route::get('/TermsCondition', [TermsConditionController ::class, 'index']);
 Route::get('/FaqsHelp', [FAQSHelpController ::class, 'index']);
 Route::get('/Quotes', [QuotesController ::class, 'index']);
+Route::get('/Tjkt', [TjktController ::class, 'index']);
+Route::get('/Dkv', [DkvController ::class, 'index']);
+Route::get('/Animasi', [AnimasiController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
