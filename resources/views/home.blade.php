@@ -101,65 +101,65 @@
           <div class="card-wrapper swiper-wrapper">
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="images/showImg/fullDev.jpg" alt="" />
+                <img src="https://www.bhinneka.com/blog/wp-content/uploads/2021/10/Cumal-Cemil-Paper-Pouch-Packaging-Mockup.jpg" alt="" />
               </div>
-              <div class="profile-details">
-                <img src="images/profile/profile1.jpg" alt="" />
                 <div class="name-job " >
-                  <h3 class="name">Produk 1</h3>
-                  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                 <br> <h3 align="center"  class="name">Produk 1</h3></br>
+                 <div class="text-center position-relative">  
+                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                 </div>
               </div>
+              <br>
             </div>
         
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="images/showImg/photographer.jpg" alt="" />
+                <img src="https://www.qiscus.com/id/wp-content/uploads/sites/2/2022/03/Desain-kemasan-produk-740x500.png" alt="" />
               </div>
-              <div class="profile-details">
-                <img src="images/profile/profile2.jpg" alt="" />
-                <div class="name-job">
-                  <h3 class="name">Produk 2</h3>
-                  <h4 class="job">Photographer</h4>
-                </div>
-              </div>
-            </div>
+                <div class="name-job " >
+                  <br> <h3 align="center"  class="name">Produk 2</h3></br>
+                  <div class="text-center position-relative">  
+                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                 </div>
+               </div>
+               <br>
+             </div>
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="images/showImg/dataAna.jpg" alt="" />
+                <img src="https://anotherorion.com/wp-content/uploads/2023/02/desain-kemasan-produk-unik-dari-kertas.jpg" alt="" />
               </div>
-              <div class="profile-details">
-                <img src="images/profile/profile3.jpg" alt="" />
-                <div class="name-job">
-                  <h3 class="name">Produk 3</h3>
-                  <h4 class="job">Data Analyst</h4>
-                </div>
-              </div>
-            </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Produk 3</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="images/showImg/appDev.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3HmeqVcxsUYrZ-UvX2_IIcKUH2-yWde9bg&usqp=CAU" alt="" />
               </div>
-              <div class="profile-details">
-                <img src="images/profile/profile4.jpg" alt="" />
-                <div class="name-job">
-                  <h3 class="name">Artikel 1</h3>
-                  <h4 class="job">App Developer</h4>
-                </div>
-              </div>
-            </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Artikel 1</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="images/showImg/blogger.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLoGiOBOzd0mI97Ny_-t8l7YOPVheuqjJRoQ&usqp=CAU" alt="" />
               </div>
-              <div class="profile-details">
-                <img src="images/profile/profile5.jpg" alt="" />
-                <div class="name-job">
-                  <h3 class="name">Artikel 1</h3>
-                  <h4 class="job">Blogger</h4>
-                </div>
-              </div>
-            </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Artikel 2</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
           </div>
         </div>
         <div class="swiper-button-next swiper-navBtn"></div>
@@ -180,7 +180,6 @@
             <a href="#TentangKami"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#TentangKami</a>                
             <a href="#Studi"class="btn btn-outline-danger my-button align-self-start " style="border-radius: 30px 30px 30px 30px;">#Studi</a>                
             <a href="#Karya"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Karya</a>                
-            <a href="#Guru"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Guru</a>                
             <a href="#Prestasi"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Prestasi</a>                
         </div>
 
@@ -202,26 +201,6 @@
                     <h1 class="mb-4">Welcome to KaryaSiswa</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>International Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>International Certificate</p>
-                        </div>
-                    </div>
                     <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
             </div>
         </div>
@@ -237,7 +216,7 @@
                         <div class="container">
                             <div class="row justify-content-center modal-detail">
                                 <div class="col-lg-7 col-md-10">
-                                    <img src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" class="img-fluid rounded-xl" alt="">
+                                    <img src="img/about us.jpg" class="img-fluid rounded-xl" alt="">
                                 </div>
                                 <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
                                     <h1>TentangKami</h1>
