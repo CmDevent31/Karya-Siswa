@@ -32,13 +32,6 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
 
 
     <!-- Navbar Start -->
@@ -62,12 +55,12 @@
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
-                <a href="/Guru" class="nav-item nav-link">GuruKami</a>
-                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
+                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
@@ -255,7 +248,7 @@
                             <h4 align="left" class="text-white mb-3">Quick Link</h4>
                             <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
                             <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
-                            <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
+                            <a class="btn btn-link text-danger active" href="/FaqsHelp">FAQs & Help</a>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h4 align="left"class="text-white mb-3">Contact</h4>
