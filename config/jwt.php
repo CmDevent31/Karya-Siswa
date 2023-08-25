@@ -263,11 +263,17 @@ return [
     |
     */
 
-    'providers' => [
-        'jwt' => Tymon\JWTAuth\Providers\JWT\Lcobucci::class,
-        'auth' => Tymon\JWTAuth\Providers\Auth\Illuminate::class,
-        'storage' => Tymon\JWTAuth\Providers\Storage\Illuminate::class,
-    ],
+  
+    
+        'providers' => [
+            'jwt' => Tymon\JWTAuth\Providers\JWT\Namshi::class,
+            'auth' => Tymon\JWTAuth\Providers\Auth\Illuminate::class,
+            'storage' => Tymon\JWTAuth\Providers\Storage\Illuminate::class,
+        ],
+    
+        // ...
+    
+    
         /*
         |--------------------------------------------------------------------------
         | JWT Provider
