@@ -84,12 +84,13 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Studi</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Jurusan</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="/Pembelajaran">Program Studi</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Jurusan</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="/Keahlian">Keahlian</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">TJKT</li>
                         </ol>
                     </nav>
                 </div>
@@ -109,42 +110,123 @@
 </div>
 
 {{-- content --}}
-<div class="container mt-5">
-    <div class="row featurette">
-        <div class="col-md-7">
+<div class="container-xxl py-5" >
+  <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-7 order-lg-1">
          <blockquote><h2 class="featurette-heading fw-normal lh-1">Rasional</h2></blockquote>
           <p align="justify">Dasar-dasar Teknik Jaringan Komputer dan Telekomunikasi adalah mata pelajaran yang berisi kompetensi-kompetensi yang mendasari penguasaan keahlian Teknik Jaringan Komputer dan Teknik Telekomunikasi.</p>
           <p align="justify"> Mata pelajaran Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi berfungsi untuk membekali peserta didik dengan seperangkat pengetahuan, keterampilan, dan sikap agar memiliki dasar yang kuat dalam mempelajari mata pelajaran konsentrasi keahlian di fase F. Lingkup materi mata pelajaran ini meliputi wawasan sistem dan cara pengukuran di bidang Teknik Jaringan Komputer dan Telekomunikasi.</p>
+          <p align="justify"> Pembelajaran dapat dilakukan menggunakan berbagai pendekatan, strategi, metode serta model yang sesuai dengan karakteristik kompetensi yang harus dipelajari, sehingga dapat menciptakan pembelajaran yang interaktif, inspiratif, menyenangkan, menantang, dan memotivasi peserta didik untuk berpartisipasi aktif, serta memberikan ruang yang cukup......          
+              </p>
+          <a class="btn my-button align-self-start px-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Selengkapnya</a>
+          <br> <br><br> <br> <br> <br><blockquote><h2 class="featurette-heading fw-normal lh-1">Tujuan Belajar</h2></blockquote>
+        <p align="justify">Mata pelajaran ini bertujuan membekali peserta didik dengan dasar-dasar pengetahuan, keterampilan, dan sikap (hard skills dan soft skills) yang diarahkan untuk mengembangkan kemampuan sebagai berikut:
+         <br> 1. memahami proses bisnis di bidang Teknik Jaringan Komputer.....
+         <br><br> <a class="btn my-button align-self-start px-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >Selengkapnya</a>
+
+         <br> <br><br> <br> <br> <br><blockquote><h2 class="featurette-heading fw-normal lh-1">Karakteristik Mata Pelajaran        </h2></blockquote>
+         <p align="justify">Mata pelajaran ini memiliki elemen materi sebagai berikut: proses bisnis di bidang teknik jaringan komputer dan telekomunikasi, wawasan perkembangan bidang teknik jaringan komputer dan telekomunikasi, entrepreneurship dan job profile di bidang teknik jaringan komputer dan telekomunikasi, orientasi dasar teknik jaringan..
+          <br><br> <a class="btn my-button align-self-start px-3" type="button" data-bs-toggle="modal" data-bs-target="#modal" >Selengkapnya</a>
+
+         </p>
+
+        </p>
         </div>
-        <div class="col-md-4">
-          <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/TJKT.jpg" style="border-radius: 30px 30px 30px 30px;"svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+        
+        <div class="col-lg-5 order-lg-2">
+          <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/TJKT.jpg" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
         </div>
+        
       </div>
+      <br>
+
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Rasional
+          </h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" align="justify">
+          bagi prakarsa, kreativitas, kemandirian sesuai dengan bakat, minat, renjana, dan perkembangan fisik serta psikologis peserta didik. Peserta didik diarahkan untuk menemukan sendiri berbagai fakta, membangun konsep dan nilai-nilai baru secara mandiri serta memahami dan menerapkan aspek digital consumer behaviour. Model-model pembelajaran yang dapat digunakan antara lain Project-Based Learning, Teaching Factory, Discovery-Based Learning, Problem-Based Learning, Inquiry-Based Learning, atau model lainnya serta metode yang relevan.
+            Mata pelajaran ini berkontribusi dalam membentuk peserta didik memiliki keahlian pada bidang Teknik Jaringan Komputer dan Telekomunikasi, meningkatkan lebih lanjut kemampuan logika dan teknologi digital (computational thinking), yaitu suatu cara berpikir yang memungkinkan untuk menguraikan suatu masalah menjadi beberapa bagian yang lebih kecil dan sederhana, menemukan pola masalah, serta menyusun langkah- langkah solusi mengatasi masalah. Pembelajarannya akan membiasakan peserta didik bernalar kritis dalam menghadapi permasalahan, bekerja mandiri, serta kreatif dalam mengembangkan solusi permasalahan di dunia usaha dan industri.
+          </div>
+      </div>
+</div>
+</div>
+  
+            </div>
       <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading-left fw-normal lh-1 ">Rohis Care</h2>
-          <p class="lead-left">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-4 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModal1Label">Tujuan Belajar
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" align="justify">
+              <br> 2. memahami wawasan perkembangan bidang Teknik Jaringan Komputer dan Telekomunikasi;
+              <br>3. memahami profesi dan kewirausahaan (job profile dan technopreneurship), serta peluang usaha di bidang Teknik Jaringan Komputer dan Telekomunikasi;
+              <br>4. memahami lingkup kerja pada bidang Teknik Jaringan Komputer dan Telekomunikasi;
+              <br>5. menerapkan Keselamatan dan Kesehatan Kerja serta Lingkungan Hidup (K3LH) di lingkungan kerjanya;
+              <br>6. memahami penerapan media dan jaringan telekomunikasi; dan
+              <br>7. memahami prinsip dasar pengukuran dalam Teknik Jaringan Komputer dan Telekomunikasi. 
+            </div>
+            <div class="modal-footer">
+                <a class="btn my-button align-self-start px-3"data-bs-dismiss="modal">Close</a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">Paskibra</h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-        </div>
-        <div class="col-md-4">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-        </div>
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Karakteristik Mata Pelajaran
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-<hr class="featurette-divider">
-    
+      <div class="modal-body" align="justify">
+        komputer dan telekomunikasi, media dan jaringan telekomunikasi, dan prinsip dasar pengukuran.
+
+Pada hakikatnya mata pelajaran ini berfokus pada kompetensi bersifat dasar yang harus dimiliki oleh tenaga admin database, analis sistem komputer, dosen ilmu komputer, peneliti, perancang jaringan komputer, perancang sistem komputer dan jabatan lain sesuai dengan perkembangan dunia kerja. Selain itu peserta didik diberikan pemahaman tentang proses bisnis, perkembangan penerapan teknologi dan isu-isu global, entrepreneur profile, job profile, peluang usaha dan pekerjaan/profesi.
+<br><br>
+Pengembangan soft skills pada mata pelajaran ini sangat penting sebagai bekal dasar di dalam membangun etos kerja, meliputi: komunikasi, critical thinking, kolaborasi, dan kreativitas. Soft skills pada mata pelajaran ini menjadi fondasi dalam pengembangan hard skills seperti menginstalasi, memelihara, dan penanganan gangguan (troubleshooting) dalam bidang Teknik Jaringan Komputer dan Telekomunikasi.
+
+Elemen dan deskripsi mata pelajaran ini adalah sebagai berikut.
+
+Proses bisnis di bidang teknik jaringan komputer dan telekomunikasi
+Meliputi proses bisnis pada bidang teknik jaringan komputer dan telekomunikasi, meliputi customer handling, perencanaan, analisis kebutuhan pelanggan, strategi implementasi (instalasi, konfigurasi, monitoring), dan pelayanan pada pelanggan sebagai implementasi penerapan budaya mutu.
+
+Perkembangan teknologi di bidang teknik jaringan komputer dan telekomunikasi
+Meliputi perkembangan teknologi pada perangkat teknik jaringan komputer dan telekomunikasi termasuk 5G, Microwave Link, IPV6, teknologi serat optik terkini, IoT, Data Centre, Cloud Computing, dan Information Security.
+
+Profesi dan Kewirausahaan (job-profile dan technopreneur) di bidang teknik jaringan komputer dan telekomunikasi
+Meliputi jenis-jenis profesi dan kewirausahaan (job- profil dan technopreneur), personal branding serta peluang usaha di bidang Teknik Jaringan Komputer dan Telekomunikasi.
+
+Keselamatan dan Kesehatan Kerja Lingkungan Hidup (K3LH) dan budaya kerja industri
+Meliputi penerapan K3LH dan budaya kerja industri, antara lain: praktik-praktik kerja yang aman, bahaya- bahaya di tempat kerja, prosedur-prosedur dalam keadaan darurat, dan penerapan budaya kerja industri (Ringkas, Rapi, Resik, Rawat, Rajin), termasuk pencegahan kecelakaan kerja di tempat tinggi dan prosedur kerja di tempat tinggi (pemanjatan).
+
+Dasar-dasar teknik jaringan komputer dan telekomunikasi
+Meliputi pemahaman dasar penggunaan dan konfigurasi peralatan/teknologi di bidang jaringan komputer dan telekomunikasi.
+
+Media dan Jaringan Telekomunikasi
+Meliputi pemahaman prinsip dasar sistem IPV4/ IPV6, TCP IP, Networking Service, Sistem Keamanan Jaringan Telekomunikasi, Sistem Seluler, Sistem Microwave, Sistem VSAT IP, Sistem Optik, dan Sistem WLAN.
+
+Penggunaan Alat Ukur Jaringan
+Meliputi pemahaman tentang jenis alat ukur dan penggunaannya dalam pemeliharaan jaringan komputer dan sistem telekomunikasi.
+      </div>
+      <div class="modal-footer">
+        <a class="btn my-button align-self-start px-3"data-bs-dismiss="modal">Close</a>
+      </div>
+    </div>
+  </div>
+</div>
 </main>
 
 

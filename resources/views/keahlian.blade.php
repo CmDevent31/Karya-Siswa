@@ -1,12 +1,12 @@
 @extends('layouts.main')
-@section('ekskul')
+@section('galeri')
     
 
 
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>KaryaSiswa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -24,25 +24,19 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
-  </head>
-  <body class="">
-<main>
- 
+</head>
 
+<body>
 
     <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
@@ -58,7 +52,7 @@
             <div class="nav-item dropdown text-danger">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                 <div class="dropdown-menu fade-down m-9">
-                    <a href="/Pembelajaran" class="dropdown-item bg-danger text-white active">Studi</a>
+                    <a href="/Pembelajaran" class="dropdown-item">Studi</a>
                     <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                     <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                     <a href="/Quotes" class="dropdown-item">Quotes</a>
@@ -68,9 +62,9 @@
             <a href="/Login" class="nav-item nav-link">Login</a>
             <div class="nav-item dropdown text-danger">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                <div class="dropdown-menu fade-down m-9">
-                    <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                    <a href="/Guru" class="dropdown-item">GuruKami</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                     <a href="/TimKami" class="dropdown-item">TimKami</a>
                     <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                 </div>
@@ -79,18 +73,18 @@
     </div>
 </nav>
 <!-- Navbar End -->
+
     <!-- Header Start -->
-    <div class="container-fluid bg-danger py-5 mb-5 page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Jurusan</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Program Keahlian</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="/Pembelajaran">Program Studi</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="/Keahlian">Keahlian</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Jurusan</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Keahlian</li>
                         </ol>
                     </nav>
                 </div>
@@ -99,46 +93,59 @@
     </div>
     <!-- Header End -->
 
-
-
     
-{{-- content --}}
-<div class="container mt-5">
-  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-    <h6 class="section-title bg-white text-center text-danger px-3">Jurusan</h6>
-    <h1 class="mb-5">DKV</h1>
-</div>
-
-
-{{-- content --}}
-<div class="container-xxl py-5" >
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading-left fw-normal lh-1 ">DKV</h2>
-          <p class="lead-left" align="justify">DKV adalah cabang ilmu desain. Di jurusan ini, siswa belajar konsep komunikasi dan ungkapan kreatif dengan menggunakan berbagai elemen visual untuk menyampaikan pesan. Dengan gambar visual,siswa belajar menyampaikan pesan secara informatif, efektif, dan komunikatif.</p>
-          <p class="lead-left" align="justify">Mata pelajaran Dasar-Dasar Desain Komunikasi Visual merupakan mata pelajaran kejuruan berisi kompetensi-kompetensi yang mendasari penguasaan keahlian pekerjaan desain komunikasi visual. Di dalamnya berisi berbagai ilmu dasar sebagai bekal mempelajari mata pelajaran lain. Keberadaannya berfungsi membekali peserta didik dengan seperangkat pengetahuan, ketrampilan, sikap, dan passion (renjana) supaya memiliki dasar yang kuat untuk mempelajari mata pelajaran selanjutnya di kelas XI dan XII.</p>
-          <p class="lead-left" align="justify">Mata pelajaran Dasar-Dasar Desain Komunikasi Visual berfungsi untuk menumbuhkembangkan keprofesionalan dan kebanggaan peserta didik terhadap desain komunikasi visual melalui pemahaman secara utuh dan menyeluruh profil technopreneur, peluang usaha dan pekerjaan/profesi, proses bisnis di dunia industri, perkembangan teknologi di industri dan dunia kerja serta isu-isu global, teknik dasar proses produksi pada industri, ketrampilan membuat sketsa dan illustrasi untuk kebutuhan dasar rancangan desain, komposisi tipografi untuk kebutuhan dasar rancangan desain, prosedur penggunaan peralatan fotografi, komputer grafis. Selain itu, sebagai landasan pengetahuan dan ketrampilan untuk pembelajaran di kelas XI dan XII pada konsentrasi keahlian yang bersangkutan.</p>
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category" >
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-danger px-3">Keahlian</h6>
+                <h1 class="mb-5"id="Studi">Program Keahlian</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="/Tjkt">
+                                <img class="img-fluid" src="img/Screenshot (420).png" alt="">
+                                <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                                    <h5 class="m-0">TJKT</h5>
+                                    <small class="text-danger">5 Materi</small>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="/Animasi">
+                                <img class="img-fluid" width="100%" height="100%"src="https://www.telkomsel.com/sites/default/files/2023-04/w3-2-04.png " alt="">
+                                <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                                    <h5 class="m-0">Animasi</h5>
+                                    <small class="text-danger">6 Materi</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="/Dkv">
+                        <img class="img-fluid position-absolute w-100 h-100" src="https://asset.kompas.com/crops/K4dJTvUIhBhNwu0fgjZYDOp1iKA=/0x0:1280x853/750x500/data/photo/2023/01/11/63bee80957fca.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                            <h5 class="m-0">DKV</h5>
+                            <small class="text-danger">9 Materi</small>
+                        </div>  
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 order-md-1">
-          <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/DKV.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
-        </div>
-      </div>
     </div>
-</div>
-
-     
+    <!-- Categories Start -->
     
-</main>
 
 
 
 
-    <!-- Back to Top -->
-<!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -146,7 +153,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+</body>
 
-  </body>
 </html>
 @endsection

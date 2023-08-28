@@ -12,6 +12,7 @@ use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\AnimasiController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
+use App\Http\Controllers\KeahlianController;
 use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\PrestasiAController;
 use App\Http\Controllers\TestimoniController;
@@ -58,6 +59,7 @@ Route::get('/Quotes', [QuotesController ::class, 'index']);
 Route::get('/Tjkt', [TjktController ::class, 'index']);
 Route::get('/Dkv', [DkvController ::class, 'index']);
 Route::get('/Animasi', [AnimasiController ::class, 'index']);
+Route::get('/Keahlian', [KeahlianController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

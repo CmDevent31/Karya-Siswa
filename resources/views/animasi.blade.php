@@ -84,12 +84,13 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Studi</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Animasi</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="/Pembelajaran">Program Studi</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Jurusan</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="/Keahlian">Keahlian</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Animasi</li>
                         </ol>
                     </nav>
                 </div>
@@ -102,26 +103,52 @@
 
     
 {{-- content --}}
-<div class="container mt-5">
-  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-xxl py-5" >
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
     <h6 class="section-title bg-white text-center text-danger px-3">Jurusan</h6>
     <h1 class="mb-5">Animasi</h1>
 </div>
 
 {{-- content --}}
-<div class="container mt-5">
-    <div class="row featurette">
-        <div class="col-md-7">
+<div class="container-xxl py-5" >
+    <div class="container">
+        <div class="row g-5">
+          <div class="col-md-7">
          <blockquote><h2 class="featurette-heading fw-normal lh-1">Animasi</h2></blockquote>
-          <p align="justify">Dasar-dasar Teknik Jaringan Komputer dan Telekomunikasi adalah mata pelajaran yang berisi kompetensi-kompetensi yang mendasari penguasaan keahlian Teknik Jaringan Komputer dan Teknik Telekomunikasi.</p>
-          <p align="justify"> Mata pelajaran Dasar-Dasar Teknik Jaringan Komputer dan Telekomunikasi berfungsi untuk membekali peserta didik dengan seperangkat pengetahuan, keterampilan, dan sikap agar memiliki dasar yang kuat dalam mempelajari mata pelajaran konsentrasi keahlian di fase F. Lingkup materi mata pelajaran ini meliputi wawasan sistem dan cara pengukuran di bidang Teknik Jaringan Komputer dan Telekomunikasi.</p>
+          <p align="justify">Jurusan Animasi lebih fokus dalam mempelajari teori dan teknik dalam membuat animasi 2D dan 3D, animasi film, animasi game, dan bidang lainnya yang menggunakan konten animasi. Sedangkan untuk jurusan DKV lebih fokus pada pembuatan desain, ilustrasi, fotografi, animasi, hingga marketing.
+          </p>
+          <p align="justify"> Didik dengan seperangkat pengetahuan, ketrampilan, sikap, dan passion (renjana) supaya memiliki dasar yang kuat untuk mempelajari mata pelajaran selanjutnya di kelas XI dan XII.
+        </p>
+        <a class="btn my-button align-self-start px-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >Selengkapnya</a>
         </div>
         <div class="col-md-4">
-          <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/TJKT.jpg" style="border-radius: 30px 30px 30px 30px;"svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+          <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/333631439_6075395605850670_2324727990982906825_n.jpg" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
         </div>
       </div>
-     
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Selengkapnya</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" align="justify">
+              Mata pelajaran Dasar-Dasar Desain Komunikasi Visual berfungsi untuk menumbuhkembangkan keprofesionalan dan kebanggaan peserta didik terhadap desain komunikasi visual melalui pemahaman secara utuh dan menyeluruh profil technopreneur, peluang usaha dan pekerjaan/profesi, proses bisnis di dunia industri, perkembangan teknologi di industri dan dunia kerja serta isu-isu global, teknik dasar proses produksi pada industri, ketrampilan membuat sketsa dan illustrasi untuk kebutuhan dasar rancangan desain, komposisi tipografi untuk kebutuhan dasar rancangan desain, prosedur penggunaan peralatan fotografi, komputer grafis. Selain itu, sebagai landasan pengetahuan dan ketrampilan untuk pembelajaran di kelas XI dan XII pada konsentrasi keahlian yang bersangkutan.
+                  Perencanaan, pelaksanaan, dan penilaian pembelajaran dilakukan sesuai dengan karakteristik mata pelajaran dan tujuan yang ingin dicapai. Pembelajarannya menggunakan berbagai variasi model pembelajaran yang interaktif, inspiratif, menyenangkan, menantang, memotivasi peserta didik untuk terlibat aktif, serta memberikan ruang yang cukup bagi prakarsa, kreativitas, kemandirian sesuai bakat, minat, renjana, serta perkembangan fisik dan psikilogis peserta didik. Model pembelajaran yang dapat digunakan antara lain: project-based learning, problem-based learning, teaching factory, discovery-based learning, inquiry-based learning, atau metode dan model lain yang relevan.          
+                  <br> <br> Mata pelajaran Dasar-Dasar Desain Komunikasi Visual berkontribusi menjadikan peserta didik memiliki kompetensi sebagai seniman, dan/atau pekerja seni dalam bidang desain komunikasi visual yang berakhlak mulia, mampu berkomunikasi, bernegoisasi dan berinteraksi antar budaya, mampu bekerja dalam tim, bertanggungjawab, memiliki kepekaan dan kepedulian terhadap situasi dan lingkungan kerja, serta kritis dan kreatif.
+            </div>
+            <div class="modal-footer">
+                <a class="btn my-button align-self-start px-3"data-bs-dismiss="modal">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
     
+
+
 </main>
 
 

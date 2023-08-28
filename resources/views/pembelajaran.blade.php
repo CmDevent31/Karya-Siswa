@@ -102,15 +102,15 @@
                     <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
                 </div>
                 
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;"><a href="#" class="text-dark">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;"><a href="/Keahlian" class="text-dark">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
                             <i class="fa fa-3x fa-laptop text-dark mb-4"></i>
                             <h5 class="mb-3">Produktif</h5>
-                            <p >Produktif adalah pembelajaran kejuruan yang merupakan kemampuan khusus yang diberikan kepada siswa sesuai dengan program keahlian yang dipilihnya.</p>
+                            <p class="text-dark ">Produktif adalah pembelajaran kejuruan yang merupakan kemampuan khusus yang diberikan kepada siswa sesuai dengan program keahlian yang dipilihnya.</p>
                         </div>
-                    </div></a>
-                </div>
+                    </div>
+                </a></div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;"><a href="#" class="text-dark">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
