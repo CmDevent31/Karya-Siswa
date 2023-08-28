@@ -52,7 +52,7 @@
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
-                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                        <a href="/Pembelajaran" class="dropdown-item">Studi</a>
                         <a href="/Ekskul" class="dropdown-item ">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
