@@ -46,7 +46,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0"> \
+                <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                     <a href="/Login" class="nav-item nav-link active">Login </a>
                 </div>
             </div>
@@ -62,11 +62,11 @@
                 <input type="text"><br>      
                 <label>Password</label><br> 
                 <input type="password"><br>
-                <button class="text-center">Log in</button>
+                <button class="text-center">Sign in</button>
                 <p class="text-center"> Belum punya akun?
                   <a hr  ef="/Registrasi">Register di sini</a>
                   <p>Atau</p>
-                  <a class="btn btn-danger text-white"><i class="lni lni-google"></i>Google</a>
+                  <a  class="btn btn-danger text-white"><i class="lni lni-google"></i>Google</a>
                 </div>
             </div>
         </div>
