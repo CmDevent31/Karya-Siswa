@@ -459,8 +459,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
+                                      <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                        <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                            <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                                 <div class="carousel-inner">
                                                   <div class="carousel-item active" data-bs-interval="1000">
                                                     <img src="img/basket.jpeg" class="d-block w-100" alt="...">
@@ -471,9 +473,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="col">
-                                              <div class="card text-center  h-100 mb-3">
-                                                <div class="card-body bg-light">
+                                            <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
                                                     <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
                                                   </div>
@@ -488,7 +488,7 @@
                                                     <p align="center">#smktelkombandung #smktelbdg #telkomschools #smktelkom #ppdb #smkno1bandung #infobandung #infodayeuhkolot #pelatihan #smkswastaterbaik #sekolahterbaik #smkhebatsmkbisa #bearealdigitaltalent #sekolahnyasangjuara #primaseru2023 #sekolahterakreditasia #smkakreditasia #smkterbaik #basket #o2sn
                                                       <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                                                 <div class="d-flex  my-4">
-                                                  <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslDTg8BRLS?img_index=1"><i class="fab fa-instagram"></i></a>                  
+                                                  <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslC21mBVLx/?img_index=1"><i class="fab fa-instagram"></i></a>                  
                                                 </div>
                                                 </p></small></p>
                                                 
@@ -547,24 +547,64 @@
                          </div>
                     
                 </div>
-                <!-- Modal -->
-      <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title mb-0" id="exampleModalLabel" align="center">Congratulations!! 👏🏻💯</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body" align="center">
-              <b>Siswa SMK Telkom Bandung yang berhasil meraih medali emas di ajang Olimpiade Olahraga Nasional (O2SN) cabang Pencak Silat untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga! Be a Real Digital Talent!
-              <br><br>@yptelkom @telkom_schools @ridwankamil @ruzhanul @wahyu_mijaya @arifrudiana @rosy.telkom</b>
-            </div>
-            <div class="modal-footer">
-                <a class="btn my-button align-self-start px-3"data-bs-dismiss="modal">Close</a>
-            </div>
-          </div>
-        </div>
-      </div>
+                <div class="modal fade show" id="modal4" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/silat.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Siswa SMK Telkom Bandung yang berhasil meraih medali emas di ajang Olimpiade Olahraga Nasional (O2SN) cabang Pencak Silat untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga! Be a Real Digital Talent!
+                                                </b><br>
+                                                <small><p align="center">
+                                                  <br><br>
+                                                
+                                
+                                                  <p align="center">@yptelkom @telkom_schools @ridwankamil @ruzhanul @wahyu_mijaya @arifrudiana @rosy.telkom
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslDEcHBVcY/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -597,14 +637,72 @@
                         
                            <small>
 
-                            <br><b> Sobat Prima! berikut ini adalah Athaillah Raihan S, siswa SMK Telkom Bandung yang berhasil meraih juara 2 Speech Contest dalam English Festival Widyatama 2023 se-Jawa Barat. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <br><b> Sobat Prima! berikut ini adalah.......
                             </br></b>
-                                <br><br>#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa ©️ Studio Skillas</br>    
+                            <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal5" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal5" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/speech.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Siswa SMK Telkom Bandung yang berhasil meraih medali emas di ajang Olimpiade Olahraga Nasional (O2SN) cabang Pencak Silat untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga! Be a Real Digital Talent!
+                                                </b><br>
+                                                <small><p align="center">
+                                                  <br><br>
+                                                
+                                
+                                                  <p align="center">@yptelkom @telkom_schools @ridwankamil @ruzhanul @wahyu_mijaya @arifrudiana @rosy.telkom
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/Cr2koiYBJGN/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
