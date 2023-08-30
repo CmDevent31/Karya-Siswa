@@ -110,28 +110,37 @@
   <!-- Data ekskul akan ditampilkan di sini -->
 </div>
 <script>
-  $(document).ready(function() {
-      $.get('/api/listekskul', function(data) {
-          var ekskulContainer = $('#ekskul-container'); // Pilih elemen kontainer
-          
-          data.forEach(function(ekskul, index) {
-              var ekskulHtml = `
-                  <hr class="featurette-divider">
-                  <div class="row featurette">
-                      <div class="col-md-7 ${index % 2 === 0 ? 'order-md-2' : ''}">
-                          <h2 ${index % 2 === 0 ? 'align="left"' : 'align="right"'} id="ekskul-title">${ekskul.title}</h2>
-                          <p align="justify" class="${index % 2 === 0 ? 'lead-left' : ''}" id="ekskul-description">${ekskul.description}</p>
-                      </div>
-                      <div class="col-md-4 ${index % 2 === 0 ? 'order-md-1' : ''}">
-                          <img src="${ekskul.image}" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
-                      </div>
-                  </div>
-              `;
-              
-              ekskulContainer.append(ekskulHtml); // Tambahkan elemen baru ke kontainer
-          });
-      });
-  });
+    $(document).ready(function() {
+        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul';
+    
+        axios.get(apiEndpoint)
+            .then(response => {
+                var ekskulContainer = $('#ekskul-container');
+    
+                response.data.forEach(function(ekskul, index) {
+                    var orderClass = index % 2 === 0 ? 'order-md-2' : 'order-md-1';
+                    var align = index % 2 === 0 ? 'left' : 'right';
+    
+                    var ekskulHtml = `
+                        <hr class="featurette-divider">
+                        <div class="row featurette">
+                            <div class="col-md-7 ${orderClass}">
+                                <h2 align="${align}" id="ekskul-title">${ekskul.title}</h2>
+                                <p align="justify" class="${index % 2 === 0 ? 'lead-left' : ''}" id="ekskul-description">${ekskul.description}</p>
+                            </div>
+                            <div class="col-md-4 ${orderClass}">
+                                <img src="${ekskul.image}" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
+                            </div>
+                        </div>
+                    `;
+    
+                    ekskulContainer.append(ekskulHtml);
+                });
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    });
 </script>
 <hr class="featurette-divider">
     
