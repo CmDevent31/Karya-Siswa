@@ -46,28 +46,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                    <a href="/Home" class="nav-item nav-link ">Home</a>
-                    <div class="nav-item dropdown text-danger">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                        <div class="dropdown-menu fade-down m-9">
-                            <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
-                            <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                            <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                            <a href="/Quotes" class="dropdown-item">Quotes</a>
-                        </div>
-                    </div>
-                    <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
-                    <a href="/Login" class="nav-item nav-link active">Login</a>
-                    <div class="nav-item dropdown text-danger">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                        <div class="dropdown-menu fade-down m-9">
-                            <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                            <a href="/Guru" class="dropdown-item">GuruKami</a>
-                            <a href="/TimKami" class="dropdown-item">TimKami</a>
-                            <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                        </div>
-                    </div>
+                <div class="navbar-nav ms-auto p-4 p-lg-0"> \
+                    <a href="/Login" class="nav-item nav-link active">Login </a>
                 </div>
             </div>
         </nav>
@@ -80,17 +60,16 @@
             <form>
                 <label>Username</label><br>
                 <input type="text"><br>      
-                <label>Password</label><br>
+                <label>Password</label><br> 
                 <input type="password"><br>
                 <button class="text-center">Log in</button>
                 <p class="text-center"> Belum punya akun?
                   <a href="/Registrasi">Register di sini</a>
-                </p>
-                
-          
-            </form>
+                  <p>Atau</p>
+                  <a class="btn btn-danger text-white"><i class="lni lni-google"></i>Google</a>
+                </div>
+            </div>
         </div>
-
         
         <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
