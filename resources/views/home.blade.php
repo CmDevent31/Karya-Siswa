@@ -55,7 +55,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-        <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -95,7 +95,7 @@
     <div class="container swiper">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
-            <h1 class="mb-5">Produk dan Artikel</h1>
+            <h1 class="mb-5">Produk</h1>
         </div>
         <div class="slide-container">
           <div class="card-wrapper swiper-wrapper">
@@ -106,12 +106,12 @@
                 <div class="name-job " >
                  <br> <h3 align="center"  class="name">Produk 1</h3></br>
                  <div class="text-center position-relative">  
-                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal4"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                 </div>
               </div>
               <br>
             </div>
-        
+
             <div class="card swiper-slide">
               <div class="image-box">
                 <img src="https://www.qiscus.com/id/wp-content/uploads/sites/2/2022/03/Desain-kemasan-produk-740x500.png" alt="" />
@@ -119,7 +119,7 @@
                 <div class="name-job " >
                   <br> <h3 align="center"  class="name">Produk 2</h3></br>
                   <div class="text-center position-relative">  
-                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal5"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                  </div>
                </div>
                <br>
@@ -138,10 +138,10 @@
            </div>
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV3HmeqVcxsUYrZ-UvX2_IIcKUH2-yWde9bg&usqp=CAU" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSETe_YfQR2iPSobEpHUDZbiC-WgkjAJSO9MQ&usqp=CAU" alt="" />
               </div>
               <div class="name-job " >
-                <br> <h3 align="center"  class="name">Artikel 1</h3></br>
+                <br> <h3 align="center"  class="name">Produk 4</h3></br>
                 <div class="text-center position-relative">  
                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                </div>
@@ -150,10 +150,199 @@
            </div>
             <div class="card swiper-slide">
               <div class="image-box">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLoGiOBOzd0mI97Ny_-t8l7YOPVheuqjJRoQ&usqp=CAU" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkb4zUMriDk8PDMiVTDlvSgtzoXt_BOppel_zQVjv8zP6GmwIVRcdBL9a0uKVon7uwsio&usqp=CAU" alt="" />
               </div>
               <div class="name-job " >
-                <br> <h3 align="center"  class="name">Artikel 2</h3></br>
+                <br> <h3 align="center"  class="name">Produk 5</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+      <div class="modal fade show" id="modal4" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+        <div class="modal-wrapper">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                          <div class="card text-center" style="border-radius: 0 0 0 0;">
+                            <div class="card-body bg-light">
+                            <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active" data-bs-interval="1000">
+                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="d-block w-100 " alt="..." >
+                                      </div>
+                                      <div class="carousel-item" data-bs-interval="1200">
+                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="d-block w-100" alt="..." >
+                                      </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-8 order-md-2">
+                                      <div class="d-flex border-bottom"> 
+                                        <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 1</p></h1>
+                                      </div>
+                                      <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                      <br>
+                                      <small><p align="center"><b>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                      
+                                        <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                          <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                    <div class="d-flex  my-4">
+                                    </div>
+                                    </p></small></p>
+                                    
+                                    
+                                    
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="modal fade show" id="modal5" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+          <div class="modal-wrapper">
+              <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="container">
+                            <div class="card text-center" style="border-radius: 0 0 0 0;">
+                              <div class="card-body bg-light">
+                              <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                  <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="1000">
+                                          <img src="https://www.qiscus.com/id/wp-content/uploads/sites/2/2022/03/Desain-kemasan-produk-740x500.png" class="d-block w-200 " alt="..." >
+                                        </div>
+                                        
+                                      </div>
+                                      
+                                  </div>
+                                  <div class="col-md-8 order-md-2">
+                                        <div class="d-flex border-bottom"> 
+                                          <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 2</p></h1>
+                                        </div>
+                                        <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                        <br>
+                                        <small><p align="center"><b>
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                        
+                                          <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                      <div class="d-flex  my-4">
+                                      </div>
+                                      </p></small></p>
+                                      
+                                      
+                                      
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+
+      <div class="container swiper">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
+            <h1 class="mb-5"> Artikel</h1>
+        </div>
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" alt="" />
+              </div>
+                <div class="name-job " >
+                 <br> <h3 align="center"  class="name">Artikel 1</h3></br>
+                 <div class="text-center position-relative">  
+                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                </div>
+              </div>
+              <br>
+            </div>
+        
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://media.istockphoto.com/id/1222488200/id/vektor/templat-halaman-koran-berita-utama-vektor-mockup-tabloid-jurnal-latar-belakang-sederhana.jpg?s=612x612&w=0&k=20&c=RRJeUifmagX-67gLTWyJLYVGCwIP35zaFpBJEVf_PoQ=" alt="" />
+              </div>
+                <div class="name-job " >
+                  <br> <h3 align="center"  class="name">Artikel 2</h3></br>
+                  <div class="text-center position-relative">  
+                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                 </div>
+               </div>
+               <br>
+             </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://media.istockphoto.com/id/610658518/id/vektor/template-vektor-jurnal-surat-kabar-vintage.jpg?s=612x612&w=0&k=20&c=rk4eZkaQse5nW6zze368ndaTVGagZj8we0J8XxXQaY8=" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Artikel 3</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://media.istockphoto.com/id/610120462/id/vektor/gambar-datar-berita-koran.jpg?s=612x612&w=0&k=20&c=E-usDBd07aFLjEwExava7PTHh2eydsxA2JMyeSqXbC8=" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Artikel 4</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://media.istockphoto.com/id/847662430/id/foto/surat-kabar-berita-dunia.jpg?s=612x612&w=0&k=20&c=sv0p8ooXH62RBjqiqm7Wt35zI41oSLLn4B_TC1hDPHk=" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Artikel 5</h3></br>
                 <div class="text-center position-relative">  
                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#Modal1"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                </div>
@@ -421,21 +610,21 @@
               </div>
               <div class="modal-body">
                   <div class="container">
+                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                      <div class="card-body bg-light">
                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                          <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
+                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="1000">
-                                  <img src="img/kate.jpeg" class="d-block w-100 " alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  <img src="img/kate.jpeg" class="d-block w-100 " alt="..." >
                                 </div>
                                 <div class="carousel-item" data-bs-interval="1200">
-                                  <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." >
                                 </div>
                               </div>
                               
                           </div>
-                          <div class="col">
-                            <div class="card text-center  h-100 mb-3">
-                              <div class="card-body bg-light">
+                          <div class="col-md-8 order-md-2">
                                 <div class="d-flex border-bottom"> 
                                   <h1 class="flex-fill text-center py-2 " ><p align = "center">Selamat Kepada Ananda</p></h1>
                                 </div>
@@ -522,8 +711,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
+                                      <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                        <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                            <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                                 <div class="carousel-inner">
                                                   <div class="carousel-item active" data-bs-interval="1000">
                                                     <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
@@ -540,9 +731,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="col">
-                                              <div class="card text-center  h-100 mb-3">
-                                                <div class="card-body bg-light">
+                                            <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
                                                     <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
                                                   </div>
@@ -635,8 +824,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
+                                      <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                        <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                            <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                                 <div class="carousel-inner">
                                                   <div class="carousel-item active" data-bs-interval="1000">
                                                     <img src="img/kate1.jpeg" class="d-block w-100" alt="...">
@@ -647,9 +838,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="col">
-                                              <div class="card text-center  h-100 mb-3">
-                                                <div class="card-body bg-light">
+                                            <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
                                                     <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
                                                   </div>
@@ -738,8 +927,10 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="container">
+                                      <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                        <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                            <div id="mamak" class="col-lg-5 col-md-10 mt-4 mt-lg-0"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                                 <div class="carousel-inner">
                                                   <div class="carousel-item active" data-bs-interval="1000">
                                                     <img src="img/basket.jpeg" class="d-block w-100" alt="...">
@@ -750,9 +941,7 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="col">
-                                              <div class="card text-center  h-100 mb-3">
-                                                <div class="card-body bg-light">
+                                            <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
                                                     <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
                                                   </div>
