@@ -64,7 +64,7 @@
                 <input type="password"><br>
                 <button class="text-center">Log in</button>
                 <p class="text-center"> Belum punya akun?
-                  <a href="/Registrasi">Register di sini</a>
+                  <a hr  ef="/Registrasi">Register di sini</a>
                   <p>Atau</p>
                   <a class="btn btn-danger text-white"><i class="lni lni-google"></i>Google</a>
                 </div>

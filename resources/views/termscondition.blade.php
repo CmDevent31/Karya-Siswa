@@ -37,7 +37,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-        <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -49,7 +49,7 @@
                 <div class="nav-item dropdown text-danger">
                     <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
-                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                        <a href="/Pembelajaran" class="dropdown-item">Studi</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
@@ -165,7 +165,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
                     <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
-                    <a class="btn btn-link text-danger active" href="/TermsCondition">Terms & Condition</a>
+                    <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
                     <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -210,7 +210,7 @@
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="/Home">Home</a>
-                            <a href="/FaqsHelp">FQAs</a>
+                            <a href="/FaqsHelp">FAQs</a>
                         </div>
                     </div>
                 </div>
