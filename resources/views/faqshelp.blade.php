@@ -243,7 +243,7 @@
             <!-- Footer Start -->
             <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
                 <div class="container py-5">
-                    <div class="row g-5">
+                    <div class="row g-5 justify-content-center">
                         <div class="col-lg-3 col-md-6">
                             <h4 align="left" class="text-white mb-3">Quick Link</h4>
                             <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
@@ -268,14 +268,6 @@
                                         frameborder="2" style="min-height: 200px; border:200px;" allowfullscreen="" aria-hidden="false"
                                         tabindex="0"></iframe>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <h4 align="left"class="text-white mb-3">Newsletter</h4>
-                            <p align="left">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                            <div class="position-relative mx-auto" style="max-width: 400px;">
-                                <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"style="border-radius: 0 30px 30px 0;">
-                                <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"style="border-radius: 0 30px 30px 0;">SignUp</button>
                             </div>
                         </div>
                     </div>

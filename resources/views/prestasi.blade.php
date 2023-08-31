@@ -672,13 +672,13 @@
                                                 <div class="d-flex border-bottom"> 
                                                   <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
                                                 </div>
-                                                <p class="card-text"><br><br><b>Siswa SMK Telkom Bandung yang berhasil meraih medali emas di ajang Olimpiade Olahraga Nasional (O2SN) cabang Pencak Silat untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga! Be a Real Digital Talent!
-                                                </b><br>
+                                                <p class="card-text"><br><br><b> Sobat Prima! berikut ini adalah Athaillah Raihan S, siswa SMK Telkom Bandung yang berhasil meraih juara 2 Speech Contest dalam English Festival Widyatama 2023 se-Jawa Barat. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!   </b><br>
                                                 <small><p align="center">
                                                   <br><br>
                                                 
                                 
-                                                  <p align="center">@yptelkom @telkom_schools @ridwankamil @ruzhanul @wahyu_mijaya @arifrudiana @rosy.telkom
+                                                  <p align="center">#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+                                                    #smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
                                                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                                               <div class="d-flex  my-4">
                                                 <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/Cr2koiYBJGN/"><i class="fab fa-instagram"></i></a>                  
@@ -737,16 +737,79 @@
                             <h5 class="mb-0">Congratulations!! 👏🏻💯</h5>
                             <small>
 
-                                <br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih juara 1, 2, dan 3 Lomba Pencak Silat yang di gelar oleh IPSI Kota Cimahi.
-                                Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                                <br><b>Sobat Prima! berikut ini siswa-siswi...... 
                                 </b></br>
-                                    <br><br><br>#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                    #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal6" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
 
                                         </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal6" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/silat1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/silat2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih juara 1, 2, dan 3 Lomba Pencak Silat yang di gelar oleh IPSI Kota Cimahi.
+                                                  Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!  </b><br>
+                                                <small><p align="center">
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+                                                    #smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+                                                    
+                                                    <br><br>© Studio Skillas
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CqDgG9GBfw4/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -779,16 +842,81 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih juara 3 Bina Lomba Baris-berbaris yang di gelar oleh MIKO Berbasis 2.0. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa-siswi....
                             </b></br>
-                               <br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
+                            <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal7" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                 
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal7" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/baris.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/baris1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih juara 3 Bina Lomba Baris-berbaris yang di gelar oleh MIKO Berbasis 2.0. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga! </b><br>
+                                                <small><p align="center">
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+                                                    #smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+                                                    
+                                                    
+                                                    
+                                                    <br><br>© Studio Skillas
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CpfQh5KBSjA/?img_index=1"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -827,29 +955,118 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
-                            <small><br><b>SobPrim! Gimana hari ini?mudah-mudahan sehat ya. Kali ini siswa - siswi SMK Telkom Bandung berulah lagi nih 🫣
+                            <small><br><b>SobPrim! Gimana hari ini?mudah.......</b></br>
+                              
+                                
+                               <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal8" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
 
-                                Waah kenapa tuh? Eits jangan salah sangka dulu ya SobPrim... ternyata siswa - siswi SMK Telkom Bandung berulah karena memenangkan perlombaan lho.
-                                
-                                Penasaran kann perlombaan apa sii?
-                                Yuu langsung kepoin 😆
-                                
-                                SobPrim, Semangat terus yaa untuk mencetak rekor tertinggi 😆  </b></br>
-                               <br> @yptelkom
-                               @telkom_schools
-                               @rosy.telkom
-                               @humas_jabar
-                               @bdg.disdik
-                               @pustekkom_kemdikbud
-                               @ditjen.gtk.kemdikbud
-                               @pemprovjabar
-                               </br>
-                                
-                                
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal8" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/basket1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/basket2.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/basket3.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/basket4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>SobPrim! Gimana hari ini?mudah-mudahan sehat ya. Kali ini siswa - siswi SMK Telkom Bandung berulah lagi nih 🫣
+
+                                                  Waah kenapa tuh? Eits jangan salah sangka dulu ya SobPrim... ternyata siswa - siswi SMK Telkom Bandung berulah karena memenangkan perlombaan lho.
+                                                  
+                                                  Penasaran kann perlombaan apa sii?
+                                                  Yuu langsung kepoin 😆
+                                                  
+                                                  SobPrim, Semangat terus yaa untuk mencetak rekor tertinggi 😆  </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    @yptelkom
+                                                    @telkom_schools
+                                                    @rosy.telkom
+                                                    @humas_jabar
+                                                    @bdg.disdik
+                                                    @pustekkom_kemdikbud
+                                                    @ditjen.gtk.kemdikbud
+                                                    @pemprovjabar
+                                                    @kemdikbud.ri
+                                                    
+                                                    #smktelkom
+                                                    #smktelkombandung
+                                                    #smkbisa
+                                                    #smkkeren
+                                                    #smksangjuara
+                                                    #bearealdigitaltalent
+                                                    #SMKBisa
+                                                    #SMKHebat
+                                                    #SMKBisaHebat
+                                                    #ppdbsmktelkombandung
+                                                    #ppdbsmktelkombandung2023
+                                                    #tahunbaru2023
+                                                    
+                                                    ©StudioSkillas
+                                                    
+                                                    
+                                                    
+                                                    <br><br>© Studio Skillas
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CpMW8zFhuEQ/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -894,16 +1111,98 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih juara 3 madya lomba PBB yang di gelar oleh SMK Pasundan 1 Banjaran. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa-siswi.... 
                                 </b></br>
-                                <br><br><br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                               #smkno1bandung #smkhebatsmkbisa © Studio Skillas </br>
-                                
+                               
+                               <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal9" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal9" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/pbb.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/pbb1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/pbb2.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/pbb3.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/pbb4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/pbb5.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi.... SMK Telkom Bandung yang berhasil meraih juara 3 madya lomba PBB yang di gelar oleh SMK Pasundan 1 Banjaran. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga! </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CpJ3wLAB2We/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -942,16 +1241,89 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih 12 medali pada Karate Championship 2023 yang di gelar oleh SMK Sangkuriang 1 Cimahi. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa-siswi..... 
                                 </b></br>
-                               <br><br><br><br>#siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
-                                
+                               
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal10" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal10" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/kate2.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/kate3.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/kate4.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/kate5.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!! 👏🏻💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung yang berhasil meraih 12 medali pada Karate Championship 2023 yang di gelar oleh SMK Sangkuriang 1 Cimahi. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga! </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CpJhKzyB6rQ/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -981,16 +1353,80 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">𝙲𝚘𝚗𝚐𝚛𝚊𝚝𝚞𝚕𝚊𝚝𝚒𝚘𝚗𝚜!!👏💯</h5>
-                            <small><br><b>Sobprim! Siswa-Siswi SMK Telkom Bandung ngeborong 𝐩𝐫𝐞𝐬𝐭𝐚𝐬𝐢 lagi 𝘯𝘪𝘩!! Kali ini mereka berhasil men𝐣𝐮𝐚𝐫𝐚i perlombaan yang digelar oleh 𝘽𝙚𝙧𝙚𝙪𝙢 𝘽𝙤𝙙𝙖𝙨 𝙀𝙫𝙚𝙣𝙩. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!🤩
+                            <small><br><b>Sobprim! Siswa-Siswi..... 
                                  </b></br>
-                               <br><br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
+                               
                                 
-                                
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal11" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal11" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/muka.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝙲𝚘𝚗𝚐𝚛𝚊𝚝𝚞𝚕𝚊𝚝𝚒𝚘𝚗𝚜!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobprim! Siswa-Siswi SMK Telkom Bandung ngeborong 𝐩𝐫𝐞𝐬𝐭𝐚𝐬𝐢 lagi 𝘯𝘪𝘩!! Kali ini mereka berhasil men𝐣𝐮𝐚𝐫𝐚i perlombaan yang digelar oleh 𝘽𝙚𝙧𝙚𝙪𝙢 𝘽𝙤𝙙𝙖𝙨 𝙀𝙫𝙚𝙣𝙩. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!🤩 </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/ClsX06QSR4t/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -1030,16 +1466,89 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯
                             </h5>
-                            <small><br><b>Sobprim! Siswa-Siswi SMK Telkom Bandung ngeborong 𝐩𝐫𝐞𝐬𝐭𝐚𝐬𝐢 lagi 𝘯𝘪𝘩!! Kali ini mereka berhasil men𝐣𝐮𝐚𝐫𝐚i perlombaan yang digelar di 𝐀𝐄𝐂𝐒 𝐔𝐏𝐈, 𝐔𝐍𝐈𝐍𝐔𝐒, 𝐅𝐈𝐁 𝐔𝐍𝐏𝐀𝐃, dan mendapat 𝐬𝐤𝐨𝐫 𝐭𝐞𝐫𝐭𝐢𝐧𝐠𝐠𝐢 dalam 𝙏𝙊𝙀𝙄𝘾 di 𝙄𝙣𝙩𝙚𝙧𝙣𝙖𝙩𝙞𝙤𝙣𝙖𝙡 𝙏𝙚𝙨𝙩 𝘾𝙚𝙣𝙩𝙚𝙧. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobprim! Siswa-Siswi... 
                                  </b></br>
-                               <br><br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
+                               
                                 
-                                
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal12" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal12" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/toiec.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/toiec1.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/toiec2.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/toiec3.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobprim! Siswa-Siswi SMK Telkom Bandung ngeborong 𝐩𝐫𝐞𝐬𝐭𝐚𝐬𝐢 lagi 𝘯𝘪𝘩!! Kali ini mereka berhasil men𝐣𝐮𝐚𝐫𝐚i perlombaan yang digelar di 𝐀𝐄𝐂𝐒 𝐔𝐏𝐈, 𝐔𝐍𝐈𝐍𝐔𝐒, 𝐅𝐈𝐁 𝐔𝐍𝐏𝐀𝐃, dan mendapat 𝐬𝐤𝐨𝐫 𝐭𝐞𝐫𝐭𝐢𝐧𝐠𝐠𝐢 dalam 𝙏𝙊𝙀𝙄𝘾 di 𝙄𝙣𝙩𝙚𝙧𝙣𝙖𝙩𝙞𝙤𝙣𝙖𝙡 𝙏𝙚𝙨𝙩 𝘾𝙚𝙣𝙩𝙚𝙧. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga! </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/Cliw7vYyKmM/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -1079,16 +1588,90 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯
                             </h5>
-                            <small><br><b>Sobat Prima! Berikut ini siswa-siswi SMK Telkom Bandung yang bernama Ryzqa dari XI MM 1, Gafa dari XI MM 3, Hanif dan Dinan dari XI MM 4, Sekar dan Hasbi dari XI TKJ 2, Ghinan dari XI TKJ 3, Indah dan Syafiq dari XI TKJ 4, Yudha dari XI TJAT 1, dan Zikri dari XI TJAT 2 berhasil menjadi Juara dalam perlombaan yang digelar Kadisjas TNI AD. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! Berikut ini siswa-siswi.... 
                             </b></br>
-                               <br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa </br>
                                 
-                                
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal13" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                    </small>
                         </div>
                     </div>
-                </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                </div>
+                <div class="modal fade show" id="modal13" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/tedo5.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/tedo6.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/tedo7.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/tedo8.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! Berikut ini siswa-siswi SMK Telkom Bandung yang bernama Ryzqa dari XI MM 1, Gafa dari XI MM 3, Hanif dan Dinan dari XI MM 4, Sekar dan Hasbi dari XI TKJ 2, Ghinan dari XI TKJ 3, Indah dan Syafiq dari XI TKJ 4, Yudha dari XI TJAT 1, dan Zikri dari XI TJAT 2 berhasil menjadi Juara dalam perlombaan yang digelar Kadisjas TNI AD. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                                                   </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/ClSW1gUhSFc/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <div id="carousel14" class="carousel slide" data-bs-ride="carousel">
@@ -1124,16 +1707,87 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯
                             </h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung berhasil menjadi Juara dalam Event IGREEC, La Vesta, dan AHM Best Student. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa-siswi.... 
                             </b></br>
-                            <br><br><br><br> <br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
                                 
-                                
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal14" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                    </small>
                         </div>
                     </div>
-                </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                </div>
+                <div class="modal fade show" id="modal14" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/igrec.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/igrec1.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/igrec2.jpeg" class="d-block w-100" alt="...">
+                                                </div>   
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung berhasil menjadi Juara dalam Event IGREEC, La Vesta, dan AHM Best Student. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                                                   </b></br>
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/Ck3B2IABRB4/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <div id="carousel15" class="carousel slide" data-bs-ride="carousel">
@@ -1163,19 +1817,84 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯
                             </h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa SMK Telkom Bandung berhasil menjadi Juara 3 dalam Lomba Badminton. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa SMK..... 
                                  </b></br>
-                                 <br><br><b>Selamat Kepada sang juara🥉
-                                @__ryanmirza__
-                                @arillsyakib</b></br>
-                               <br><br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
-                                
+                                 
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal15" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                    </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal15" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/minton.jpeg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa SMK Telkom Bandung berhasil menjadi Juara 3 dalam Lomba Badminton. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                                                   </b></br>
+                                                   <br><br><b>Selamat Kepada sang juara🥉
+                                                    @__ryanmirza__
+                                                    @arillsyakib
+                                                 </b><br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CksC3OEh0qD/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -1208,16 +1927,83 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯</h5>
-                            <small><br><b>Sobat Prima! berikut ini siswa-siswi SMK Telkom Bandung berhasil menjadi Juara dalam Event Ideathon 2022. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                            <small><br><b>Sobat Prima! berikut ini siswa-siswi.... 
                                  </b></br>
-                                 <br><br> <br><br><br><br><br><br><br><br><br><br><br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
                                 
-                                
+                                 <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal16" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 <br>   </small>
                         </div>
                     </div>
-                </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                </div>
+                <div class="modal fade show" id="modal16" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/ton.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/ton1.jpg" class="d-block w-100" alt="...">
+                                                </div>  
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! berikut ini siswa-siswi.... SMK Telkom Bandung berhasil menjadi Juara dalam Event Ideathon 2022. Selamat atas pencapaian luar biasanya dan Terima kasih atas prestasinya, kami bangga!
+                                                   </b></br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
+#smkno1bandung #smkhebatsmkbisa #bearealdigitaltalent
+
+© Studio Skillas
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CkfZwpHSNd-/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <div id="carousel17" class="carousel slide" data-bs-ride="carousel">
@@ -1246,23 +2032,85 @@
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">Congratulations!!👏💯</h5>
-                            <small><br><b>Sobat Prima! Kahlil Ahmad Al Fatih siswa Kelas XI MM 4 Berhasil mendapat Juara 2 Kejuaraan ACSS Tahun 2022 Kategori Newscasting dibulan September ini. Wahh keren banget selamat yaa ✨
-                                @aecs_esaupi
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                            <small><br><b>Sobat Prima! Kahlil Ahmad Al Fatih.... 
                                 
                                  </b></br>
-                                 <br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2023 #reachyourdream</br>
-                                
+                                 <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal17" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                    </small>
                         </div>
                     </div>
-                </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                </div>
+                <div class="modal fade show" id="modal17" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/lil.jpeg" class="d-block w-100" alt="...">
+                                                </div>   
+                                                <div class="carousel-item" data-bs-interval="1200">
+                                                  <img src="img/mosi1.jpeg" class="d-block w-100" alt="...">
+                                                </div>
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">Congratulations!!👏💯</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! Kahlil Ahmad Al Fatih siswa Kelas XI MM 4 Berhasil mendapat Juara 2 Kejuaraan ACSS Tahun 2022 Kategori Newscasting dibulan September ini. Wahh keren banget selamat yaa ✨
+                                                  @aecs_esaupi
+                                                  
+                                                  𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                                                  Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                                                  
+                                                  𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                                                  Sekolahnya Sang Juara
+                                                   </b></br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    **********<br>#smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2023 #reachyourdream
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/Cio81Xvhc5B/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <div id="carousel18" class="carousel slide" data-bs-ride="carousel">
@@ -1282,24 +2130,83 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">𝐉𝐮𝐚𝐫𝐚 𝟏 𝐏𝐨𝐨𝐦𝐬𝐚𝐞 𝐏𝐮𝐭𝐫𝐢
                             </h5>
-                            <small><br><b>Sobat Prima! Ryzqa Buana Putri siswi Kelas XI MM 1 Berhasil mendapat Juara 1 Mahardika Kategori Poomsae Putri Tingkat Nasional yang diselenggarakan oleh Pemprov DKI Jakarta pada tanggal 26 Juni 2022.
-                                Wahh keren banget selamat yaa ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                            <small><br><b>Sobat Prima! Ryzqa Buana Putri.... 
                                 
                                    </b></br>
-                                   <br><br><br><br><br><br><br>**********<br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
-                                
+
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal18" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                    <br></small>
                         </div>
                     </div>
-                </div><div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                </div>
+                <div class="modal fade show" id="modal18" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/ryz.jpeg" class="d-block w-100" alt="...">
+                                                </div>   
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝐉𝐮𝐚𝐫𝐚 𝟏 𝐏𝐨𝐨𝐦𝐬𝐚𝐞 𝐏𝐮𝐭𝐫𝐢</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Sobat Prima! Ryzqa Buana Putri siswi Kelas XI MM 1 Berhasil mendapat Juara 1 Mahardika Kategori Poomsae Putri Tingkat Nasional yang diselenggarakan oleh Pemprov DKI Jakarta pada tanggal 26 Juni 2022.
+                                                  Wahh keren banget selamat yaa ✨
+                                                  
+                                                  𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                                                  Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                                                  
+                                                  𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                                                  Sekolahnya Sang Juara
+                                                   </b></br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    **********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022 #reachyourdream
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/ChThN2WBnKu/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <div id="carousel19" class="carousel slide" data-bs-ride="carousel">
@@ -1329,27 +2236,88 @@
                         <div class="text-center p-4">
                             <h5 class="mb-0">𝐀𝐇𝐌 𝐁𝐞𝐬𝐭 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
                             </h5>
-                            <small><br><b>Selamat kepada Kak Nurul Azizah Kumara Kelas XII TKJ 3 menjadi Juara 1 Astra Honda Motor Best Student 2022 Tingkat Regional Jawa Barat
-
-                                Keren banget ya Sobat Prima! Kak Nurul ini akan mewakili Regional Jawa Barat untuk bersaing dengan peserta lain dari seluruh Indonesia di Tingkat Nasional, kita doakan yuk semoga Kak Nurul menjadi yang terbaik di Tingkat Nasional, aamiin
-                                
-                                Terima kasih Kak Nurul atas prestasinya, kami bangga!
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                            <small><br><b>Selamat kepada Kak Nurul Azizah.... 
                                 
                                    </b></br>
-                                   <br> <br><br>**********<br> #siswaberprestasi #bearealdigitaltalent #smktelkombandung #smktelbdg #telkomschools
-                                #smkno1bandung #smkhebatsmkbisa © Studio Skillas</br>
-                                
+                                  
+                                <br><a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal19" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>
+
                                 
                                   <br> </small>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade show" id="modal19" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                  <div class="modal-wrapper">
+                      <div class="modal-dialog modal-fullscreen">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="container">
+                                    <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                      <div class="card-body bg-light">
+                                      <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                          <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                              <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/nr.jpg" class="d-block w-100" alt="...">
+                                                </div>   
+                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                  <img src="img/nr1.jpg" class="d-block w-100" alt="...">
+                                                </div>   
+                                              </div>
+                                              
+                                          </div>
+                                          <div class="col-md-8 order-md-2">
+                                                <div class="d-flex border-bottom"> 
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝐀𝐇𝐌 𝐁𝐞𝐬𝐭 𝐒𝐭𝐮𝐝𝐞𝐧𝐭</p></h1>
+                                                </div>
+                                                <p class="card-text"><br><br><b>Selamat kepada Kak Nurul Azizah Kumara Kelas XII TKJ 3 menjadi Juara 1 Astra Honda Motor Best Student 2022 Tingkat Regional Jawa Barat
+
+                                                  Keren banget ya Sobat Prima! Kak Nurul ini akan mewakili Regional Jawa Barat untuk bersaing dengan peserta lain dari seluruh Indonesia di Tingkat Nasional, kita doakan yuk semoga Kak Nurul menjadi yang terbaik di Tingkat Nasional, aamiin
+                                                  
+                                                  Terima kasih Kak Nurul atas prestasinya, kami bangga!
+                                                  
+                                                  𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                                                  Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                                                  
+                                                  𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                                                  Sekolahnya Sang Juara
+                                                   </b></br>
+                                                <small>
+                                                  
+                                                  <br>
+                                                
+                                
+                                                  <p align="center">
+                                                    **********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022 #reachyourdream
+
+                                                    <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                              <div class="d-flex  my-4">
+                                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/ChBTLFIBnMX/"><i class="fab fa-instagram"></i></a>                  
+                                              </div>
+                                              </p></small></p>
+                                              
+                                              
+                                              
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                              <div class="modal-footer">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">

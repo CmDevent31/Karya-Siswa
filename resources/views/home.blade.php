@@ -820,7 +820,7 @@
               <div class="card text-center  h-100">
                 <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
                 <div class="card-body">
-                  <h5 class="card-title">Karya 2</h5>
+                  <h5 class="card-title">Karya 3</h5>
                   <p class="card-text"  align="justify">Lorem ipsum dolor sit amet, consectetur......</p>
                 </div>
                 <div class="card-footer ">
@@ -912,7 +912,6 @@
                               <h1>Karya 3</h1>
                               <span class="text-muted"></span>
                                   <p class="fw-bold me-4">For Example</p>  
-                              </div>
                               <p align="Justify">adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
                           </div>
                       </div>
@@ -1360,7 +1359,7 @@
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
-            <div class="row g-5">
+            <div class="row g-5 justify-content-center">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
                     <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
@@ -1387,14 +1386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"style="border-radius: 0 30px 30px 0;">
-                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"style="border-radius: 0 30px 30px 0;">SignUp</button>
-                    </div>
-                </div>
+                
             </div>
         </div>
         <div class="container">
