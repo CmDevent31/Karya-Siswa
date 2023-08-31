@@ -510,13 +510,11 @@ a {
 padding: 0px 10px;
 outline: none;
 color: #fff;
-background: linear-gradient(to right, #fb4283, #ff3527);
 border-radius: 6px;
 cursor: pointer;
 transition: background-color 0.1ms, transform 0.2s;
 }
 
 button:hover {
-background: linear-gradient(to right, #ff3527, #fb4283);
 transform: scale(1.05);
 }
