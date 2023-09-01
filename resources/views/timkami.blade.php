@@ -1,7 +1,3 @@
-@extends('layouts.main')
-@section('timkami')
-    
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -185,4 +181,3 @@
 </body>
 
 </html>
-@endsection

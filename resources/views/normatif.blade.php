@@ -39,8 +39,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
   </head>
-  <body class="">
-<main>
+  <body>
  
 
 

@@ -1,6 +1,3 @@
-@extends('layouts.main')
-@section('prestasi')
-    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +7,6 @@
     <title>KaryaSiswa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -4468,4 +4464,4 @@
 
 </html>
 
-@endsection
+

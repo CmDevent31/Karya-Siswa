@@ -1,6 +1,3 @@
-@extends('layouts.main')
-@section('tentangkami')
-    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -161,4 +158,3 @@
 </body>
 
 </html>
-@endsection

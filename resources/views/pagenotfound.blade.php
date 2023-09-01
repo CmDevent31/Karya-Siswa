@@ -1,6 +1,3 @@
-@extends('layouts.main')
-@section('404')
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -122,4 +119,3 @@
 
 </html>
     
-@endsection

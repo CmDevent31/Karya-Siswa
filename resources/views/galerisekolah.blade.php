@@ -1,7 +1,3 @@
-@extends('layouts.main')
-@section('galeri')
-    
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -162,4 +158,3 @@
 </body>
 
 </html>
-@endsection

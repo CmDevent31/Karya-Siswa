@@ -1,8 +1,3 @@
-@extends('layouts.main')
-@section('guru')
-    
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -584,4 +579,3 @@
 </body>
 
 </html>
-@endsection

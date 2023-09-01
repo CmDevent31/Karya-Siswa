@@ -1,10 +1,4 @@
-@extends('layouts.main')
-@section('ekskul')
-    
-
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12,6 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -39,8 +34,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
   </head>
-  <body class="">
-<main>
+  <body>
  
 
 
@@ -220,7 +214,6 @@ Lingkup pembelajaran meliputi jenis-jenis perangkat lunak komputer grafis berbas
     
 
 
-</main>
 
 
 
@@ -237,7 +230,7 @@ Lingkup pembelajaran meliputi jenis-jenis perangkat lunak komputer grafis berbas
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
 
   </body>
 </html>
-@endsection

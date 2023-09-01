@@ -1,7 +1,3 @@
-@extends('layouts.main')
-@section('pembelajaran')
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -142,4 +138,3 @@
 
 </html>
     
-@endsection

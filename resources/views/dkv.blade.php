@@ -1,10 +1,4 @@
-@extends('layouts.main')
-@section('ekskul')
-    
-
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -39,8 +33,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
   </head>
-  <body class="">
-<main>
+  <body>
  
 
 
@@ -245,4 +238,3 @@ Lingkup pembelajaran meliputi jenis-jenis perangkat lunak komputer grafis berbas
 
   </body>
 </html>
-@endsection
