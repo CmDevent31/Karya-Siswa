@@ -1,6 +1,3 @@
-@extends('layouts.main')
-@section('quotes')
-    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -328,4 +325,3 @@
 </body>
 
 </html>
-@endsection

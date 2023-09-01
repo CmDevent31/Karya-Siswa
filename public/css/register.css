@@ -1,87 +1,335 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
+:root {
+  --primary: #ff0000;
+  --light: #F0FBFC;
+  --dark: #181d38;
+}
+
+.fw-medium {
+  font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+  font-weight: 700 !important;
+}
+
+
+
+/*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+  color: #FFFFFF;
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 0px;
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+  border: none;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-right: 30px;
+  padding: 25px 0;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link  {
+      margin-right: 0;
+      padding: 10px 0;
+  }
+
+  .navbar-light .navbar-nav {
+      border-top: 1px solid #EEEEEE;
+  }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+  height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.navbar-light.sticky-top {
+  top: -5px;
+  transition: .5s;
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: .5s;
+  }
+
+  .navbar .dropdown-menu.fade-down {
+      top: 100%;
+      transform: rotateX(-75deg);
+      transform-origin: 0% 0%;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+      top: 100%;
+      transform: rotateX(0deg);
+      visibility: visible;
+      transition: .5s;
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*** Categories & Courses ***/
+.category img,
+.course-item img {
+  transition: .5s;
+}
+
+.category a:hover img,
+.course-item:hover img {
+  transform: scale(1.1);
 }
 
 body{
-    height: 100vh;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-p {
-  color: rgb(8, 8, 8);
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 10px;
+  background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
+  background-size: cover;
+
 }
 
-h1 {
-  text-align: center;
-  padding-left: 5px;
-  padding-bottom: 10px;
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-a {
-  color: rgb(231, 45, 45);
-}
-.container{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    padding: 20px 20px;
-    width: 375px;
-    height: 500px;
-    
-    background: transparent;
-      border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
-      border-radius: 20px;
-      border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
-      overflow: hidden;
-}
-.container h1{
-    text-align: left;
-    color: #ff3b3b;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    border-bottom: 4px solid #3a2e2e;
-}
-.container label{
-    text-align: right;
-    color: #ff4646;
-}
-.container form input{
-    width: calc(100% - 30px);
-    padding: 0px 1px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    border: none;
-    background-color: transparent;
-    border-bottom: 2px solid #302525;
-    color: #0f0202;
-    font-size: 20px;
-}
-.container form button{
-   width: 100%;
-    height: 45px;
-    padding: 20px ;
-    font-size: 22;
-    border: 0;
-    margin-top: 10px;
-padding: 0px 10px;
-outline: none;
-color: #fff;
-background: linear-gradient(to right, #fb4283, #ff3527);
-border-radius: 6px;
-cursor: pointer;
-transition: background-color 0.1ms, transform 0.2s;
+/* Set a style for all buttons */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 1px 2px #333;
 }
 
 button:hover {
-background: linear-gradient(to right, #ff3527, #fb4283);
-transform: scale(1.05);
+  opacity: 2;
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  position: relative;
+  left: -5px;
+  width: auto;
+  padding: 10px 18px;
+  background-color: #ff0000;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 1px 2px #333;
+}
+.cancelbtn:hover {
+  opacity: 2;
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+
+}
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 6px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+
+span.psw {
+  float: right;
+  color: #ffffff;
+  padding-top: 16px;
+}
+span.pswm {
+  float: right;
+  color: #666;
+  padding-top: 16px;
+}
+span.psw a{
+  color: #ffc107;
+}
+label {
+   color: #ffffff;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-image: linear-gradient(to right, #B1A0F5 0, #B1A0F5 50%, #FFEB3B 50%, #FFEB3B 100%);
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: #f5f5f5;
+  background: #ff0000;
+  padding: 0 15px 0;
+  border-radius: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 1px 2px #333;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
 }

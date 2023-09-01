@@ -1,6 +1,3 @@
-@extends('layouts.main')
-@section('privacy')
-    
 
 <!DOCTYPE html>
 <html lang="en">
@@ -173,4 +170,3 @@
 </body>
 
 </html>
-@endsection

@@ -1,6 +1,4 @@
-@extends('layouts.main')
-@section('galeri')
-    
+
 
 
 <!DOCTYPE html>
@@ -156,4 +154,3 @@
 </body>
 
 </html>
-@endsection

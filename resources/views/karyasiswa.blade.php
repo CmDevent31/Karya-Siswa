@@ -1,7 +1,3 @@
-@extends('layouts.main')
-
-@section('karyasiswa')
-    
 
 <!doctype html>
 <html lang="en">
@@ -159,4 +155,3 @@
 
   </body>
 </html>
-@endsection

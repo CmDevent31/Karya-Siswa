@@ -36,7 +36,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-        <a  class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -46,7 +46,7 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Studi</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>

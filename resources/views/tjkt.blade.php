@@ -1,10 +1,5 @@
-@extends('layouts.main')
-@section('ekskul')
-    
 
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -38,9 +33,10 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
+
   </head>
-  <body class="">
-<main>
+  <body >
  
 
 
@@ -244,7 +240,6 @@ Meliputi pemahaman tentang jenis alat ukur dan penggunaannya dalam pemeliharaan 
     </div>
   </div>
 </div>
-</main>
 
 
 
@@ -261,7 +256,7 @@ Meliputi pemahaman tentang jenis alat ukur dan penggunaannya dalam pemeliharaan 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
 
   </body>
 </html>
-@endsection
