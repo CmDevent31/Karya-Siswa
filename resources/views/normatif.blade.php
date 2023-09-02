@@ -1,10 +1,6 @@
 @extends('layouts.main')
-@section('ekskul')
-    
-
-
-
-<!doctype html>
+@section('normatif')
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -41,7 +37,13 @@
   </head>
   <body>
  
-
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+       <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+           <span class="sr-only">Loading...</span>
+       </div>
+   </div>
+   <!-- Spinner End -->
 
     <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
@@ -78,6 +80,7 @@
     </div>
 </nav>
 <!-- Navbar End -->
+
     <!-- Header Start -->
     <div class="container-fluid bg-danger py-5 mb-5 page-header">
         <div class="container py-5">
@@ -105,18 +108,17 @@
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
     <h6 class="section-title bg-white text-center text-danger px-3">0</h6>
     <h1 class="mb-5">ZONK</h1>
+    </div>
 </div>
 
-
-    
-
-
-</main>
 
 
 
 
     <!-- Back to Top -->
+    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
+
+
 <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
