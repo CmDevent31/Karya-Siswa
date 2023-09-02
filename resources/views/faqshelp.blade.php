@@ -33,6 +33,13 @@
 
 <body>
 
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+       <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+           <span class="sr-only">Loading...</span>
+       </div>
+   </div>
+   <!-- Spinner End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">

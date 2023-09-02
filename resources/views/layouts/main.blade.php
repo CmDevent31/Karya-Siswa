@@ -23,6 +23,8 @@
         @yield('privacy')
         @yield('timkami')
         @yield('tentangkami')
+        @yield('normatif')
+
 	{{-- </div> --}}
 
 </body>
