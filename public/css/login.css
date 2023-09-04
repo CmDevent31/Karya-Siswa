@@ -179,26 +179,7 @@ input[type=text], input[type=password] {
   }
   
   /* Set a style for all buttons */
-  button {
-    background-color: #ff0000;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         0 1px 2px #333;
-  }
-  
-  button:hover {
-    opacity: 2;
-    background-color: #ffffff;
-    color: rgb(255, 0, 0);
-    cursor: pointer;
-
-  }
+ 
  
   
   /* Extra styles for the cancel button */
