@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>KaryaSiswa</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -30,12 +31,17 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
-
-
-  </head>
+    
+</head>
 
 
   <body>
@@ -209,10 +215,9 @@
     <!-- Back to Top -->
     <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
-<!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -220,6 +225,9 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
