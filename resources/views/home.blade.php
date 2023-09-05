@@ -703,7 +703,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
                     <h1 class="mb-4">Welcome to KaryaSiswa</h1>
-                    <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-4" align="justify">KaryaSiswa adalah website yang digunakan untuk menunjukkan bakat bakat para siswa yang ingin menampilkan skill apa saja yang mereka punya....</p>
                     <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                     <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
             </div>
@@ -1213,10 +1213,10 @@
                                       <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                           <div class="carousel-inner">
                                             <div class="carousel-item active" data-bs-interval="4000">
-                                              <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
+                                              <img src="img/kate1.jpeg" class="d-block w-100" alt="...">
                                             </div>
                                             <div class="carousel-item" data-bs-interval="4000">
-                                              <img src="img/tedo2.jpeg" class="d-block w-100" alt="...">
+                                              <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
                                             </div>
                                           </div>
                                           

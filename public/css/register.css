@@ -168,148 +168,113 @@ body{
 
 }
 
+
 /* Full-width input fields */
-input[type=text], input[type=email], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  position: relative;
-  left: -5px;
-  width: auto;
-  padding: 10px 18px;
-  background-color: #ff0000;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         0 1px 2px #333;
-}
-.cancelbtn:hover {
-  opacity: 2;
-  background-color: #ffffff;
-  color: rgb(255, 0, 0);
-  cursor: pointer;
-
-}
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
 .container {
-  padding: 6px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-
-}
-
-span.psw {
-  float: right;
-  color: #ffffff;
-  padding-top: 16px;
-}
-span.pswm {
-  float: right;
-  color: #666;
-  padding-top: 16px;
-}
-span.psw a{
-  color: #ffc107;
-}
-label {
-   color: #ffffff;
-}
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-image: linear-gradient(to right, #B1A0F5 0, #B1A0F5 50%, #FFEB3B 50%, #FFEB3B 100%);
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
   border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
   border: 1px solid #ddd;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 6px;
+  padding: 0 15px;
 }
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 20px;
-  top: -15px;
-  color: #f5f5f5;
-  background: #ff0000;
-  padding: 0 15px 0;
-  border-radius: 50px;
-  font-size: 35px;
-  font-weight: bold;
-  -webkit-box-shadow: 0 1px 2px #333;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    0 1px 3px #333;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         0 1px 2px #333;
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
-
-.close:hover,
-.close:focus {
-  color: rgb(255, 0, 0);
-  background: #ffffff;
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(255, 0, 0);
+}
+.form :where(.gender input, .gender label) {
   cursor: pointer;
 }
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
+.gender label {
+  color: #707070;
 }
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
+.address :where(input, .select-box) {
+  margin-top: 15px;
 }
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
 }
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(255, 0, 0);
+}
+.form button:hover {
+  background: rgb(253, 109, 57);
+  color: #ffffff;
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
   }
-  .cancelbtn {
-     width: 100%;
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
   }
-}
-
-.card {
-  background: #fff;
-  border-radius: 8px;
 }

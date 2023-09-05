@@ -446,79 +446,115 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-p {
-  color: rgb(8, 8, 8);
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 10px;
-}
-
-h1 {
-  text-align: center;
-  padding-left: 5px;
-  padding-bottom: 10px;
-}
-
-a {
-  color: rgb(231, 45, 45);
-}
-.container{
-    position: absolute;
-    left: 50%;
-    top: 50%; 
-    transform: translate(-50%,-50%);
-    padding: 20px 20px;
-    width: 375px;
-    height: 548px;
-    
-    background: transparent;
-      border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
-      border-radius: 20px;
-      border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
-      overflow: hidden;
-}
-.container h1{
-    text-align: left;
-    color: #ff3b3b;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    border-bottom: 4px solid #3a2e2e;    
-}
-.container label{
-    text-align: right;
-    color: #ff4646;
-}
-.container form input{
-    width: calc(100% - 30px);
-    padding: 0px 1px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    border: none;
-    background-color: transparent;
-    border-bottom: 2px solid #302525;
-    color: #0f0202;
-    font-size: 20px;
-}
-.container form button{
-   width: 100%;
-    height: 45px;
-    padding: 20px ;
-    font-size: 22;
-    border: 0;
+/* Full-width input fields */
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .container header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+  .container .form {
+    margin-top: 30px;
+  }
+  .form .input-box {
+    width: 100%;
     margin-top: 20px;
-padding: 0px 10px;
-outline: none;
-color: #fff;
-background: linear-gradient(to right, #fb4283, #ff3527);
-border-radius: 6px;
-cursor: pointer;
-transition: background-color 0.1ms, transform 0.2s;
-}
+  }
+  .input-box label {
+    color: #333;
+  }
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form .column {
+    display: flex;
+    column-gap: 15px;
+  }
+  .form .gender-box {
+    margin-top: 20px;
+  }
+  .gender-box h3 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+  .form .gender {
+    column-gap: 5px;
+  }
+  .gender input {
+    accent-color: rgb(255, 0, 0);
+  }
+  .form :where(.gender input, .gender label) {
+    cursor: pointer;
+  }
+  .gender label {
+    color: #707070;
+  }
+  .address :where(input, .select-box) {
+    margin-top: 15px;
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+  }
+  .form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(255, 0, 0);
+  }
+  .form button:hover {
+    background: rgb(253, 109, 57);
+    color: #ffffff;
+  
+  }
+  /*Responsive*/
+  @media screen and (max-width: 500px) {
+    .form .column {
+      flex-wrap: wrap;
+    }
+    .form :where(.gender-option, .gender) {
+      row-gap: 15px;
+    }
+  }
 
-button:hover {
-background: linear-gradient(to right, #ff3527, #fb4283);
-transform: scale(1.05);
-}
 
 
