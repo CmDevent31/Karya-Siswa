@@ -441,7 +441,7 @@
 
 body{
     height: 100vh;
-    background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
+    background-image: url(https://picstatio.com/large/vua9gg/cute-anime-girl-snowflakes-original.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,10 +472,10 @@ a {
     
     background: transparent;
       border: 2px solid rgba(255, 255, 255, .2);
-      color:#000000;
+      color:#ffffff;
       border-radius: 20px;
       border: rounded;
-      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      box-shadow: 10px 10px 20px #b97474,-10px -10px 20px #fff;
       overflow: hidden;
 }
 .container h1{
@@ -510,14 +510,14 @@ a {
 padding: 0px 10px;
 outline: none;
 color: #fff;
-background: linear-gradient(to right, #fb4283, #ff3527);
+background: linear-gradient(to right, #ff0059, #020202);
 border-radius: 6px;
 cursor: pointer;
 transition: background-color 0.1ms, transform 0.2s;
 }
 
 button:hover {
-background: linear-gradient(to right, #ff3527, #fb4283);
+background: linear-gradient(to right, #ff1100, #070103);
 transform: scale(1.05);
 }
 
