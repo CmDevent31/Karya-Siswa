@@ -8,6 +8,6 @@ use App\Http\Controllers\PrestasiController;
 class PrestasiController extends Controller
 {
     public function index(){
-		return view('Prestasi');
+		return view('/prestasi');
 	}
 }
