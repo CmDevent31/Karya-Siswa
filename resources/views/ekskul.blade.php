@@ -122,7 +122,7 @@
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul';
+        const apiEndpoint = 'http://localhost:8000/api';
       
         fetch(apiEndpoint)
           .then(response => response.json())
