@@ -78,25 +78,25 @@
                      <p>My Profile</p></a>
                 </li>
                 <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+                  <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                     inbox
                     </span>
                   <p>Inbox</p></a>
                 </li>
                 <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+                  <span class="material-icons-outlined"><a href="/Setting" class="text-dark">
                     settings
                     </span>
                   <p>Setting</p></a>
                 </li>
                 <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
                     help
                     </span>
                   <p>Help</p></a>
                 </li>
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/MyProfile" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
