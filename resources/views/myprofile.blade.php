@@ -157,50 +157,71 @@
     </div>
     <!-- Header End -->
 
-
+    <div class="container-xxl py-5" id="Prestasi">
+        <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">My Profile</h6>
         <h1 class="mb-5"id="Studi">Profile</h1>
     </div>
-
-			<div class="card">
-				<div class="card-header">
+    <div class="row g-4 justify-content-center" >
+        <div class="col-lg-3 col-md-6">
+			<div class="card ">
+				<div class="card-header text-center">
 					<b>Avatar</b>
-					<div style="display: flex; gap: 1em">
-						<a href="#" class="txt-red">Remove Avatar</a>
-						<a href="#">Change Avatar</a>
-					</div>
+					
 				</div>
                 <br>
-				<div class="card-body">
+				<div class="card-body text-center">
 					
-					<img src="#" alt="#" height="80" width="80">
-				</div>
+					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
+                    <div  class="text-center">
+						<a href="#" class="txt-red"><br> <br>Remove Avatar</a>
+						<a href="#"><br>Change Avatar</a>
+					</div>
+                
+                </div>
 			</div>
-			<div class="card">
-				<div class="card-header">
-					<b>Profile Settings</b>
-					<a href="#">Edit Profile</a>
-				</div>
-				<div class="card-body">
-					Name: <span class="text-gray"></span>
-					<br>
-					Email: <span class="text-gray"></span>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header">
-					<b>Security & Password</b>
-					<a href="#">Edit Password</a>
-				</div>
-				<div class="card-body">
-					Your Password: <span class="text-gray">******</span>
-					<br>
-					Last Changed: <span class="text-gray">22-08-2020</span>
-				</div>
-			</div>
+        </div>
+			
+        <div class="col-lg-3 col-md-6">
+            <div class="card  ">
+                <div class="card-header text-center">
+                    <b>Profile Settings</b>
+                </div>
+                <div class="card-body text-center">
+                    Username: <span class="text-gray"></span>
+                    <br>
+                    Email: <span class="text-gray"></span>
+                    <br>Status: <span class="text-gray"></span>
+                    <br>
+                    Bio: <span class="text-gray"></span>
+                    <br>
+                    <br>  <br>
+                    <div class="text-center">
+                        <a href="#">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+                <b>Security & Password</b>
+            </div>
+            <div class="card-body">
+                Your Password: <span class="text-gray">******</span>
+                <br>
+                Last Changed: <span class="text-gray">22-08-2020</span>
+                <br>  <br> <br> <br> <br> <a href="#">Edit Password</a>
 
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
 
+  
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
             <div class="container py-5">
