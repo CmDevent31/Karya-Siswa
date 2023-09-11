@@ -79,12 +79,7 @@
                             </span>
                           <p>Setting</p></a>
                         </li>
-                        <li class="sub-item">
-                          <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                            help
-                            </span>
-                          <p>Help</p></a>
-                        </li>
+                       
                         <li class="sub-item">
                           <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                           <p>Logout</p></a>
@@ -104,26 +99,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                         <a href="/Home" class="nav-item nav-link">Home</a>
-                        <div class="nav-item dropdown text-danger">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                            <div class="dropdown-menu fade-down m-9">
-                                <a href="/Pembelajaran" class="dropdown-item">Studi</a>
-                                <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                                <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                                <a href="/Quotes" class="dropdown-item">Quotes</a>
-                            </div>
-                        </div>
-                        <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                         <a href="/Login" class="nav-item nav-link">Login</a>
-                        <div class="nav-item dropdown text-danger">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                            <div class="dropdown-menu fade-down m-9">
-                                <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                                <a href="/Guru" class="dropdown-item">GuruKami</a>
-                                <a href="/TimKami" class="dropdown-item">TimKami</a>
-                                <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </nav>

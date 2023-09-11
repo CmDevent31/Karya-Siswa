@@ -79,12 +79,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-                <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                    help
-                    </span>
-                  <p>Help</p></a>
-                </li>
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -147,11 +142,11 @@
     </div>
     <!-- Header End -->
 
-    <div class="container-xxl py-5"class= "text-secondary">
-        <div class="container">
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container mt-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">Galeri</h6>
         <h1 class="mb-5">Galeri Sekolah</h1>
+    </div>
     </div>
     
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">

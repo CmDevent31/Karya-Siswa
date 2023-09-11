@@ -8,7 +8,6 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -20,27 +19,17 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,7 +58,7 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="profile" width="50px" />
+              <img src="img/1743560-200.png" class="avatar" width="50px" />
               <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
@@ -89,7 +78,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-               
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -108,12 +97,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                <a href="/Home" class="nav-item nav-link">Home</a>
+                <a href="/Home" class="nav-item nav-link ">Home</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Studi</a>
-                        <a href="/Ekskul" class="dropdown-item text-white bg-danger active">Ekskul</a>
+                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
@@ -133,16 +122,17 @@
         </div>
     </nav>
     <!-- Navbar End -->
+
     <!-- Header Start -->
-    <div class="container-fluid bg-danger py-5 mb-5 page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Ekskul</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Inbox</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Ekskul</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Notifikasi</li>
                         </ol>
                     </nav>
                 </div>
@@ -152,57 +142,22 @@
     <!-- Header End -->
 
 
-
-    
-{{-- content --}}
-<div class="container mt-5">
-  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-    <h6 class="section-title bg-white text-center text-danger px-3">Ekskul</h6>
-    <h1 class="mb-5">Ekstrakulikuler</h1>
-  </div>
+    <div class="container mt-5">
+        
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Inbox</h6>
+        <h1 class="mb-5">Notifikasi</h1>
+    </div>
 </div>
-<div id="ekskul-container">
-  <!-- Data ekskul akan ditampilkan di sini -->
-</div>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul';
-      
-        if (ekskulContainer) {
-          fetch(apiEndpoint)
-            .then(response => response.json())
-            .then(data => {
-              data.forEach(function (ekskul, index) {
-                const orderClass = index % 2 === 0 ? 'order-md-2' : 'order-md-1';
-                const align = index % 2 === 0 ? 'left' : 'right';
-      
-                const ekskulHtml = `
-                  <hr class="featurette-divider">
-                  <div class="row featurette">
-                    <div class="col-md-7 ${orderClass}">
-                      <h2 align="${align}" id="ekskul-title">${ekskul.title}</h2>
-                      <p align="justify" class="${index % 2 === 0 ? 'lead-left' : ''}" id="ekskul-description">${ekskul.description}</p>
-                    </div>
-                    <div class="col-md-4 ${orderClass}">
-                      <img src="${ekskul.image}" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
-                    </div>
-                  </div>
-                `;
-      
-                ekskulContainer.innerHTML += ekskulHtml;
-              });
-            })
-            .catch(error => {
-              console.error(error);
-            });
-        }
-      });
-</script>
-<hr class="featurette-divider">
-    
+    <div class="container">
+
+        
+    </div>
 
 
-<!-- Footer Start -->
+
+
+    <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
             <div class="row g-5 justify-content-center">
@@ -256,22 +211,18 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Back to Top -->
     <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   <!-- JavaScript Libraries -->
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="lib/wow/wow.min.js"></script>
+   <script src="lib/easing/easing.min.js"></script>
+   <script src="lib/waypoints/waypoints.min.js"></script>
+   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src ="js/bootstrap.bundle.min.js" ></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+   <!-- Template Javascript -->
+   <script src="js/main.js"></script>
+</body>
 
-  </body>
 </html>
