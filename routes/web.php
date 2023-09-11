@@ -5,6 +5,7 @@ use App\Http\Controllers\DkvController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TjktController;
+use App\Http\Controllers\InboxController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
@@ -64,6 +65,7 @@ Route::get('/Animasi', [AnimasiController ::class, 'index']);
 Route::get('/Keahlian', [KeahlianController ::class, 'index']);
 Route::get('/Normatif', [NormatifController ::class, 'index']);
 Route::get('/MyProfile', [MyProfileController ::class, 'index']);
+Route::get('/Inbox', [InboxController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

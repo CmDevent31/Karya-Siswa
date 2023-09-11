@@ -78,12 +78,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-                <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                    help
-                    </span>
-                  <p>Help</p></a>
-                </li>
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -146,10 +141,12 @@
         </div>
     </div>
     <!-- Header End -->
+    <div class="container mt-5">
 
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">FaqsHelp</h6>
         <h1 class="mb-5">Pengajuan</h1>
+    </div>
     </div>
     <section>
         <div class="faq">

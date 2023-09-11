@@ -41,8 +41,6 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel ="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -89,12 +87,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-                <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                    help
-                    </span>
-                  <p>Help</p></a>
-                </li>
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -140,10 +133,12 @@
     <!-- Navbar End -->
 
     <br><br>
+    <div class="container mt-5">
 
       <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">Filter</h6>
         <h1 class="mb-5">Kategori</h1>
+    </div>
     </div>
     <div class="row g-4 justify-content-center" >
         <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -251,7 +246,7 @@
                             <div class="card-body bg-light">
                             <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                 <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
+                                    <div class="carousel-inner ">
                                       <div class="carousel-item active" data-bs-interval="1000">
                                         <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="d-block w-auto " alt="..." >
                                       </div>

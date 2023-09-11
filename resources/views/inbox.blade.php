@@ -58,7 +58,7 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="profile" width="50px" />
+              <img src="img/1743560-200.png" class="avatar" width="50px" />
               <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
@@ -78,7 +78,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-               
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -97,7 +97,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                <a href="/Home" class="nav-item nav-link">Home</a>
+                <a href="/Home" class="nav-item nav-link ">Home</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
@@ -115,7 +115,7 @@
                         <a href="/TentangKami" class="dropdown-item">TentangKami</a>
                         <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item text-white bg-danger active">PageNotFound</a>
+                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
             </div>
@@ -124,15 +124,15 @@
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <div class="container-fluid bg-danger py-5 mb-5 page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">PageNotFound</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Inbox</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">PageNotFound</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Notifikasi</li>
                         </ol>
                     </nav>
                 </div>
@@ -142,22 +142,21 @@
     <!-- Header End -->
 
 
-    <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <i class="bi bi-exclamation-triangle display-1 text-danger"></i>
-                    <h1 class="display-1">404</h1>
-                    <h1 class="mb-4">Page Not Found</h1>
-                    <p class="mb-4">Were sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                    <a class="btn my-button align-self-start-lg-square py-3 px-5" href="/Home">Go Back To Home</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- 404 End -->
+    <div class="container mt-5">
         
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Inbox</h6>
+        <h1 class="mb-5">Notifikasi</h1>
+    </div>
+</div>
+    <div class="container">
+
+        
+    </div>
+
+
+
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
@@ -214,19 +213,16 @@
 
     <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
+   <!-- JavaScript Libraries -->
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="lib/wow/wow.min.js"></script>
+   <script src="lib/easing/easing.min.js"></script>
+   <script src="lib/waypoints/waypoints.min.js"></script>
+   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+   <!-- Template Javascript -->
+   <script src="js/main.js"></script>
 </body>
 
 </html>
-    
