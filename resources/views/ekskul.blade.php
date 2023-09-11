@@ -171,8 +171,7 @@
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul2';
-        const ekskulContainer = document.querySelector('ekskul-container');
+        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul';
       
         if (ekskulContainer) {
           fetch(apiEndpoint)
