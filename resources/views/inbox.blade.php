@@ -151,10 +151,73 @@
 </div>
     <div class="container">
 
-        
+        <section>
+            <div class="faq">
+                <h3 class="text-center">Question 1</h3>
+                <p class="text-center">Answer to question 1...</p>
+            </div>
+           
+    
+            <div id="question-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    
+                    <h2 class="text-center">Your </h2>
+                    <label class="text-center"for="text-input">Masukkan Pengajuan</label>
+        <input type="text" id="text-input" name="letter" maxlength="100000"><br>
+                    <button id="submit-question" style="border-radius: 30px 30px 30px 30px;">Submit</button>
+                </div>
+            </div>
+
+            <!-- Add more FAQs here -->
+        </section>
     </div>
-
-
+    
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const textInput = document.getElementById("text-input");
+            
+                textInput.addEventListener("input", (event) => {
+                    const enteredLetter = event.target.value;
+                    console.log("Entered letter:", enteredLetter);
+                });
+            });
+            
+            document.addEventListener("DOMContentLoaded", () => {
+                const questionButton = document.getElementById("question-button");
+                const modal = document.getElementById("question-modal");
+                const closeButton = document.getElementsByClassName("close")[0];
+            
+                questionButton.addEventListener("click", () => {
+                    modal.style.display = "block";
+                });
+            
+                closeButton.addEventListener("click", () => {
+                    modal.style.display = "none";
+                });
+            
+                window.addEventListener("click", (event) => {
+                    if (event.target === modal) {
+                        modal.style.display = "none";
+                    }
+                });
+            });
+                </script>
+<style>
+    section {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            
+            .faq {
+                margin-bottom: 1rem;
+                border: 1px solid #ccc;
+                padding: 1rem;
+                background-color: #f9f9f9;
+            }
+</style>
 
 
     <!-- Footer Start -->
