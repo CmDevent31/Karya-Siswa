@@ -11,6 +11,7 @@ use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\AnimasiController;
+use App\Http\Controllers\SettingController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
 use App\Http\Controllers\KeahlianController;
@@ -66,6 +67,7 @@ Route::get('/Keahlian', [KeahlianController ::class, 'index']);
 Route::get('/Normatif', [NormatifController ::class, 'index']);
 Route::get('/MyProfile', [MyProfileController ::class, 'index']);
 Route::get('/Inbox', [InboxController ::class, 'index']);
+Route::get('/Setting', [SettingController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
