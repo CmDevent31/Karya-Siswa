@@ -8,6 +8,6 @@ use App\Http\Controllers\HomeController;
 class HomeController extends Controller
 {
     public function index(){
-		return view('Home');
+		return view('home');
 	}
 }
