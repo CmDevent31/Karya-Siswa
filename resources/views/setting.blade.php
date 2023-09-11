@@ -128,11 +128,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Inbox</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Settings</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Notifikasi</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Setting</li>
                         </ol>
                     </nav>
                 </div>
@@ -142,92 +142,27 @@
     <!-- Header End -->
 
 
-    <div class="container mt-5">
-        
+<div class="container mt-5">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Inbox</h6>
-        <h1 class="mb-5">Notifikasi</h1>
+        <h6 class="section-title bg-white text-center text-danger px-3">Settings</h6>
+        <h1 class="mb-5">Setting</h1>
     </div>
 </div>
     
 
-<div class="container">
-
-        <section>
-            <div class="faq">
-                <h3 class="text-center">Your Notification</h3>
-                <p class="text-center">Tidak ada notifikasi</p>
-            </div>
-            <div class="faq">
-                <h3 class="text-center">Your Notification</h3>
-                <p class="text-center">Tidak ada notifikasi</p>
-            </div>
-            <div class="faq">
-                <h3 class="text-center">Your Notification</h3>
-                <p class="text-center">Tidak ada notifikasi</p>
-            </div>
-           
-    
-            <div id="question-modal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    
-                    <h2 class="text-center">Your </h2>
-                    <label class="text-center"for="text-input">Masukkan Pengajuan</label>
-        <input type="text" id="text-input" name="letter" maxlength="100000"><br>
-                    <button id="submit-question" style="border-radius: 30px 30px 30px 30px;">Submit</button>
+<div class="row g-4 justify-content-center">
+     <div class="col-lg-3 col-md-6">
+        <div class="card "> 
+            <div class="card-body">
+                <div class="card-text">
+                     <div class="text-center"><a href="/MyProfile" >Change Avatar</a></div>
+                     <div class="text-center"><a href="/MyProfile" >Setting Profile</a></div>
+                     <div class="text-center"><a href="/MyProfile" >Setting Password</a></div>
                 </div>
             </div>
-
-            <!-- Add more FAQs here -->
-        </section>
+        </div>
     </div>
-    
-    
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                const textInput = document.getElementById("text-input");
-            
-                textInput.addEventListener("input", (event) => {
-                    const enteredLetter = event.target.value;
-                    console.log("Entered letter:", enteredLetter);
-                });
-            });
-            
-            document.addEventListener("DOMContentLoaded", () => {
-                const questionButton = document.getElementById("question-button");
-                const modal = document.getElementById("question-modal");
-                const closeButton = document.getElementsByClassName("close")[0];
-            
-                questionButton.addEventListener("click", () => {
-                    modal.style.display = "block";
-                });
-            
-                closeButton.addEventListener("click", () => {
-                    modal.style.display = "none";
-                });
-            
-                window.addEventListener("click", (event) => {
-                    if (event.target === modal) {
-                        modal.style.display = "none";
-                    }
-                });
-            });
-                </script>
-<style>
-    section {
-                max-width: 800px;
-                margin: 2rem auto;
-                padding: 0 1rem;
-            }
-            
-            .faq {
-                margin-bottom: 1rem;
-                border: 1px solid #ccc;
-                padding: 1rem;
-                background-color: #f9f9f9;
-            }
-</style>
+</div>
 
 
     <!-- Footer Start -->

@@ -77,20 +77,20 @@
                   <p>My Profile</p></a>
              </li>
              <li class="sub-item">
-               <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+               <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                  inbox
                  </span>
                <p>Inbox</p></a>
              </li>
              <li class="sub-item">
-               <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+               <span class="material-icons-outlined"><a href="/Setting" class="text-dark">
                  settings
                  </span>
                <p>Setting</p></a>
              </li>
             
              <li class="sub-item">
-               <span class="material-icons-outlined"><a href="/MyProfile" class="text-dark"> logout </span>
+               <span class="material-icons-outlined"><a href="/Logout" class="text-dark"> logout </span>
                <p>Logout</p></a>
              </li>
            </ul>
@@ -170,8 +170,7 @@
 					
 					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
                     <div  class="text-center">
-						<a href="#" class="txt-red"><br> <br>Remove Avatar</a>
-						<a href="#"><br>Change Avatar</a>
+						<a href="#"><br><br><br>Setting Avatar</a>
 					</div>
                 
                 </div>
