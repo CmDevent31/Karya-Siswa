@@ -15,6 +15,7 @@ use App\Http\Controllers\FAQSHelpController;
 use App\Http\Controllers\KeahlianController;
 use App\Http\Controllers\NormatifController;
 use App\Http\Controllers\PrestasiController;
+use App\Http\Controllers\MyProfileController;
 use App\Http\Controllers\PrestasiAController;
 use App\Http\Controllers\TestimoniController;
 use App\Http\Controllers\KaryaSiswaController;
@@ -62,6 +63,7 @@ Route::get('/Dkv', [DkvController ::class, 'index']);
 Route::get('/Animasi', [AnimasiController ::class, 'index']);
 Route::get('/Keahlian', [KeahlianController ::class, 'index']);
 Route::get('/Normatif', [NormatifController ::class, 'index']);
+Route::get('/MyProfile', [MyProfileController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

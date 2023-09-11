@@ -2,85 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>KaryaSiswa</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <meta charset="utf-8">
+  <title>KaryaSiswa</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
-    
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel ="stylesheet" href="style.css">
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
 
+  <!-- Spinner Start -->
+ <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
 
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-      <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-          <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
-      </a>
-      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-              <a href="/Home" class="nav-item nav-link">Home</a>
-              <div class="nav-item dropdown text-danger">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                  <div class="dropdown-menu fade-down m-9">
-                      <a href="/Pembelajaran" class="dropdown-item">Studi</a>
-                      <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                      <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                      <a href="/Quotes" class="dropdown-item">Quotes</a>
-                  </div>
-              </div>
-              <a href="/Prestasi" class="nav-item nav-link active">Prestasi</a>
-              <a href="/Login" class="nav-item nav-link">Login</a>
-              <div class="nav-item dropdown text-danger">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                  <div class="dropdown-menu fade-down m-9">
-                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                      <a href="/Guru" class="dropdown-item">GuruKami</a>
-                      <a href="/TimKami" class="dropdown-item">TimKami</a>
-                      <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </nav>
-  <!-- Navbar End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
+           <div class=" align-items-center px-4 px-lg-5">
+              <ul>
+                <li>
+              <img src="img/1743560-200.png" class="profile" width="50px" />
+              <ul>
+                <li class="sub-item">
+                  <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+                    account_circle
+                    </span>
+                     <p>My Profile</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
+                    inbox
+                    </span>
+                  <p>Inbox</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Setting" class="text-dark">
+                    settings
+                    </span>
+                  <p>Setting</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
+                    help
+                    </span>
+                  <p>Help</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <p>Logout</p></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+           </div> 
+          <a class=" align-items-left px-4 px-lg-2">
+            <h2 class="m-0 text-danger">KaryaSiswa</h2>
+
+        </a>
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
+                <a href="/Home" class="nav-item nav-link">Home</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Pembelajaran" class="dropdown-item">Studi</a>
+                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
+                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                        <a href="/Quotes" class="dropdown-item">Quotes</a>
+                    </div>
+                </div>
+                <a href="/Prestasi" class="nav-item nav-link active">Prestasi</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                        <a href="/Guru" class="dropdown-item">GuruKami</a>
+                        <a href="/TimKami" class="dropdown-item">TimKami</a>
+                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
     <!-- Header Start -->
     <div class="container-fluid bg-dark py-5 mb-5 page-header">
@@ -117,7 +175,7 @@
                                   <img src="img/kate.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                  <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  <img src="img/tedo4.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
                                 </div>
                               </div>
                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -158,10 +216,17 @@
                     <div class="card text-center" style="border-radius: 0 0 0 0;">
                       <div class="card-body bg-light">
                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                        <div class="col-md-4 order-md-1">
-                          <img class="mySlides" src="img/kate.jpeg" style="width:100%">
-                          <img class="mySlides" src="img/campuran1.jpeg" style="width:100%">
-                        </div>
+                        <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                              <img src="img/kate.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                              <img src="img/campuran1.jpeg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          
+                      </div>
 
                           <div class="col-md-8 order-md-2">
                                 <div class="d-flex border-bottom"> 
@@ -254,12 +319,23 @@
                                       <div class="card text-center" style="border-radius: 0 0 0 0;">
                                         <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                          <div class="col-md-4 order-md-1">
-                                            <img class="mySlides" src="img/tedo1.jpeg" style="width:100%">
-                                            <img class="mySlides" src="img/tedo2.jpeg" style="width:100%">
-                                            <img class="mySlides" src="img/tedo3.jpeg" style="width:100%">
-                                            <img class="mySlides" src="img/tedo4.jpeg" style="width:100%">
-                                          </div>
+                                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active" data-bs-interval="4000">
+                                                <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item" data-bs-interval="4000">
+                                                <img src="img/tedo2.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item" data-bs-interval="4000">
+                                                <img src="img/tedo3.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item" data-bs-interval="4000">
+                                                <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                            </div>
+                                            
+                                        </div>
                   
                                             <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
@@ -359,11 +435,17 @@
                                       <div class="card text-center" style="border-radius: 0 0 0 0;">
                                         <div class="card-body bg-light">
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
-                                          <div class="col-md-4 order-md-1">
-                                            <img class="mySlides" src="img/tedo1.jpeg" style="width:100%">
-                                            <img class="mySlides" src="img/tedo2.jpeg" style="width:100%">
-                                          </div>
-                  
+                                          <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active" data-bs-interval="4000">
+                                                <img src="img/kate1.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                              <div class="carousel-item" data-bs-interval="4000">
+                                                <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                              </div>
+                                            </div>
+                                            
+                                        </div>
                                             <div class="col-md-8 order-md-2">
                                                   <div class="d-flex border-bottom"> 
                                                     <h1 class="flex-fill text-center py-2 " ><p align = "center">Selamat Kepada Ananda</p></h1>
@@ -458,10 +540,10 @@
                                         <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                             <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                                 <div class="carousel-inner">
-                                                  <div class="carousel-item active" data-bs-interval="1000">
+                                                  <div class="carousel-item active" data-bs-interval="4000">
                                                     <img src="img/basket.jpeg" class="d-block w-100" alt="...">
                                                   </div>
-                                                  <div class="carousel-item" data-bs-interval="1200">
+                                                  <div class="carousel-item" data-bs-interval="4000">
                                                     <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
                                                   </div>
                                                 </div>
@@ -555,10 +637,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/silat.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -653,10 +735,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/speech.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -754,13 +836,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="mamak" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/silat1.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/silat2.jpg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -860,13 +942,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/baris.jpg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/baris1.jpg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -972,19 +1054,19 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/basket1.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/basket2.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/basket3.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/basket4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1129,25 +1211,25 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/pbb.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/pbb1.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/pbb2.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/pbb3.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/pbb4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/pbb5.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1259,19 +1341,19 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/kate2.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/kate3.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/kate4.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/kate5.jpeg" class="d-block w-100" alt="...">
                                                 </div>
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1371,10 +1453,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/muka.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1484,19 +1566,19 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/toiec.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/toiec1.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/toiec2.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/toiec3.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1605,19 +1687,19 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/tedo5.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/tedo6.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/tedo7.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/tedo8.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1724,16 +1806,16 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/igrec.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/igrec1.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/igrec2.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1835,10 +1917,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/minton.jpeg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -1944,13 +2026,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/ton.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/ton1.jpg" class="d-block w-100" alt="...">
                                                 </div>  
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi.jpg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -2050,10 +2132,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/lil.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item" data-bs-interval="1200">
+                                                <div class="carousel-item" data-bs-interval="4000">
                                                   <img src="img/mosi1.jpeg" class="d-block w-100" alt="...">
                                                 </div>
                                               </div>
@@ -2149,7 +2231,7 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/ryz.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2255,10 +2337,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/nr.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/nr1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2359,7 +2441,7 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/ml.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2464,7 +2546,7 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/video.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2549,7 +2631,7 @@
 
                             </h5>
                             <small><br><br><b>Hi sobat prima!
-                                Kabar gembira dateng..... 
+                                Kabar gembira...  
                                 
                                  </b></br>
                                  
@@ -2575,13 +2657,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/upi.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/upi1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/upi2.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2695,13 +2777,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/tedo9.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/tedo10.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/tedo11.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2800,7 +2882,7 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/tedo12.jpeg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -2910,13 +2992,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/web.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web2.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3023,10 +3105,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/uno.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/uno1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3136,13 +3218,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/web3.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web4.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web5.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3251,10 +3333,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/sma.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/sma1.jpg" class="d-block w-100" alt="...">
                                                 </div>     
                                               </div>
@@ -3350,7 +3432,7 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/speech1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3436,7 +3518,7 @@
 
 
                             </h5>
-                            <small><br><br><b>Selamat kepada ananda Humam..... 
+                            <small><br><br><b>Selamat kepada ananda....
                                 
                                   </b></br>
                                  
@@ -3461,13 +3543,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/web6.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web7.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3579,13 +3661,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/astra.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/astra1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3674,7 +3756,7 @@
                             <h5 class="mb-0">𝐉𝐮𝐚𝐫𝐚 𝐍𝐚𝐬𝐢𝐨𝐧𝐚𝐥 𝐝𝐢 𝐌𝐚𝐬𝐚 𝐏𝐚𝐧𝐝𝐞𝐦𝐢
 
                             </h5>
-                            <small><br><br><br><b>Selamat kepada ananda Muhammad..... 
+                            <small><br><br><br><b>Selamat kepada ananda...
                                 
                                   </b></br>
                                  
@@ -3699,13 +3781,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/petra.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/petra1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3818,13 +3900,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/ml1.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/ml2.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -3930,10 +4012,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/vokal.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -4037,10 +4119,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/kosan.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -4144,10 +4226,10 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/lukis.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -4155,7 +4237,7 @@
                                           </div>
                                           <div class="col-md-8 order-md-2">
                                                 <div class="d-flex border-bottom"> 
-                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝗝𝘂𝗮𝗿𝗮 𝘀𝘂𝗱𝗮𝗵 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝘀𝗲𝗸𝗼𝗹𝗮𝗵 𝗶𝗻𝗶./p></h1>
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝗝𝘂𝗮𝗿𝗮 𝘀𝘂𝗱𝗮𝗵 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝘀𝗲𝗸𝗼𝗹𝗮𝗵 𝗶𝗻𝗶.</p></h1>
                                                 </div>
                                                 <p class="card-text"><br><br><b>Selamat kepada Rizky Pratama Putra siswa SMK Telkom Bandung dari kelas X MM 3, Juara 2 Lomba Lukis FLS2N tingkat Wilayah. Terima kasih telah memberikan prestasi untuk SMK Telkom Bandung, Kami bangga!
 
@@ -4254,13 +4336,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/web9.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web10.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -4268,7 +4350,7 @@
                                           </div>
                                           <div class="col-md-8 order-md-2">
                                                 <div class="d-flex border-bottom"> 
-                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝗝𝘂𝗮𝗿𝗮 𝗡𝗮𝘀𝗶𝗼𝗻𝗮𝗹 𝗟𝗮𝗴𝗶 𝗱𝗼𝗻𝗴, 𝗺𝗲𝗺𝗮𝗻𝗴 𝘀𝘂𝗱𝗮𝗵 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴./p></h1>
+                                                  <h1 class="flex-fill text-center py-2 " ><p align = "center">𝗝𝘂𝗮𝗿𝗮 𝗡𝗮𝘀𝗶𝗼𝗻𝗮𝗹 𝗟𝗮𝗴𝗶 𝗱𝗼𝗻𝗴, 𝗺𝗲𝗺𝗮𝗻𝗴 𝘀𝘂𝗱𝗮𝗵 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴.</p></h1>
                                                 </div>
                                                 <p class="card-text"><br><br><b>Selamat kepada Zidan M. Daffa yang telah Juara 1 Tingkat Nasional dalam kompetisi design Website yang di selenggarakan HIMASI Universitas Jambi. Terima kasih telah berprestasi dan kami bangga!
 
@@ -4310,7 +4392,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel38" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carousel38" class="carousel slide" data-bs-ride="carousel" >
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="10000">
                                     <img src="img/speech2.jpg" class="d-block w-100" alt="...">
@@ -4342,7 +4424,7 @@
 
 
                             </h5>
-                            <small><br><b>Selamat ! Aura Febrina Liando..... 
+                            <small><br><b>Selamat ! Aura Febrina Liando......... 
                                 
                                   </b></br>
                                  
@@ -4367,13 +4449,13 @@
                                       <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
                                           <div id="carousel7" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                               <div class="carousel-inner">
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item active" data-bs-interval="4000">
                                                   <img src="img/speech2.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/speech3.jpg" class="d-block w-100" alt="...">
                                                 </div>   
-                                                <div class="carousel-item active" data-bs-interval="1000">
+                                                <div class="carousel-item " data-bs-interval="4000">
                                                   <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                                 </div>   
                                               </div>
@@ -4424,41 +4506,80 @@
         </div>
     </div>
     
-    <script>
-      var myIndex = 0;
-      carousel();
-      
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 3000); // Change image every 2 seconds
-      }
-      </script>
+
     <!-- Team End -->
 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
+      <div class="container py-5">
+          <div class="row g-5 justify-content-center">
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Quick Link</h4>
+                  <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
+                  <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
+                  <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Contact</h4>
+                  <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                  <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
+                  <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
+                  <div class="d-flex pt-2">
+                      <a class="text-danger btn btn-outline-light btn-social" href="https://www.instagram.com/ghinanms/"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <h4 class="text-white mb-3">Maps</h4>
+                  <div class="row g-2 pt-2">
+                      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                          <iframe class="position-relative rounded w-200 h-200"
+                              src="https://maps.google.com/maps?q=smk%20telkom%20bandung&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near"
+                              frameborder="2" style="min-height: 200px; border:200px;" allowfullscreen="" aria-hidden="false"
+                              tabindex="0"></iframe>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+      <div class="container">
+          <div class="copyright">
+              <div class="row">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                      &copy; <a class="border-bottom" href="#">KaryaSiswa</a>, All Right Reserved.
 
-      
+                      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                      Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <div class="footer-menu">
+                          <a href="/Home">Home</a>
+                          <a href="/FaqsHelp">FQAs</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
 
-     <!-- JavaScript Libraries -->
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-     <script src="lib/wow/wow.min.js"></script>
-     <script src="lib/easing/easing.min.js"></script>
-     <script src="lib/waypoints/waypoints.min.js"></script>
-     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
- 
-     <!-- Template Javascript -->
-     <script src="js/main.js"></script>
-     <script src ="js/bootstrap.bundle.min.js" ></script>
-     <script src="js/swiper-bundle.min.js"></script>
-     <script src="js/script.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

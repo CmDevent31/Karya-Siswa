@@ -29,29 +29,80 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
 
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-       <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
-           <span class="sr-only">Loading...</span>
-       </div>
-   </div>
-   <!-- Spinner End -->
+  <!-- Spinner Start -->
+ <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-        <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
+           <div class=" align-items-center px-4 px-lg-5">
+              <ul>
+                <li>
+              <img src="img/1743560-200.png" class="profile" width="50px" />
+              <ul>
+                <li class="sub-item">
+                  <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
+                    account_circle
+                    </span>
+                     <p>My Profile</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
+                    inbox
+                    </span>
+                  <p>Inbox</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Setting" class="text-dark">
+                    settings
+                    </span>
+                  <p>Setting</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
+                    help
+                    </span>
+                  <p>Help</p></a>
+                </li>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <p>Logout</p></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+           </div> 
+          <a class=" align-items-left px-4 px-lg-2">
+            <h2 class="m-0 text-danger">KaryaSiswa</h2>
+
         </a>
+
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                <a href="/Home" class="nav-item nav-link">Home</a>
+                <a href="/Home" class="nav-item nav-link ">Home</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
