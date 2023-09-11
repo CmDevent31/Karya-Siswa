@@ -79,12 +79,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-                <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                    help
-                    </span>
-                  <p>Help</p></a>
-                </li>
+                
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>

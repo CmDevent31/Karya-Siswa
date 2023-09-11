@@ -89,12 +89,7 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-                <li class="sub-item">
-                  <span class="material-icons-outlined"><a href="/Help" class="text-dark">
-                    help
-                    </span>
-                  <p>Help</p></a>
-                </li>
+  
                 <li class="sub-item">
                   <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
                   <p>Logout</p></a>
@@ -162,8 +157,8 @@
 
     
 {{-- content --}}
-<div class="container-xxl py-5" >
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+<div class="container mt-5">
+  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
     <h6 class="section-title bg-white text-center text-danger px-3">Jurusan</h6>
     <h1 class="mb-5">Animasi</h1>
   </div>
