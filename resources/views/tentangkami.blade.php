@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,33 +75,14 @@
             </li>
           </ul>
            </div> 
-          <a class=" align-items-left px-4 px-lg-2">
+           <a class=" align-items-left px-4 px-lg-2">
             <h2 class="m-0 text-danger">KaryaSiswa</h2>
-
+   
         </a>
-
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                <a href="/Home" class="nav-item nav-link ">Home</a>
-                <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/Pembelajaran" class="dropdown-item">Studi</a>
-                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Quotes" class="dropdown-item">Quotes</a>
-                    </div>
-=======
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
-    <a class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
-    </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+   
+           <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+               <span class="navbar-toggler-icon"></span>
+           </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0"> 
             <a href="/Home" class="nav-item nav-link">Home</a>
@@ -149,49 +129,47 @@
     </div>
     <!-- Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5" >
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
-                    </div>
+   <!-- About Start -->
+   <div class="container-xxl py-5" id="TentangKami">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
-                    <h1 class="mb-4">Welcome to KaryaSiswa</h1>
-                    <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
             </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
+                <h1 class="mb-4">Welcome to KaryaSiswa</h1>
+                <p class="mb-4" align="justify">KaryaSiswa adalah website yang digunakan untuk menunjukkan bakat bakat para siswa yang ingin menampilkan skill apa saja yang mereka punya....</p>
+                <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
         </div>
     </div>
-    </div>
-    <div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-        <div class="modal-wrapper">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row justify-content-center modal-detail">
-                                <div class="col-lg-7 col-md-10">
-                                    <img src="img/about us.jpg" class="img-fluid rounded-xl" alt="">
+</div>
+<div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center modal-detail">
+                            <div class="col-lg-7 col-md-10">
+                                <img src="img/about us.jpg" class="img-fluid rounded-xl" alt="">
+                            </div>
+                            <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                                <h1>TentangKami</h1>
+                                <span class="text-muted">About Us</span>
+                                <div class="d-flex  my-4">
+                                    <p class="fw-bold me-4">Humam</p>
+                                    <a href="https://instagram.com">
+                                        <img src="asset/img/icon/ig.svg" class="sosmed-icon mx-1" alt="">
+                                    </a>
                                 </div>
-                                <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                    <h1>TentangKami</h1>
-                                    <span class="text-muted">About Us</span>
-                                    <div class="d-flex  my-4">
-                                        <p class="fw-bold me-4">Humam</p>
-                                        <a href="https://instagram.com">
-                                            <img src="asset/img/icon/ig.svg" class="sosmed-icon mx-1" alt="">
-                                        </a>
-                                    </div>
-                                    <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                                </div>
+                                <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
                             </div>
                         </div>
                     </div>
@@ -199,7 +177,9 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+   </div>
+<!-- About End -->
     
 
         <!-- Footer Start -->
@@ -240,9 +220,6 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">KaryaSiswa</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
