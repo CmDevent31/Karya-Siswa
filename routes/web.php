@@ -27,6 +27,7 @@ use App\Http\Controllers\PageNotFoundController;
 use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\GaleriSekolahController;
 use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\SettingAvatarController;
 use App\Http\Controllers\TermsConditionController;
 
 /*
@@ -68,6 +69,7 @@ Route::get('/Normatif', [NormatifController ::class, 'index']);
 Route::get('/MyProfile', [MyProfileController ::class, 'index']);
 Route::get('/Inbox', [InboxController ::class, 'index']);
 Route::get('/Setting', [SettingController ::class, 'index']);
+Route::get('/SettingAvatar', [SettingAvatarController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

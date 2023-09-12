@@ -139,11 +139,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Setting Avatar</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">My Profile</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Avatar</li>
                         </ol>
                     </nav>
                 </div>
@@ -155,27 +155,11 @@
     <div class="container-xxl py-5" id="Prestasi">
         <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">My Profile</h6>
-        <h1 class="mb-5"id="Studi">Profile</h1>
+        <h6 class="section-title bg-white text-center text-danger px-3">Avatar</h6>
+        <h1 class="mb-5"id="Studi">Setting Avatar</h1>
     </div>
     <div class="row g-4 justify-content-center" >
-        <div class="col-lg-3 col-md-6">
-			<div class="card ">
-				<div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
-                    <div  class="text-center">
-						<a href="SettingAvatar"><br><br><br>Setting Avatar</a>
-					</div>
-                
-                </div>
-			</div>
-        </div>
+        
 			
         <div class="col-lg-3 col-md-6">
             <div class="card  ">
@@ -197,20 +181,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="card text-center">
-            <div class="card-header">
-                <b>Security & Password</b>
-            </div>
-            <div class="card-body">
-                Your Password: <span class="text-gray">******</span>
-                <br>
-                Last Changed: <span class="text-gray">22-08-2020</span>
-                <br>  <br> <br> <br> <br> <a href="#">Edit Password</a>
-
-            </div>
-        </div>
-        </div>
+        
     </div>
 </div>
 </div>
