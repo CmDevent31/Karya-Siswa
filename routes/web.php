@@ -22,7 +22,9 @@ use App\Http\Controllers\PrestasiAController;
 use App\Http\Controllers\TestimoniController;
 use App\Http\Controllers\KaryaSiswaController;
 use App\Http\Controllers\RegistrasiController;
+use App\Http\Controllers\EditProfileController;
 use App\Http\Controllers\TentangKamiController;
+use App\Http\Controllers\EditPasswordController;
 use App\Http\Controllers\PageNotFoundController;
 use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\GaleriSekolahController;
@@ -70,6 +72,8 @@ Route::get('/MyProfile', [MyProfileController ::class, 'index']);
 Route::get('/Inbox', [InboxController ::class, 'index']);
 Route::get('/Setting', [SettingController ::class, 'index']);
 Route::get('/SettingAvatar', [SettingAvatarController ::class, 'index']);
+Route::get('/EditProfile', [EditProfileController ::class, 'index']);
+Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

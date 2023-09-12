@@ -139,12 +139,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Setting Avatar</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Edit Password</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="/MyProfile">MyProfile</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Avatar</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Reset Password</li>
                         </ol>
                     </nav>
                 </div>
@@ -153,35 +153,34 @@
     </div>
     <!-- Header End -->
 
-    <div class="container-xxl py-5" id="Prestasi">
+    <div class="container-xxl py-5" >
         <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Avatar</h6>
-        <h1 class="mb-5"id="Studi">Edit Avatar</h1>
+        <h6 class="section-title bg-white text-center text-danger px-3">Password</h6>
+        <h1 class="mb-5">Reset Password</h1>
     </div>
     <div class="row g-4 justify-content-center" >
         
 			
-        <div class="col-lg-3 col-md-6">
-            <div class="card  ">
+        <div class="col-lg-6">
+            <div class="card">
                 <div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
-                    <div  class="text-center">
-						<a href="#"><br><br><br>Change Avatar</a>
-                        <div>
-                            <label for="gambar"><br>Pilih Gambar Untuk Profile:</label>
-                            <input type="file" id="gambar" name="gambar" accept="image/*" required>
-                            </div>
-						<a href="#"><br>Remove Avatar</a>
-					</div>
-                
+                    <b>Password</b>
                 </div>
+                <form action="#" class="form">
+
+                <div class="card-body text-center">
+                    <div class="input-box">
+                        <label for="psw">Password</label>
+                        <input type="password" placeholder="Enter password" name="psw"required />
+                    </div>
+                    <br>
+                    <br>  <br>
+                    <button>Submit</button>
+
+                </div>
+
+            </form>
             </div>
         </div>
         
@@ -234,7 +233,7 @@
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="/Home">Home</a>
-                                <a href="/FaqsHelp">FQAs</a>
+                                <a href="/FaqsHelp">FAQs</a>
                             </div>
                         </div>
                     </div>

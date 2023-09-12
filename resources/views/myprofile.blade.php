@@ -170,7 +170,7 @@
 					
 					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
                     <div  class="text-center">
-						<a href="SettingAvatar"><br><br><br>Setting Avatar</a>
+						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
 					</div>
                 
                 </div>
@@ -192,7 +192,7 @@
                     <br>
                     <br>  <br>
                     <div class="text-center">
-                        <a href="#">Edit Profile</a>
+                        <a href="/EditProfile">Edit Profile</a>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
                 Your Password: <span class="text-gray">******</span>
                 <br>
                 Last Changed: <span class="text-gray">22-08-2020</span>
-                <br>  <br> <br> <br> <br> <a href="#">Edit Password</a>
+                <br>  <br> <br> <br> <br> <a href="/EditPassword">Edit Password</a>
 
             </div>
         </div>
