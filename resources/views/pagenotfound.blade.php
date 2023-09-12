@@ -202,7 +202,7 @@
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="/Home">Home</a>
-                            <a href="/FaqsHelp">FQAs</a>
+                            <a href="/FaqsHelp">FAQs</a>
                         </div>
                     </div>
                 </div>

@@ -156,8 +156,8 @@
             <div class="card-body">
                 <div class="card-text">
                      <div class="text-center"><a href="/SettingAvatar" >Setting Avatar</a></div>
-                     <div class="text-center"><a href="/MyProfile" >Setting Profile</a></div>
-                     <div class="text-center"><a href="/MyProfile" >Setting Password</a></div>
+                     <div class="text-center"><a href="/EditProfile" >Edit Profile</a></div>
+                     <div class="text-center"><a href="/EditPassword" >Edit Password</a></div>
                 </div>
             </div>
         </div>
