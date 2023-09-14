@@ -116,8 +116,7 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
-                <a href="/Prestasi" class="nav-item nav-link">Prustasi</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
+                <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
