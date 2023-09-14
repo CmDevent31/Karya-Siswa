@@ -29,6 +29,15 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -96,7 +105,6 @@
                 </div>
             </div>
             <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
-            <a href="/Login" class="nav-item nav-link">Login</a>
             <div class="nav-item dropdown text-danger">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                 <div class="dropdown-menu fade-down m-9">

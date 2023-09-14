@@ -118,7 +118,6 @@
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
@@ -173,9 +172,8 @@
 					
 					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
                     <div  class="text-center">
-						<a href="#"><br><br><br>Change Avatar</a>
                         <div>
-                            <label for="gambar"><br>Pilih Gambar Untuk Profile:</label>
+                            <label for="gambar"><br><br>Change Avatar :</label>
                             <input type="file" id="gambar" name="gambar" accept="image/*" required>
                             </div>
 						<a href="#"><br>Remove Avatar</a>

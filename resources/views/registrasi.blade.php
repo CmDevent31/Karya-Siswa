@@ -57,48 +57,18 @@
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
                    <div class=" align-items-center px-4 px-lg-5">
-                      <ul>
-                        <li>
-                      <img src="img/1743560-200.png" class="profile" width="50px" />
-                      <ul>
-                        <li class="sub-item">
-                          <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
-                            account_circle
-                            </span>
-                             <p>My Profile</p></a>
-                        </li>
-                        <li class="sub-item">
-                          <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
-                            inbox
-                            </span>
-                          <p>Inbox</p></a>
-                        </li>
-                        <li class="sub-item">
-                          <span class="material-icons-outlined"><a href="/Setting" class="text-dark">
-                            settings
-                            </span>
-                          <p>Setting</p></a>
-                        </li>
-                       
-                        <li class="sub-item">
-                          <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
-                          <p>Logout</p></a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                    <a  >
+                      <h2 class="m-0 text-danger">KaryaSiswa</h2>
+          
+                  </a>
                    </div> 
-                  <a class=" align-items-left px-4 px-lg-2">
-                    <h2 class="m-0 text-danger">KaryaSiswa</h2>
-        
-                </a>
+                  
         
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0"> 
-                        <a href="/Home" class="nav-item nav-link">Home</a>
                         <a href="/Login" class="nav-item nav-link">Login</a>
                     </div>
                 </div>
@@ -148,10 +118,7 @@
                             <input type="radio" id="check-female" name="gender" />
                             <label for="check-female">Female</label>
                           </div>
-                          <div class="gender">
-                            <input type="radio" id="check-other" name="gender" />
-                            <label for="check-other">Trans</label>
-                          </div>
+
                           
                         </div>
                       </div>
