@@ -15,9 +15,8 @@ return [
     |
     */
 
-    'paths' => ['*'],
-
-    'allowed_methods' => ['*'],
+    'paths' => ['api/*'],
+'allowed_origins' => ['https://backend-karya-siswa-2659a9a81981.herokuapp.com'],
 
     'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000')],
 

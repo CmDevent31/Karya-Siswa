@@ -78,6 +78,12 @@
                      <p>My Profile</p></a>
                 </li>
                 <li class="sub-item">
+                  <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
+                    manage_accounts 
+                  </span>
+                     <p>Edit Profile</p></a>
+                </li>
+                <li class="sub-item">
                   <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                     inbox
                     </span>
@@ -163,40 +169,54 @@
 <div id="ekskul-container">
   <!-- Data ekskul akan ditampilkan di sini -->
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const apiEndpoint = 'https://backend-karya-siswa-2659a9a81981.herokuapp.com/api/listekskul';
-      
-        if (ekskulContainer) {
-          fetch(apiEndpoint)
-            .then(response => response.json())
-            .then(data => {
-              data.forEach(function (ekskul, index) {
-                const orderClass = index % 2 === 0 ? 'order-md-2' : 'order-md-1';
-                const align = index % 2 === 0 ? 'left' : 'right';
-      
-                const ekskulHtml = `
-                  <hr class="featurette-divider">
-                  <div class="row featurette">
-                    <div class="col-md-7 ${orderClass}">
-                      <h2 align="${align}" id="ekskul-title">${ekskul.title}</h2>
-                      <p align="justify" class="${index % 2 === 0 ? 'lead-left' : ''}" id="ekskul-description">${ekskul.description}</p>
+
+
+<?php
+
+// URL API yang akan diakses
+$apiUrl = 'https://backend-karya-siswa-2659a9a81981.herokuapp.com/api/listekskul2';
+
+// Inisialisasi Guzzle Client
+$client = new GuzzleHttp\Client();
+
+try {
+    // Kirim permintaan GET ke API
+    $response = $client->get($apiUrl);
+
+    // Periksa kode status HTTP
+    if ($response->getStatusCode() == 200) {
+        // Dapatkan data JSON dari respons
+        $data = json_decode($response->getBody(), true);
+
+        // Loop melalui data dan tampilkan di halaman HTML
+        foreach ($data as $index => $ekskul) {
+            $orderClass = $index % 2 === 0 ? 'order-md-2' : 'order-md-1';
+            $align = $index % 2 === 0 ? 'left' : 'right';
+
+            echo '
+                <hr class="featurette-divider">
+                <div class="row featurette">
+                    <div class="col-md-7  ' . $orderClass . '">
+                        <h2 align="' . $align . '" id="ekskul-title">' . $ekskul['title'] . '</h2>
+                        <p align="justify" class="' . ($index % 2 === 0 ? 'lead-left' : '') . '" id="ekskul-description">' . $ekskul['description'] . '</p>
                     </div>
-                    <div class="col-md-4 ${orderClass}">
-                      <img src="${ekskul.image}" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
+                    <div class="col-md-4 ' . $orderClass . '">
+                        <img src="' . $ekskul['image'] . '" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
                     </div>
-                  </div>
-                `;
-      
-                ekskulContainer.innerHTML += ekskulHtml;
-              });
-            })
-            .catch(error => {
-              console.error(error);
-            });
-        }
-      });
-</script>
+                </div>
+            ';
+        }
+    } else {
+        echo 'Gagal mengambil data dari API.';
+    }
+} catch (GuzzleHttp\Exception\RequestException $e) {
+    echo 'Error: ' . $e->getMessage();
+}
+?>
+
+
+
+
 <hr class="featurette-divider">
     
 

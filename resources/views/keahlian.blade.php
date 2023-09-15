@@ -70,6 +70,12 @@
                      <p>My Profile</p></a>
                 </li>
                 <li class="sub-item">
+                    <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
+                      manage_accounts 
+                    </span>
+                       <p>Edit Profile</p></a>
+                  </li>
+                <li class="sub-item">
                   <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                     inbox
                     </span>

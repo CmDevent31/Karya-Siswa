@@ -30,6 +30,7 @@ use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\GaleriSekolahController;
 use App\Http\Controllers\PrivacyPolicyController;
 use App\Http\Controllers\SettingAvatarController;
+use App\Http\Controllers\SettingProfileController;
 use App\Http\Controllers\TermsConditionController;
 
 /*
@@ -74,6 +75,7 @@ Route::get('/Setting', [SettingController ::class, 'index']);
 Route::get('/SettingAvatar', [SettingAvatarController ::class, 'index']);
 Route::get('/EditProfile', [EditProfileController ::class, 'index']);
 Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
+Route::get('/SettingProfile', [SettingProfileController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

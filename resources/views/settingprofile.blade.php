@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     
     <!-- CSS -->
-    <link rel="stylesheet" href="css/myprofile.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -148,7 +148,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">My Profile</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Edit Profile</li>
                         </ol>
                     </nav>
                 </div>
@@ -159,97 +159,68 @@
 
     
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">My Profile</h6>
-        <h1 class="mb-5"id="Studi">Profile</h1>
+        <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
+        <h1 class="mb-5"id="Studi">Edit Profile</h1>
     </div>
     
     <div class="container-xxl py-5" id="Prestasi">
         <div class="container">
 <div class="row g-4 justify-content-center" >
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-3 col-md-6">
+			<div class="card ">
+				<div class="card-header text-center">
+					<b>Avatar</b>
+					
+				</div>
+                <br>
+				<div class="card-body text-center">
+					
+					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
+                    <div  class="text-center">
+						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
+					</div>
+                
+                </div>
+			</div>
+        </div>
+			
+        <div class="col-lg-3 col-md-6">
+            <div class="card  ">
+                <div class="card-header text-center">
+                    <b>Profile Settings</b>
+                </div>
+                <div class="card-body text-center">
+                    Username: <span class="text-gray"></span>
+                    <br>
+                    Email: <span class="text-gray"></span>
+                    <br>Status: <span class="text-gray"></span>
+                    <br>
+                    Bio: <span class="text-gray"></span>
+                    <br>
+                    <br>  <br>
+                    <div class="text-center">
+                        <a href="/EditProfile">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card text-center">
+            <div class="card-header">
+                <b>Security & Password</b>
+            </div>
+            <div class="card-body">
+                Your Password: <span class="text-gray">******</span>
+                <br>
+                Last Changed: <span class="text-gray">22-08-2020</span>
+                <br>  <br> <br> <br> <br> <a href="/EditPassword">Edit Password</a>
 
-    <div class="card" data-state="#about">
-        <div class="card-header">
-          <div class="card-cover" style="background-image: url('https://cdn-icons-png.flaticon.com/512/6596/6596121.png')"></div>
-          <img class="card-avatar" src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="avatar" />
-          <h1 class="card-fullname">USER</h1>
-          <h2 class="card-jobtitle">Unknown</h2>
+            </div>
         </div>
-        <div class="card-main">
-          <div class="card-section is-active" id="about">
-            <div class="card-content">
-              <div class="card-subtitle">BIO</div>
-              <p class="card-desc">Kukira kertas, Ternyata Keras
-              </p>
-            </div>
-            <div class="card-social">
-              <a href="#"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" /></svg></a>
-              
-              <a href="#"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0" />
-                  <path d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0" />
-                  <path d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0" /></svg></a>
-              
-            </div>
-          </div>
-          <div class="card-section" id="experience">
-            <div class="card-content">
-              <div class="card-subtitle">WORK EXPERIENCE</div>
-              <div class="card-timeline">
-                <div class="card-item" data-year="2014">
-                  <div class="card-item-title">Front-end Developer at <span>JotForm</span></div>
-                  <div class="card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
-                </div>
-                <div class="card-item" data-year="2016">
-                  <div class="card-item-title">UI Developer at <span>GitHub</span></div>
-                  <div class="card-item-desc">Developed new conversion funnels and disrupt.</div>
-                </div>
-                <div class="card-item" data-year="2018">
-                  <div class="card-item-title">Illustrator at <span>Google</span></div>
-                  <div class="card-item-desc">Onboarding illustrations for App.</div>
-                </div>
-                <div class="card-item" data-year="2020">
-                  <div class="card-item-title">Full-Stack Developer at <span>CodePen</span></div>
-                  <div class="card-item-desc">Responsible for the encomposing brand expreience.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-section" id="contact">
-            <div class="card-content">
-              <div class="card-subtitle">CONTACT</div>
-              <div class="card-contact-wrapper">
-                <div class="card-contact">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                    <circle cx="12" cy="10" r="3" /></svg>
-                    -
-                </div>
-                <div class="card-contact">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" /></svg>-</div>
-                <div class="card-contact">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                    <path d="M22 6l-10 7L2 6" /></svg>
-                    -
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-buttons">
-            <button data-section="#about" class="is-active">ABOUT</button>
-            <button data-section="#experience">EXPERIENCE</button>
-            <button data-section="#contact">CONTACT</button>
-          </div>
         </div>
-      </div>
-
-        </div>
-</div>
-</div>
     </div>
+</div>
+</div>
 
   
         <!-- Footer Start -->
