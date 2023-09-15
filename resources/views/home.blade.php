@@ -247,11 +247,9 @@
                                 <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
                                     <div class="carousel-inner ">
                                       <div class="carousel-item active" data-bs-interval="1000">
-                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="d-block w-auto " alt="..." >
+                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="w-auto h-auto" alt="..." >
                                       </div>
-                                      <div class="carousel-item" data-bs-interval="1200">
-                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="d-block w-auto" alt="..." >
-                                      </div>
+
                                     </div>
                                     
                                 </div>

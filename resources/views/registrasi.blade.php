@@ -101,7 +101,10 @@
                               <input type="text" placeholder="Contoh :'Guru Prodi TJKT / Siswa XI TJKT 3'" name="status" rows="4" cols="4" required />
                             </div>
                       <div class="column">
-                        
+                        <div class="input-box">
+                          <label>Phone Number</label>
+                          <input type="number" placeholder="Enter phone number" required />
+                        </div>
                         <div class="input-box">
                           <label>Birth Date</label>
                           <input type="date" placeholder="Enter birth date" required />
@@ -112,11 +115,11 @@
                         <div class="gender-option">
                           <div class="gender">
                             <input type="radio" id="check-male" name="gender" checked />
-                            <label for="check-male">Male</label>
+                            <label for="check-male">Pria</label>
                           </div>
                           <div class="gender">
                             <input type="radio" id="check-female" name="gender" />
-                            <label for="check-female">Female</label>
+                            <label for="check-female">Wanita</label>
                           </div>
 
                           
