@@ -77,6 +77,12 @@
                   <p>My Profile</p></a>
              </li>
              <li class="sub-item">
+                <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
+                  manage_accounts 
+                </span>
+                   <p>Edit Profile</p></a>
+              </li>
+             <li class="sub-item">
                <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                  inbox
                  </span>
@@ -138,12 +144,12 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Edit Profile</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="/MyProfile">MyProfile</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Edit Profile</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="/SettingProfile">Edit Profile</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Setting Profile</li>
                         </ol>
                     </nav>
                 </div>
@@ -156,7 +162,7 @@
         <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
         <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
-        <h1 class="mb-5">Edit Profile</h1>
+        <h1 class="mb-5">Setting Profile</h1>
     </div>
     <div class="row g-4 justify-content-center" >
         

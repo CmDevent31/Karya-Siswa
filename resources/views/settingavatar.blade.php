@@ -77,6 +77,12 @@
                   <p>My Profile</p></a>
              </li>
              <li class="sub-item">
+                <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
+                  manage_accounts 
+                </span>
+                   <p>Edit Profile</p></a>
+              </li>
+             <li class="sub-item">
                <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                  inbox
                  </span>
@@ -142,7 +148,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="/MyProfile">MyProfile</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="/SettingProfile">Edit Profile</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Avatar</li>
                         </ol>
                     </nav>
