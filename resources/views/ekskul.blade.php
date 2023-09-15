@@ -165,7 +165,7 @@
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const apiEndpoint = 'http://192.168.1.10:8000/api/listekskul';
+        const apiEndpoint = 'https://backend-karya-siswa-2659a9a81981.herokuapp.com/api/listekskul';
       
         if (ekskulContainer) {
           fetch(apiEndpoint)
