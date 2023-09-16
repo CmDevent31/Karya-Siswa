@@ -768,7 +768,7 @@
                         <div class="container">
                             <div class="row justify-content-center modal-detail">
                                 <div class="col-lg-7 col-md-10">
-                                    <img src="img/about us.jpg" class="img-fluid rounded-xl" alt="">
+                                    <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" alt="">
                                 </div>
                                 <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
                                     <h1>TentangKami</h1>
