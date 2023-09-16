@@ -168,24 +168,12 @@
         
 			
         <div class="col-lg-3 col-md-6">
-            <div class="card  ">
-                <div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
-                    <div  class="text-center">
-                        <div>
-                            <label for="gambar"><br><br>Change Avatar :</label>
-                            <input type="file" id="gambar" name="gambar" accept="image/*" required>
-                            </div>
-						<a href="#"><br>Remove Avatar</a>
-					</div>
-                
+            <div class="card" data-state="#about">
+                <div class="card-header">
+                  <div class="card-cover" style="background-image: url('img/9.Ghinan Muhammad Sholih.jpg')"></div>
+                  <img class="card-avatar" src="img/9.Ghinan Muhammad Sholih.jpg" alt="avatar" />
                 </div>
+            </div>
             </div>
         </div>
         
