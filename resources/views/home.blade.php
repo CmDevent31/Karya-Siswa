@@ -67,8 +67,8 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="profile" width="50px" />
-              <ul>
+                    <img class="avatar" src="img/user.png" alt="avatar" />
+				                 <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                     account_circle
@@ -767,7 +767,7 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="row justify-content-center modal-detail">
-                                <div class="col-lg-7 col-md-10">
+                                <div class="col-lg-7 col-md-10 ">
                                     <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" alt="">
                                 </div>
                                 <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">

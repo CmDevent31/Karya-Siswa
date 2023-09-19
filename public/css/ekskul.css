@@ -258,3 +258,17 @@ h2.featurette-heading-left{
   padding-right: 0;
   border-right: 1px solid rgba(239, 0, 0, 0.1);
 }
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+    
+  
+}

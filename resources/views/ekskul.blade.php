@@ -69,7 +69,7 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="profile" width="50px" />
+                    <img class="avatar" src="img/user.png" alt="avatar" />
               <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
@@ -190,20 +190,24 @@ try {
 
         // Loop melalui data dan tampilkan di halaman HTML
         foreach ($data as $index => $ekskul) {
-            $orderClass = $index % 2 === 0 ? 'order-md-2' : 'order-md-1';
+            $orderClass = $index % 2 === 0 ? 'order-lg-2' : 'order-lg-1';
             $align = $index % 2 === 0 ? 'left' : 'right';
 
             echo '
+            <div class="container-xxl py-5" >
+            <div class= "container">
+                <div class="row g-5">
                 <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7  ' . $orderClass . '">
+                    <div class="col-lg-7  ' . $orderClass . '">
                         <h2 align="' . $align . '" id="ekskul-title">' . $ekskul['title'] . '</h2>
-                        <p align="justify" class="' . ($index % 2 === 0 ? 'lead-left' : '') . '" id="ekskul-description">' . $ekskul['description'] . '</p>
+                        <p align="justify" ' . ($index % 2 === 0 ? 'left' : '') . '" id="ekskul-description">' . $ekskul['description'] . '</p>
                     </div>
-                    <div class="col-md-4 ' . $orderClass . '">
+                    <div class="col-lg-5  ' . $orderClass . '">
                         <img src="' . $ekskul['image'] . '" style="border-radius: 30px 30px 30px 30px;" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Ekskul Image">
                     </div>
                 </div>
+            </div>
+            </div>
             ';
         }
     } else {

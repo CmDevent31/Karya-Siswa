@@ -68,8 +68,8 @@
         <div class=" align-items-center px-4 px-lg-5">
            <ul>
              <li>
-           <img src="img/1743560-200.png" class="profile" width="50px" />
-           <ul>
+              <img class="avatar" src="img/user.png" alt="avatar" />
+              <ul>
              <li class="sub-item">
                <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                  account_circle
@@ -170,8 +170,8 @@
 
     <div class="card" data-state="#about">
         <div class="card-header">
-          <div class="card-cover" style="background-image: url('img/9.Ghinan Muhammad Sholih.jpg')"></div>
-          <img class="card-avatar" src="img/9.Ghinan Muhammad Sholih.jpg" alt="avatar" />
+          <div class="card-cover" style="background-image: url('img/user.png')"></div>
+          <img class="card-avatar" src="img/user.png" alt="avatar" />
           <h1 class="card-fullname">USER</h1>
           <h2 class="card-jobtitle">Kelas</h2>
         </div>

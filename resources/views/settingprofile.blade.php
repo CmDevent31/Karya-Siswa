@@ -68,8 +68,8 @@
         <div class=" align-items-center px-4 px-lg-5">
            <ul>
              <li>
-           <img src="img/1743560-200.png" class="profile" width="50px" />
-           <ul>
+                <img class="avatar" src="img/user.png" alt="avatar" />
+                <ul>
              <li class="sub-item">
                <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                  account_circle
@@ -175,7 +175,7 @@
                 <br>
 				<div class="card-body text-center">
 					
-					<img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="#" height="80" width="80" class="avatar ">
+                    <img class="avatar" src="img/user.png" alt="avatar" />
                     <div  class="text-center">
 						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
 					</div>
