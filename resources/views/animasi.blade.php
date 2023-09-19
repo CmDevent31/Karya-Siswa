@@ -69,8 +69,8 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="profile" width="50px" />
-              <ul>
+                  <img class="avatar" src="img/user.png" alt="avatar" />
+                  <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                     account_circle
@@ -290,7 +290,7 @@ Lingkup pembelajaran meliputi jenis-jenis perangkat lunak komputer grafis berbas
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuk</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">

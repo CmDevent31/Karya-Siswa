@@ -59,7 +59,7 @@
            <div class=" align-items-center px-4 px-lg-5">
               <ul>
                 <li>
-              <img src="img/1743560-200.png" class="avatar" width="50px" />
+                    <img class="avatar" src="img/user.png" alt="avatar" />
               <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
