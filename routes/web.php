@@ -11,6 +11,7 @@ use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\AnimasiController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
@@ -76,6 +77,7 @@ Route::get('/SettingAvatar', [SettingAvatarController ::class, 'index']);
 Route::get('/EditProfile', [EditProfileController ::class, 'index']);
 Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
 Route::get('/SettingProfile', [SettingProfileController ::class, 'index']);
+Route::get('/Product', [ProductController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

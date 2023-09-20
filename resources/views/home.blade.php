@@ -122,6 +122,14 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Input</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Product" class="dropdown-item">Produk</a>
+                        <a href="/Article" class="dropdown-item">Artikel</a>
+                        <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
+                    </div>
+                </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
@@ -144,7 +152,6 @@
         <h6 class="section-title bg-white text-center text-danger px-3">Filter</h6>
         <h1 class="mb-5">Kategori</h1>
     </div>
-    </div>
     <div class="row g-4 justify-content-center" >
         <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div class="text-center position-relative overflow-hidden">  
@@ -158,10 +165,11 @@
 
         </div>
     </div>
+  </div>
 
 <br><br>
     
-
+<br><br>
     <div class="container swiper"id="Produk">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
@@ -338,8 +346,6 @@
                               </div>
                           </div>
                           
-                      </div>
-                      <div class="modal-footer">
                       </div>
                       <div class="modal-footer">
                       </div>
@@ -774,12 +780,9 @@
                                     <h1>TentangKami</h1>
                                     <span class="text-muted">About Us</span>
                                     <div class="d-flex  my-4">
-                                        <p class="fw-bold me-4">Humam</p>
-                                        <a href="https://instagram.com">
-                                            <img src="asset/img/icon/ig.svg" class="sosmed-icon mx-1" alt="">
-                                        </a>
+
                                     </div>
-                                    <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                                    <p align="Justify">Ini adalah kami pada saat........ </p>
                                 </div>
                             </div>
                         </div>
