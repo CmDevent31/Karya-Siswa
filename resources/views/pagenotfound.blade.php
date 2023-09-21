@@ -123,6 +123,8 @@
                         <a href="/PageNotFound" class="dropdown-item text-white bg-danger active">PageNotFound</a>
                     </div>
                 </div>
+                <a href="/Input" class="nav-item nav-link">+</a>
+
             </div>
         </div>
     </nav>

@@ -125,6 +125,7 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
+
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
@@ -135,6 +136,8 @@
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
+                <a href="/Input" class="nav-item nav-link">+</a>
+
             </div>
         </div>
     </nav>

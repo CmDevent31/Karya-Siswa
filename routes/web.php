@@ -6,11 +6,13 @@ use App\Http\Controllers\GuruController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TjktController;
 use App\Http\Controllers\InboxController;
+use App\Http\Controllers\InputController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\AnimasiController;
+use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\TimKamiController;
@@ -78,6 +80,7 @@ Route::get('/EditProfile', [EditProfileController ::class, 'index']);
 Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
 Route::get('/SettingProfile', [SettingProfileController ::class, 'index']);
 Route::get('/Product', [ProductController ::class, 'index']);
+Route::get('/Input', [InputController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
