@@ -123,6 +123,7 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
+                
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
@@ -146,12 +147,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Masukan</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="/SettingProfile">Edit Profile</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Setting Profile</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Input</li>
                         </ol>
                     </nav>
                 </div>
@@ -163,51 +163,22 @@
     <div class="container-xxl py-5" >
         <div class="container">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
-        <h1 class="mb-5">Setting Profile</h1>
+        <h6 class="section-title bg-white text-center text-danger px-3">Masukan</h6>
+        <h1 class="mb-5">Input </h1>
     </div>
-    <div class="row g-4 justify-content-center" >
-        
-			
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-header text-center">
-                    <b>Profile Settings</b>
-                </div>
-                <form action="#" class="form">
+   
 
-                <div class="card-body text-center">
-                    <div class="input-box">
-                        <label for="uname">Username</label>
-                        <input type="text" placeholder="Enter Username" name="uname" required />
-                      </div>
-                    <br>
-                    <div class="input-box">
-                        <label for="email">Email Address</label>
-                        <input type="email" placeholder="Enter email address"name="email" required />
-                      </div>
+      <div class="row g-4 justify-content-center" >
+          <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="text-center position-relative overflow-hidden">  
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Produk</a>                
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Artikel</a> 
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#KaryaSiswa</a>                
+                         
+          </div>
+          </div>
+      </div>
 
-                    <br>
-                    <div class="input-box">
-                        <label for="status">Status</label>
-                        <input type="text" placeholder="Contoh :'Guru Prodi TJKT / Siswa XI TJKT 3'" name="status" rows="4" cols="4" required />
-                      </div>
-                    <br>
-                    <div class="input-box">
-                        <label for="deskripsi">Bio</label><br>
-                        <input id="deskripsi" name="deskripsi" rows="4" cols="50" required>
-                        </div>
-                    <br>
-                    <br>  <br>
-                    <button>Submit</button>
-
-                </div>
-
-            </form>
-            </div>
-        </div>
-        
-    </div>
 </div>
 </div>
 

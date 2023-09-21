@@ -123,14 +123,6 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
-                <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Input</a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/Product" class="dropdown-item">Produk</a>
-                        <a href="/Article" class="dropdown-item">Artikel</a>
-                        <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
-                    </div>
-                </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
@@ -141,6 +133,7 @@
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
+                <a href="/Input" class="nav-item nav-link">+</a>
             </div>
         </div>
     </nav>
