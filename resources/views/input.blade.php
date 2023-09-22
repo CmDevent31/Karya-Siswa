@@ -134,7 +134,7 @@
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
-                <a href="/Input" class="nav-item nav-link">+</a>
+                <a href="/Input" class="nav-item nav-link active">+</a>
 
             </div>
         </div>
@@ -171,9 +171,9 @@
       <div class="row g-4 justify-content-center" >
           <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="text-center position-relative overflow-hidden">  
-            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Produk</a>                
-            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Artikel</a> 
-            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#KaryaSiswa</a>                
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal1"  style="border-radius: 30px 30px 30px 30px;">Artikel</a>                
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal2"  style="border-radius: 30px 30px 30px 30px;">Produk</a>                
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal3"  style="border-radius: 30px 30px 30px 30px;">Karya Siswa</a>                
                          
           </div>
           </div>
@@ -181,6 +181,129 @@
 
 </div>
 </div>
+<div class="modal fade show" id="modal1" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                        <div class="col-lg-6">
+                        <section class="container-i">
+                        <h1 align="center">Input Article</h1>
+                        <form action="#" class="form">
+                          <div class="input-box">
+                            <label for="text">Title</label>
+                            <input type="text" placeholder="Enter Title"name="text" required />
+                          </div>
+                            <div class="input-box">
+                                <label for="text">Description</label>
+                                <input type="text" placeholder="Enter Description" name="text"required />
+                            </div>
+                            <div class="input-box">
+                                <label for="file">image</label>
+                                <input type="file" placeholder="" name="file"required />
+                            </div>
+                          
+                          
+                          <button>Submit</button>
+                        </form>
+                        </section>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade show" id="modal2" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+        <div class="modal-wrapper">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                          <div class="row justify-content-center modal-detail">
+                            <div class="col-lg-6">
+                            <section class="container-i">
+                            <h1 align="center">Input Product</h1>
+                            <form action="#" class="form">
+                              <div class="input-box">
+                                <label for="text">Title</label>
+                                <input type="text" placeholder="Enter Title"name="text" required />
+                              </div>
+                                <div class="input-box">
+                                    <label for="text">Description</label>
+                                    <input type="text" placeholder="Enter Description" name="text"required />
+                                </div>
+                                <div class="input-box">
+                                    <label for="file">image</label>
+                                    <input type="file" placeholder="" name="file"required />
+                                </div>
+                              
+                              
+                              <button>Submit</button>
+                            </form>
+                        </section>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade show" id="modal3" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+            <div class="modal-wrapper">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                              <div class="row justify-content-center modal-detail">
+                                <div class="col-lg-6">
+                                <section class="container-i">
+                                <h1 align="center">Input Karya Siswa</h1>
+                                <form action="#" class="form">
+                                  <div class="input-box">
+                                    <label for="text">Title</label>
+                                    <input type="text" placeholder="Enter Title"name="text" required />
+                                  </div>
+                                    <div class="input-box">
+                                        <label for="text">Description</label>
+                                        <input type="text" placeholder="Enter Description" name="text"required />
+                                    </div>
+                                    <div class="input-box">
+                                        <label for="file">image</label>
+                                        <input type="file" placeholder="" name="file"required />
+                                    </div>
+                                  
+                                  
+                                  <button>Submit</button>
+                                </form>
+                                </section>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 
   
         <!-- Footer Start -->

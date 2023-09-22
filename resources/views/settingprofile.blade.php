@@ -34,11 +34,11 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/settingprofile.css" />
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="settingprofile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -141,88 +141,90 @@
     <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Edit Profile</li>
-                        </ol>
-                    </nav>
-                </div>
+    <br>
+        <div class="container ">
+            <div class="row g-5 justify-content-center">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
+                <h1 class="mb-5">Edit Profile </h1>
             </div>
-        </div>
-    </div>
-    <!-- Header End -->
+                <div class="col-lg-6">
+                <div class="card" data-state="#about">
+                  <div class="card-header">
+                    <div class="card-cover" style="background-image: url('img/user.png')"></div>
+                    <img class="card-avatar" src="img/user.png" alt="avatar" />
+                    <h1 class="card-fullname">EDIT</h1>
+                </div>
+                  <div class="card-main">
+                    <div class="card-section is-active" id="about">
+                      <div class="card-content">
+                        <form action="#" class="form">
+                            <div class="input-box">
+                                <label for="uname">Username</label>
+                                <input type="text" placeholder="Edit Username" name="uname" required />
+                              </div>
+                              <div class="input-box">
+                                <label for="email">Email Address</label>
+                                <input type="email" placeholder="Edit Email Address"name="email" required />
+                              </div>
+                                <div class="input-box">
+                                    <label for="psw">Password</label>
+                                    <input type="password" placeholder="Edit Password" name="psw"required />
+                                </div>
+                                <div class="input-box">
+                                  <label for="status">Status</label>
+                                  <input type="text" placeholder="Contoh :'Guru Prodi TJKT / Siswa XI TJKT 3'" name="status" rows="4" cols="4" required />
+                                </div>
+                          <div class="column">
+                            <div class="input-box">
+                              <label>Phone Number</label>
+                              <input type="number" placeholder="Edit Phone Number" required />
+                            </div>
+                            <div class="input-box">
+                              <label>Birth Date</label>
+                              <input type="date" placeholder="Edit Birth Date" required />
+                            </div>
+                          </div>
+                          <div class="gender-box">
+                            <h3>Gender</h3>
+                            <div class="gender-option">
+                              <div class="gender">
+                                <input type="radio" id="check-male" name="gender" checked />
+                                <label for="check-male">Pria</label>
+                              </div>
+                              <div class="gender">
+                                <input type="radio" id="check-female" name="gender" />
+                                <label for="check-female">Wanita</label>
+                              </div>
+    
+                              
+                            </div>
+                          </div>
+                          <div class="input-box">
+                          <label for="deskripsi">Bio</label><br>
+                          <input id="deskripsi" name="deskripsi" rows="4" cols="50" required>
+                          </div>
+                          
+                          <div>
+                          <label for="gambar"><br>Update Profile:</label>
+                          <input type="file" id="gambar" name="gambar" accept="image/*" required>
+                          </div>
 
-    
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
-        <h1 class="mb-5"id="Studi">Edit Profile</h1>
-    </div>
-    
-    <div class="container-xxl py-5" id="Prestasi">
-        <div class="container">
-<div class="row g-4 justify-content-center" >
-        <div class="col-lg-3 col-md-6">
-			<div class="card ">
-				<div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-                    <img class="avatar" src="img/user.png" alt="avatar" />
-                    <div  class="text-center">
-						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
-					</div>
-                
-                </div>
-			</div>
-        </div>
-			
-        <div class="col-lg-3 col-md-6">
-            <div class="card  ">
-                <div class="card-header text-center">
-                    <b>Profile Settings</b>
-                </div>
-                <div class="card-body text-center">
-                    Username: <span class="text-gray"></span>
-                    <br>
-                    Email: <span class="text-gray"></span>
-                    <br>Status: <span class="text-gray"></span>
-                    <br>
-                    Bio: <span class="text-gray"></span>
-                    <br>
-                    <br>  <br>
-                    <div class="text-center">
-                        <a href="/EditProfile">Edit Profile</a>
+                          </form>
+                      </div>
+                      
                     </div>
+                   
+                    <div class="card-buttons">
+                    </div>
+                  </div>
+                </div>
                 </div>
             </div>
+           
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="card text-center">
-            <div class="card-header">
-                <b>Security & Password</b>
-            </div>
-            <div class="card-body">
-                Your Password: <span class="text-gray">******</span>
-                <br>
-                Last Changed: <span class="text-gray">22-08-2020</span>
-                <br>  <br> <br> <br> <br> <a href="/EditPassword">Edit Password</a>
 
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
+
 
   
         <!-- Footer Start -->
