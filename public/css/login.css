@@ -447,7 +447,7 @@ body{
     background-repeat: no-repeat;
 }
 /* Full-width input fields */
-.container {
+  .container {
     position: relative;
     max-width: 700px;
     width: 100%;

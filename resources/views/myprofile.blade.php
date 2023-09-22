@@ -142,11 +142,14 @@
 
 
     <!-- Header Start -->
+    <br>
         <div class="container ">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-dark animated slideInDown">Profile</h1>
-                </div>
+            <div class="row g-5 justify-content-center">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
+                <h1 class="mb-5">My Profile </h1>
+            </div>
+                <div class="col-lg-6">
                 <div class="card" data-state="#about">
                   <div class="card-header">
                     <div class="card-cover" style="background-image: url('img/user.png')"></div>
@@ -168,9 +171,9 @@
                         <div class="card-subtitle"><h5>Personal</h5></div>
                             <br><div class="card-item-title">Password</div>
                             <div class="card-item-desc">-</div>
-                            <div class="card-item-title">Gender</div>
-                            <div class="card-item-desc">-</div>
                             <div class="card-item-title">Birth date</div>
+                            <div class="card-item-desc">-</div>
+                            <div class="card-item-title">Gender</div>
                             <div class="card-item-desc">-</div>
                       </div>
                     </div>
@@ -196,6 +199,7 @@
                       <button data-section="#contact">CONTACT</button>
                     </div>
                   </div>
+                </div>
                 </div>
             </div>
            

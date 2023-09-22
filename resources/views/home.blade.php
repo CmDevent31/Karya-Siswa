@@ -133,7 +133,6 @@
                     </div>
                 </div>
                 <a href="/Input" class="nav-item nav-link">+</a>
-
             </div>
         </div>
     </nav>
@@ -149,7 +148,7 @@
                       <div class="row justify-content-center">
                           <div class="col-sm-10 col-lg-8">
                               <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #1</h1>
-                              <p class="fs-5 text-white mb-4 pb-2" align="center">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">PATRIOT adalah rangkaian kegiatan mula bagi siswa-siswi baru di SMK Telkom Bandung. Setelah purna menjalani Masa Adaptasi dan Pelatihan Peserta Didik Baru #MAHASERU selama 3 hari.</p>
 
                           </div>
                       </div>
@@ -163,7 +162,7 @@
                       <div class="row justify-content-center">
                           <div class="col-sm-10 col-lg-8">
                               <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #2</h1>
-                              <p class="fs-5 text-white mb-4 pb-2" align="center">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">Kegiatan #PATRIOT ini nantinya akan ditutup pula dengan kemah pelatihan selama 3 hari 2 malam dalam agenda #KAMPIUN. Selama 9 bulan, siswa-siswi akan menjalani agenda pekanan yang untuk membangun integritas, kedisiplinan, dan sikap dasar.</p>
 
                           </div>
                       </div>
@@ -177,7 +176,7 @@
                       <div class="row justify-content-center">
                           <div class="col-sm-10 col-lg-8">
                               <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #3</h1>
-                              <p class="fs-5 text-white mb-4 pb-2" align="center">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">Tujuan dilaksanakannya kegiatan #PATRIOT adalah untuk terbentuknya peserta didik SMK Telkom Bandung yang berkarakter tangguh, berintegritas, dan disiplin. Menjadi peserta didik baru yang memiliki bekal khusus dalam mengarungi dahsyatnya bahtera kehidupan SMK selama tiga tahun.</p>
 
                           </div>
                       </div>
@@ -244,7 +243,7 @@
       <h1 class="mb-5"> Artikel</h1>
   </div>
   <div class="slide-container">
-    <div class="card-wrapper swiper-wrapper">
+    <div class="card-wrapper swiper-wrapper" >
       <div class="card swiper-slide">
         <div class="image-box">
           <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" alt="" />
