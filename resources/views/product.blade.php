@@ -123,6 +123,14 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Input</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Product" class="dropdown-item">Produk</a>
+                        <a href="/Article" class="dropdown-item">Artikel</a>
+                        <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
+                    </div>
+                </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
@@ -144,11 +152,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Input Produk</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Edit Profile</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Produk</li>
                         </ol>
                     </nav>
                 </div>
@@ -157,67 +165,49 @@
     </div>
     <!-- Header End -->
 
-    
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
-        <h1 class="mb-5"id="Studi">Edit Profile</h1>
-    </div>
-    
-    <div class="container-xxl py-5" id="Prestasi">
+    <div class="container-xxl py-5" >
         <div class="container">
-<div class="row g-4 justify-content-center" >
-        <div class="col-lg-3 col-md-6">
-			<div class="card ">
-				<div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-                    <img class="avatar" src="img/user.png" alt="avatar" />
-                    <div  class="text-center">
-						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
-					</div>
-                
-                </div>
-			</div>
-        </div>
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Produk</h6>
+        <h1 class="mb-5">Input Produk</h1>
+    </div>
+    <div class="row g-4 justify-content-center" >
+        
 			
-        <div class="col-lg-3 col-md-6">
-            <div class="card  ">
+        <div class="col-lg-6">
+            <div class="card">
                 <div class="card-header text-center">
-                    <b>Profile Settings</b>
+                    <b>Produk</b>
                 </div>
+                <form action="#" class="form">
+
                 <div class="card-body text-center">
-                    Username: <span class="text-gray"></span>
+                    <div class="input-box">
+                        <label for="uname">Title</label>
+                        <input type="text" placeholder="Enter Title" name="uname" required />
+                      </div>
                     <br>
-                    Email: <span class="text-gray"></span>
-                    <br>Status: <span class="text-gray"></span>
+                    <div class="input-box">
+                        <label for="text">Description</label>
+                        <input type="text" placeholder="Enter Description"name="text" required />
+                      </div>
+
                     <br>
-                    Bio: <span class="text-gray"></span>
+                    <div class="input-box">
+                        <label for="image">image</label>
+                        <input type="file" placeholder="Image'" name="image" rows="4" cols="4" required />
+                      </div>
+                    <br>
                     <br>
                     <br>  <br>
-                    <div class="text-center">
-                        <a href="/EditProfile">Edit Profile</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="card text-center">
-            <div class="card-header">
-                <b>Security & Password</b>
-            </div>
-            <div class="card-body">
-                Your Password: <span class="text-gray">******</span>
-                <br>
-                Last Changed: <span class="text-gray">22-08-2020</span>
-                <br>  <br> <br> <br> <br> <a href="/EditPassword">Edit Password</a>
+                    <button>Submit</button>
 
+                </div>
+
+            </form>
             </div>
         </div>
-        </div>
+        
     </div>
 </div>
 </div>
@@ -267,7 +257,7 @@
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="/Home">Home</a>
-                                <a href="/FaqsHelp">FQAs</a>
+                                <a href="/FaqsHelp">FAQs</a>
                             </div>
                         </div>
                     </div>

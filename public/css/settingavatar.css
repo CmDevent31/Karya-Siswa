@@ -788,5 +788,12 @@
     bottom: 10px;
   }
 
-
+  .card-header {
+    position: relative;
+    display: flex;
+    height: 200px;
+    flex-shrink: 0;
+    width: 100%;
+    transition: 0.3s;
+  }
  

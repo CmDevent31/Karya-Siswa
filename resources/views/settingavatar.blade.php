@@ -34,11 +34,11 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/settingavatar.css" />
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="settingavatar.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,8 +68,8 @@
         <div class=" align-items-center px-4 px-lg-5">
            <ul>
              <li>
-           <img src="img/1743560-200.png" class="profile" width="50px" />
-           <ul>
+                <img class="avatar" src="img/user.png" alt="avatar" />
+                <ul>
              <li class="sub-item">
                <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                  account_circle
@@ -164,17 +164,25 @@
         <h6 class="section-title bg-white text-center text-danger px-3">Avatar</h6>
         <h1 class="mb-5"id="Studi">Edit Avatar</h1>
     </div>
-    <div class="row g-4 justify-content-center" >
-        
-			
+
+<div class="row g-4 justify-content-center" >
         <div class="col-lg-3 col-md-6">
-            <div class="card" data-state="#about">
-                <div class="card-header">
-                  <div class="card-cover" style="background-image: url('img/9.Ghinan Muhammad Sholih.jpg')"></div>
-                  <img class="card-avatar" src="img/9.Ghinan Muhammad Sholih.jpg" alt="avatar" />
+			<div class="card">
+				<div class="card-header text-center">
+                    <img class="card-avatar" src="img/user.png" alt="avatar" />
+				</div>
+				<div class="card-body text-center">
+                    <h3>Avatar</h3>
+				</div>
+                <br>
+                <a href="" class="text-center">Remove Avatar</a>
+                <div class="text-center">
+                <label for="gambar"><br>Ganti Avatar</label>
+                <input type="file" id="gambar" name="gambar" class=""    accept="image/*" required>
                 </div>
-            </div>
-            </div>
+                <br>
+              
+			</div>
         </div>
         
     </div>
