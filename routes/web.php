@@ -56,10 +56,8 @@ Route::get('/TentangKami', [TentangKamiController::class, 'index']);
 Route::get('/Pembelajaran', [PembelajaranController::class, 'index']);  
 Route::get('/TimKami', [TimKamiController::class, 'index']);
 Route::get('/Kontak', [KontakController::class, 'index']);
-Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);
 Route::get('/Login', [LoginController ::class, 'index']);
 Route::get('/Registrasi', [RegistrasiController ::class, 'index']);
-Route::get('/Guru', [GuruController ::class, 'index']);
 Route::get('/Prestasi', [PrestasiController ::class, 'index']);
 Route::get('/GaleriSekolah', [GaleriSekolahController ::class, 'index']);
 Route::get('/KaryaSiswa', [KaryaSiswaController ::class, 'index']);
@@ -80,7 +78,7 @@ Route::get('/EditProfile', [EditProfileController ::class, 'index']);
 Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
 Route::get('/SettingProfile', [SettingProfileController ::class, 'index']);
 Route::get('/Product', [ProductController ::class, 'index']);
-Route::get('/Input', [InputController ::class, 'index']);
+Route::get('/Article', [ArticleController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);

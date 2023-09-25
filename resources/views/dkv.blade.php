@@ -97,7 +97,7 @@
                 </li>
                 
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -126,15 +126,20 @@
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                      <a href="/TimKami" class="dropdown-item">TimKami</a>
+                  </div>
+              </div>
+              <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/Article" class="dropdown-item">Artikel</a>
+                    <a href="/Product" class="dropdown-item">Produk</a>
+                    <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
                 </div>
-                <a href="/Input" class="nav-item nav-link">+</a>
+            </div>
 
             </div>
         </div>
