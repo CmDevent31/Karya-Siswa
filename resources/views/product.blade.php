@@ -96,7 +96,7 @@
              </li>
             
              <li class="sub-item">
-               <span class="material-icons-outlined"><a href="/Logout" class="text-dark"> logout </span>
+               <span class="material-icons-outlined"><a href="#" class="text-dark"> logout </span>
                <p>Logout</p></a>
              </li>
            </ul>
@@ -128,12 +128,17 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
-                <a href="/Input" class="nav-item nav-link">+</a>
+                <div class="nav-item dropdown text-danger">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/Article" class="dropdown-item">Artikel</a>
+                      <a href="/Product" class="dropdown-item bg-danger text-white active">Produk</a>
+                      <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
+                  </div>
+              </div>
             </div>
         </div>
     </nav>
@@ -145,7 +150,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Input Produk</h1>
+                    <h1 class="display-3 text-white animated slideInDown">List Produk</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
@@ -158,52 +163,349 @@
     </div>
     <!-- Header End -->
 
-    <div class="container-xxl py-5" >
-        <div class="container">
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Produk</h6>
-        <h1 class="mb-5">Input Produk</h1>
-    </div>
-    <div class="row g-4 justify-content-center" >
-        
-			
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-header text-center">
-                    <b>Produk</b>
+    <div class="container swiper"id="Produk">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
+            <h1 class="mb-5" >Produk</h1>
+        </div>
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://www.bhinneka.com/blog/wp-content/uploads/2021/10/Cumal-Cemil-Paper-Pouch-Packaging-Mockup.jpg" alt="" />
+              </div>
+                <div class="name-job " >
+                 <br> <h3 align="center"  class="name">Produk 1</h3></br>
+                 <div class="text-center position-relative">  
+                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal4"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
                 </div>
-                <form action="#" class="form">
+              </div>
+              <br>
+            </div>
 
-                <div class="card-body text-center">
-                    <div class="input-box">
-                        <label for="uname">Title</label>
-                        <input type="text" placeholder="Enter Title" name="uname" required />
-                      </div>
-                    <br>
-                    <div class="input-box">
-                        <label for="text">Description</label>
-                        <input type="text" placeholder="Enter Description"name="text" required />
-                      </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://www.qiscus.com/id/wp-content/uploads/sites/2/2022/03/Desain-kemasan-produk-740x500.png" alt="" />
+              </div>
+                <div class="name-job " >
+                  <br> <h3 align="center"  class="name">Produk 2</h3></br>
+                  <div class="text-center position-relative">  
+                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal5"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+                 </div>
+               </div>
+               <br>
+             </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://anotherorion.com/wp-content/uploads/2023/02/desain-kemasan-produk-unik-dari-kertas.jpg" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Produk 3</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal6"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSETe_YfQR2iPSobEpHUDZbiC-WgkjAJSO9MQ&usqp=CAU" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Produk 4</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal7"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+            <div class="card swiper-slide">
+              <div class="image-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkb4zUMriDk8PDMiVTDlvSgtzoXt_BOppel_zQVjv8zP6GmwIVRcdBL9a0uKVon7uwsio&usqp=CAU" alt="" />
+              </div>
+              <div class="name-job " >
+                <br> <h3 align="center"  class="name">Produk 5</h3></br>
+                <div class="text-center position-relative">  
+                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal8"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+               </div>
+             </div>
+             <br>
+           </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
 
-                    <br>
-                    <div class="input-box">
-                        <label for="image">image</label>
-                        <input type="file" placeholder="Image'" name="image" rows="4" cols="4" required />
-                      </div>
-                    <br>
-                    <br>
-                    <br>  <br>
-                    <button>Submit</button>
+
+      <div class="modal fade show" id="modal4" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+        <div class="modal-wrapper">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                          <div class="card text-center" style="border-radius: 0 0 0 0;">
+                            <div class="card-body bg-light">
+                            <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner ">
+                                      <div class="carousel-item active" data-bs-interval="1000">
+                                        <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-minuman-botol.jpg?resize=500%2C500&ssl=1" class="w-auto h-auto" alt="..." >
+                                      </div>
+
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-8 order-md-2">
+                                      <div class="d-flex border-bottom"> 
+                                        <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 1</p></h1>
+                                      </div>
+                                      <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                      <br>
+                                      <small><p align="center"><b>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                      
+                                        <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                          <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                    <div class="d-flex  my-4">
+                                    </div>
+                                    </p></small></p>
+                                    
+                                    
+                                    
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                    </div>
 
                 </div>
-
-            </form>
             </div>
         </div>
+        </div>
+
         
-    </div>
-</div>
-</div>
+        <div class="modal fade show" id="modal5" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+          <div class="modal-wrapper">
+              <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="container">
+                            <div class="card text-center" style="border-radius: 0 0 0 0;">
+                              <div class="card-body bg-light">
+                              <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                  <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="1000">
+                                          <img src="https://www.qiscus.com/id/wp-content/uploads/sites/2/2022/03/Desain-kemasan-produk-740x500.png" class="d-block w-200 " alt="..." >
+                                        </div>
+                                        
+                                      </div>
+                                      
+                                  </div>
+                                  <div class="col-md-8 order-md-2">
+                                        <div class="d-flex border-bottom"> 
+                                          <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 2</p></h1>
+                                        </div>
+                                        <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                        <br>
+                                        <small><p align="center"><b>
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                        
+                                          <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                            <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                      <div class="d-flex  my-4">
+                                      </div>
+                                      </p></small></p>
+                                      
+                                      
+                                      
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          
+                      </div>
+                      <div class="modal-footer">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+          <div class="modal fade show" id="modal6" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+            <div class="modal-wrapper">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                              <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                <div class="card-body bg-light">
+                                <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                    <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active" data-bs-interval="1000">
+                                            <img src="https://anotherorion.com/wp-content/uploads/2023/02/desain-kemasan-produk-unik-dari-kertas.jpg" class="d-block w-150 " alt="..." >
+                                          </div>
+                                          
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-md-8 order-md-2">
+                                          <div class="d-flex border-bottom"> 
+                                            <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 3</p></h1>
+                                          </div>
+                                          <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                          <br>
+                                          <small><p align="center"><b>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                          
+                                            <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                              <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                        <div class="d-flex  my-4">
+                                        </div>
+                                        </p></small></p>
+                                        
+                                        
+                                        
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="modal fade show" id="modal7" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+              <div class="modal-wrapper">
+                  <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="container">
+                                <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                  <div class="card-body bg-light">
+                                  <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                      <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                          <div class="carousel-inner">
+                                            <div class="carousel-item active" data-bs-interval="1000">
+                                              <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-ringan-vintage.png?resize=555%2C405&ssl=1" class="d-block w-500 " alt="..." >
+                                            </div>
+                                            
+                                          </div>
+                                          
+                                      </div>
+                                      <div class="col-md-8 order-md-2">
+                                            <div class="d-flex border-bottom"> 
+                                              <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 4</p></h1>
+                                            </div>
+                                            <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                            <br>
+                                            <small><p align="center"><b>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                            
+                                              <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                                <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                          <div class="d-flex  my-4">
+                                          </div>
+                                          </p></small></p>
+                                          
+                                          
+                                          
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="modal-footer">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+
+              <div class="modal fade show" id="modal8" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+                <div class="modal-wrapper">
+                    <div class="modal-dialog modal-fullscreen">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                  <div class="card text-center" style="border-radius: 0 0 0 0;">
+                                    <div class="card-body bg-light">
+                                    <div class="row justify-content-center modal-detail " class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;"> 
+                                        <div id="mamak1" class="col-md-4 order-md-1"  class="carousel-slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active" data-bs-interval="1000">
+                                                <img src="https://i0.wp.com/blog.sribu.com/wp-content/uploads/2023/05/contoh-desain-produk-makanan-kue.jpg?resize=600%2C387&ssl=1" class="d-block w-200 " alt="..." >
+                                              </div>
+                                              
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-8 order-md-2">
+                                              <div class="d-flex border-bottom"> 
+                                                <h1 class="flex-fill text-center py-2 " ><p align = "center">Produk 5</p></h1>
+                                              </div>
+                                              <p class="card-text"><br><b> <p align="center"> For Example </p></b>
+                                              <br>
+                                              <small><p align="center"><b>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor vehicula dictum. Aliquam erat volutpat. Fusce eu ex porta, euismod leo eget, suscipit sem. Aenean at fermentum tellus, et tristique urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi eu egestas sem, ac posuere nunc. Mauris quis mauris facilisis, varius velit vestibulum, posuere est. Phasellus rhoncus felis ullamcorper ante rhoncus tempus. Aliquam nec viverra ante.</b></p>
+                                              
+                                                <p align="center">Nunc mollis lorem ac arcu mollis, tincidunt maximus nulla gravida. Phasellus mattis dolor a rhoncus consequat. Nullam faucibus erat at nulla viverra, et scelerisque odio maximus. Etiam eu ante tristique quam facilisis convallis. Quisque auctor vitae ipsum vel eleifend. Donec augue urna, rutrum non elit at, efficitur iaculis augue. Donec sed sem fermentum, euismod dui vel, mattis nisi.
+                                                  <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                                            <div class="d-flex  my-4">
+                                            </div>
+                                            </p></small></p>
+                                            
+                                            
+                                            
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
 
   
         <!-- Footer Start -->
@@ -218,7 +520,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-3">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                         <div class="d-flex pt-2">

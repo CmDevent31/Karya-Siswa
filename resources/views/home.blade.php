@@ -95,7 +95,7 @@
                 </li>
                 
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -124,15 +124,20 @@
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                      <a href="/TimKami" class="dropdown-item">TimKami</a>
+                  </div>
+              </div>
+              <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/Article" class="dropdown-item">Artikel</a>
+                    <a href="/Product" class="dropdown-item">Produk</a>
+                    <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
                 </div>
-                <a href="/Input" class="nav-item nav-link">+</a>
+            </div>
             </div>
         </div>
     </nav>
@@ -1012,7 +1017,7 @@
                     <div class="text-center p-4">
                         <h5 class="mb-0">Selamat Kepada Ananda</h5>
                     
-                        <b><p><small><ol><li>🏅G.Banu Prasetyo (XI TJKT 1)....</li></li></ol></p></b>
+                        <br><b><p><small>🏅G.Banu Prasetyo (XI TJKT 1)....</p></b></br>
                         <br>  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>                
                           
                              </small>
@@ -1467,7 +1472,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">

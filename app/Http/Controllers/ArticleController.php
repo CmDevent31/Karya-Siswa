@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use App\Http\Controllers\PageNotFoundController;
+use App\Http\Controllers\ArticleController;
 
-class PageNotFoundController extends Controller
+class ArticleController extends Controller
 {
     public function index(){
-		return view('PageNotFound');
+		return view('Article');
 	}
 }
