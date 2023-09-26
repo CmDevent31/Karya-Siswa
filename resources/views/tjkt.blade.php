@@ -122,13 +122,13 @@
                         <a href="/Pembelajaran" class="dropdown-item text-white bg-danger active">Studi</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
 
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+                <a href="/Quotes" class="nav-item nav-link">Quotes</a>
                 <div class="nav-item dropdown text-danger">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <a href="#" class="nav-link dropdown-toggle-2" data-bs-toggle="dropdown">+</a>
                   <div class="dropdown-menu fade-down m-9">
                       <a href="/TentangKami" class="dropdown-item">TentangKami</a>
                       <a href="/TimKami" class="dropdown-item">TimKami</a>
