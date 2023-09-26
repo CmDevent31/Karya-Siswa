@@ -119,10 +119,10 @@
                         <a href="/Pembelajaran" class="dropdown-item">Studi</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+                <a href="/Quotes" class="nav-item nav-link">Quotes</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="nav-item dropdown text-danger">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                  <a href="#" class="nav-link dropdown-toggle-2" data-bs-toggle="dropdown">+</a>
                   <div class="dropdown-menu fade-down m-9">
                       <a href="/Article" class="dropdown-item bg-danger text-white active">Artikel</a>
                       <a href="/Product" class="dropdown-item">Produk</a>
@@ -391,7 +391,12 @@
           </div>
           </div>
 
-
+          <div class="row g-4 justify-content-center" >
+            <div class="text-center position-relative overflow-hidden">  
+              <a href="/InputArticle"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Input Article -></a>                
+            
+            </div>
+        </div>
 
     
     <!-- Footer Start -->
