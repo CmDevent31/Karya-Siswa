@@ -223,6 +223,13 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+.navbar .dropdown-toggle-2::after {
+    border: none;
+    font-family: "Font Awesome 5 Free";
+    vertical-align: middle;
+    margin-left: 8px;
+    
+}
 
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;

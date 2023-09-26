@@ -23,11 +23,14 @@ use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\MyProfileController;
 use App\Http\Controllers\PrestasiAController;
 use App\Http\Controllers\TestimoniController;
+use App\Http\Controllers\InputKaryaController;
 use App\Http\Controllers\KaryaSiswaController;
 use App\Http\Controllers\RegistrasiController;
 use App\Http\Controllers\EditProfileController;
 use App\Http\Controllers\TentangKamiController;
 use App\Http\Controllers\EditPasswordController;
+use App\Http\Controllers\InputArticleController;
+use App\Http\Controllers\InputProductController;
 use App\Http\Controllers\PageNotFoundController;
 use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\GaleriSekolahController;
@@ -79,6 +82,9 @@ Route::get('/EditPassword', [EditPasswordController ::class, 'index']);
 Route::get('/SettingProfile', [SettingProfileController ::class, 'index']);
 Route::get('/Product', [ProductController ::class, 'index']);
 Route::get('/Article', [ArticleController ::class, 'index']);
+Route::get('/InputKarya', [InputKaryaController ::class, 'index']);
+Route::get('/InputArticle', [InputArticleController ::class, 'index']);
+Route::get('/InputProduct', [InputProductController ::class, 'index']);
 
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
