@@ -34,11 +34,11 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/settingprofile.css" />
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="settingprofile.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -96,7 +96,7 @@
              </li>
             
              <li class="sub-item">
-               <span class="material-icons-outlined"><a href="/Logout" class="text-dark"> logout </span>
+               <span class="material-icons-outlined"><a href="#" class="text-dark"> logout </span>
                <p>Logout</p></a>
              </li>
            </ul>
@@ -125,102 +125,111 @@
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                      <a href="/TimKami" class="dropdown-item">TimKami</a>
+                  </div>
+              </div>
+              <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/Article" class="dropdown-item">Artikel</a>
+                    <a href="/Product" class="dropdown-item">Produk</a>
+                    <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
                 </div>
+            </div>
+
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Profile</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Edit Profile</li>
-                        </ol>
-                    </nav>
-                </div>
+    <br>
+        <div class="container ">
+            <div class="row g-5 justify-content-center">
+              <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
+                <h1 class="mb-5">Edit Profile </h1>
             </div>
-        </div>
-    </div>
-    <!-- Header End -->
+                <div class="col-lg-6">
+                <div class="card" data-state="#about">
+                  <div class="card-header">
+                    <div class="card-cover" style="background-image: url('img/user.png')"></div>
+                    <img class="card-avatar" src="img/user.png" alt="avatar" />
+                    <h1 class="card-fullname">EDIT</h1>
+                </div>
+                  <div class="card-main">
+                    <div class="card-section is-active" id="about">
+                      <div class="card-content">
+                        <form action="#" class="form">
+                            <div class="input-box">
+                                <label for="uname">Username</label>
+                                <input type="text" placeholder="Edit Username" name="uname" required />
+                              </div>
+                              <div class="input-box">
+                                <label for="email">Email Address</label>
+                                <input type="email" placeholder="Edit Email Address"name="email" required />
+                              </div>
+                                <div class="input-box">
+                                    <label for="psw">Password</label>
+                                    <input type="password" placeholder="Edit Password" name="psw"required />
+                                </div>
+                                <div class="input-box">
+                                  <label for="status">Status</label>
+                                  <input type="text" placeholder="Contoh :'Guru Prodi TJKT / Siswa XI TJKT 3'" name="status" rows="4" cols="4" required />
+                                </div>
+                          <div class="column">
+                            <div class="input-box">
+                              <label>Phone Number</label>
+                              <input type="number" placeholder="Edit Phone Number" required />
+                            </div>
+                            <div class="input-box">
+                              <label>Birth Date</label>
+                              <input type="date" placeholder="Edit Birth Date" required />
+                            </div>
+                          </div>
+                          <div class="gender-box">
+                            <h3>Gender</h3>
+                            <div class="gender-option">
+                              <div class="gender">
+                                <input type="radio" id="check-male" name="gender" checked />
+                                <label for="check-male">Pria</label>
+                              </div>
+                              <div class="gender">
+                                <input type="radio" id="check-female" name="gender" />
+                                <label for="check-female">Wanita</label>
+                              </div>
+    
+                              
+                            </div>
+                          </div>
+                          <div class="input-box">
+                          <label for="deskripsi">Bio</label><br>
+                          <input id="deskripsi" name="deskripsi" rows="4" cols="50" required>
+                          </div>
+                          
+                          <div>
+                          <label for="gambar"><br>Update Profile:</label>
+                          <input type="file" id="gambar" name="gambar" accept="image/*" required>
+                          </div>
+                          <button>Submit</button>
 
-    
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Profile</h6>
-        <h1 class="mb-5"id="Studi">Edit Profile</h1>
-    </div>
-    
-    <div class="container-xxl py-5" id="Prestasi">
-        <div class="container">
-<div class="row g-4 justify-content-center" >
-        <div class="col-lg-3 col-md-6">
-			<div class="card ">
-				<div class="card-header text-center">
-					<b>Avatar</b>
-					
-				</div>
-                <br>
-				<div class="card-body text-center">
-					
-                    <img class="avatar" src="img/user.png" alt="avatar" />
-                    <div  class="text-center">
-						<a href="/SettingAvatar"><br><br><br>Setting Avatar</a>
-					</div>
-                
-                </div>
-			</div>
-        </div>
-			
-        <div class="col-lg-3 col-md-6">
-            <div class="card  ">
-                <div class="card-header text-center">
-                    <b>Profile Settings</b>
-                </div>
-                <div class="card-body text-center">
-                    Username: <span class="text-gray"></span>
-                    <br>
-                    Email: <span class="text-gray"></span>
-                    <br>Status: <span class="text-gray"></span>
-                    <br>
-                    Bio: <span class="text-gray"></span>
-                    <br>
-                    <br>  <br>
-                    <div class="text-center">
-                        <a href="/EditProfile">Edit Profile</a>
+                          </form>
+                      </div>
+                      
                     </div>
+                   
+
+                  </div>
+                </div>
                 </div>
             </div>
+           
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="card text-center">
-            <div class="card-header">
-                <b>Security & Password</b>
-            </div>
-            <div class="card-body">
-                Your Password: <span class="text-gray">******</span>
-                <br>
-                Last Changed: <span class="text-gray">22-08-2020</span>
-                <br>  <br> <br> <br> <br> <a href="/EditPassword">Edit Password</a>
 
-            </div>
-        </div>
-        </div>
-    </div>
-</div>
-</div>
+
 
   
         <!-- Footer Start -->
@@ -235,7 +244,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="text-white mb-3">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                         <div class="d-flex pt-2">

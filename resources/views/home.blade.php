@@ -95,7 +95,7 @@
                 </li>
                 
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -122,54 +122,353 @@
                         <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
-                <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Input</a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/Product" class="dropdown-item">Produk</a>
-                        <a href="/Article" class="dropdown-item">Artikel</a>
-                        <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
-                    </div>
-                </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
-                    <div class="dropdown-menu fade-down m-9">
-                        <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/TentangKami" class="dropdown-item">TentangKami</a>
+                      <a href="/TimKami" class="dropdown-item">TimKami</a>
+                  </div>
+              </div>
+              <div class="nav-item dropdown text-danger">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                <div class="dropdown-menu fade-down m-9">
+                    <a href="/Article" class="dropdown-item">Artikel</a>
+                    <a href="/Product" class="dropdown-item">Produk</a>
+                    <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
                 </div>
+            </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-    <br><br>
-    <div class="container mt-1">
+     <!-- Carousel Start -->
+     <div class="container-fluid p-0 mb-5">
+      <div class="owl-carousel header-carousel position-relative">
+          <div class="owl-carousel-item position-relative">
+              <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/WhatsApp-Image-2019-08-03-at-09.51.58-min-1024x682.jpeg" alt="">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-sm-10 col-lg-8">
+                              <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #1</h1>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">PATRIOT adalah rangkaian kegiatan mula bagi siswa-siswi baru di SMK Telkom Bandung. Setelah purna menjalani Masa Adaptasi dan Pelatihan Peserta Didik Baru #MAHASERU selama 3 hari.</p>
 
-      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-danger px-3">Filter</h6>
-        <h1 class="mb-2">Kategori</h1>
-    </div>
-    <div class="row g-4 justify-content-center" >
-        <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="text-center position-relative overflow-hidden">  
-          <a href="#Produk"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Produk</a>                
-          <a href="#Artikel"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Artikel</a> 
-            <a href="#TentangKami"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#TentangKami</a>                
-            <a href="#Studi"class="btn btn-outline-danger my-button align-self-start " style="border-radius: 30px 30px 30px 30px;">#Studi</a>                
-            <a href="#Karya"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Karya</a>                
-            <a href="#Prestasi"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Prestasi</a>                               
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
+          <div class="owl-carousel-item position-relative">
+              <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/IMG_1683-min-e1584110696332-1024x683.jpg" alt="">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-sm-10 col-lg-8">
+                              <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #2</h1>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">Kegiatan #PATRIOT ini nantinya akan ditutup pula dengan kemah pelatihan selama 3 hari 2 malam dalam agenda #KAMPIUN. Selama 9 bulan, siswa-siswi akan menjalani agenda pekanan yang untuk membangun integritas, kedisiplinan, dan sikap dasar.</p>
 
-        </div>
-    </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="owl-carousel-item position-relative">
+              <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/DSC3001-min-1024x680.jpg" alt="">
+              <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-sm-10 col-lg-8">
+                              <h1 class="display-3 text-white animated slideInDown" align="center">Patriot #3</h1>
+                              <p class="fs-5 text-white mb-4 pb-2" align="center">Tujuan dilaksanakannya kegiatan #PATRIOT adalah untuk terbentuknya peserta didik SMK Telkom Bandung yang berkarakter tangguh, berintegritas, dan disiplin. Menjadi peserta didik baru yang memiliki bekal khusus dalam mengarungi dahsyatnya bahtera kehidupan SMK selama tiga tahun.</p>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
+  <!-- Carousel End -->
 
-<br><br>
+<!-- About Start -->
+<div class="container-xxl py-5" id="TentangKami">
+  <div class="container">
+      <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
+              <div class="position-relative h-100">
+                  <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
+              </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+              <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
+              <h1 class="mb-4">Welcome to KaryaSiswa</h1>
+              <p class="mb-4" align="justify">KaryaSiswa adalah website yang digunakan untuk menunjukkan bakat bakat para siswa yang ingin menampilkan skill apa saja yang mereka punya....</p>
+              <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+              <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
+      </div>
+  </div>
+</div>
+<div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+  <div class="modal-wrapper">
+      <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                          <div class="col-lg-7 col-md-10 ">
+                              <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" alt="">
+                          </div>
+                          <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                              <h1>TentangKami</h1>
+                              <span class="text-muted">About Us</span>
+                              <div class="d-flex  my-4">
+
+                              </div>
+                              <p align="Justify">Ini adalah kami pada saat........ </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- About End -->
     
 <br><br>
+
+<div class="container swiper"id="Artikel">
+  <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+      <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
+      <h1 class="mb-5"> Artikel</h1>
+  </div>
+  <div class="slide-container">
+    <div class="card-wrapper swiper-wrapper" >
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" alt="" />
+        </div>
+          <div class="name-job " >
+           <br> <h3 align="center"  class="name">Artikel 1</h3></br>
+           <div class="text-center position-relative">  
+            <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal9"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+          </div>
+        </div>
+        <br>
+      </div>
+  
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://media.istockphoto.com/id/1222488200/id/vektor/templat-halaman-koran-berita-utama-vektor-mockup-tabloid-jurnal-latar-belakang-sederhana.jpg?s=612x612&w=0&k=20&c=RRJeUifmagX-67gLTWyJLYVGCwIP35zaFpBJEVf_PoQ=" alt="" />
+        </div>
+          <div class="name-job " >
+            <br> <h3 align="center"  class="name">Artikel 2</h3></br>
+            <div class="text-center position-relative">  
+             <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal10"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+           </div>
+         </div>
+         <br>
+       </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://media.istockphoto.com/id/610658518/id/vektor/template-vektor-jurnal-surat-kabar-vintage.jpg?s=612x612&w=0&k=20&c=rk4eZkaQse5nW6zze368ndaTVGagZj8we0J8XxXQaY8=" alt="" />
+        </div>
+        <div class="name-job " >
+          <br> <h3 align="center"  class="name">Artikel 3</h3></br>
+          <div class="text-center position-relative">  
+           <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal11"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+         </div>
+       </div>
+       <br>
+     </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://media.istockphoto.com/id/610120462/id/vektor/gambar-datar-berita-koran.jpg?s=612x612&w=0&k=20&c=E-usDBd07aFLjEwExava7PTHh2eydsxA2JMyeSqXbC8=" alt="" />
+        </div>
+        <div class="name-job " >
+          <br> <h3 align="center"  class="name">Artikel 4</h3></br>
+          <div class="text-center position-relative">  
+           <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal12"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+         </div>
+       </div>
+       <br>
+     </div>
+      <div class="card swiper-slide">
+        <div class="image-box">
+          <img src="https://media.istockphoto.com/id/847662430/id/foto/surat-kabar-berita-dunia.jpg?s=612x612&w=0&k=20&c=sv0p8ooXH62RBjqiqm7Wt35zI41oSLLn4B_TC1hDPHk=" alt="" />
+        </div>
+        <div class="name-job " >
+          <br> <h3 align="center"  class="name">Artikel 5</h3></br>
+          <div class="text-center position-relative">  
+           <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal13"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
+         </div>
+       </div>
+       <br>
+     </div>
+    </div>
+  </div>
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<div class="modal fade show" id="modal9" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+  <div class="modal-wrapper">
+      <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center modal-detail">
+                        <div class="col-lg-7 col-md-10">
+                            <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" class="img-fluid rounded-xl" alt="">
+                        </div>
+                        <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                            <h1>Artikel 1</h1>
+                            <span class="text-muted"></span>
+                            <div class="d-flex  my-4">
+                                <p class="fw-bold me-4">For Example</p>
+                            </div>
+                            <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="modal-footer">
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <div class="modal fade show" id="modal10" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                          <div class="col-lg-7 col-md-10">
+                              <img src="https://media.istockphoto.com/id/1222488200/id/vektor/templat-halaman-koran-berita-utama-vektor-mockup-tabloid-jurnal-latar-belakang-sederhana.jpg?s=612x612&w=0&k=20&c=RRJeUifmagX-67gLTWyJLYVGCwIP35zaFpBJEVf_PoQ=" class="img-fluid rounded-xl" alt="" width="100%">
+                          </div>
+                          <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                              <h1>Artikel 2</h1>
+                              <span class="text-muted"></span>
+                              <div class="d-flex  my-4">
+                                  <p class="fw-bold me-4">For Example</p>  
+                              </div>
+                              <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade show" id="modal11" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+      <div class="modal-wrapper">
+          <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center modal-detail">
+                            <div class="col-lg-7 col-md-10">
+                                <img src="https://media.istockphoto.com/id/610658518/id/vektor/template-vektor-jurnal-surat-kabar-vintage.jpg?s=612x612&w=0&k=20&c=rk4eZkaQse5nW6zze368ndaTVGagZj8we0J8XxXQaY8=" class="img-fluid rounded-xl" alt="" width="100%">
+                            </div>
+                            <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                                <h1>Artikel 3</h1>
+                                <span class="text-muted"></span>
+                                <div class="d-flex  my-4">
+                                    <p class="fw-bold me-4">For Example</p>  
+                                </div>
+                                <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="modal-footer">
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class="modal fade show" id="modal12" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+        <div class="modal-wrapper">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container">
+                          <div class="row justify-content-center modal-detail">
+                              <div class="col-lg-7 col-md-10">
+                                  <img src="https://media.istockphoto.com/id/1309699912/id/vektor/ilustrasi-vektor-template-kertas-berita-harian-dengan-tempat-penampung-teks-dan-gambar.jpg?s=612x612&w=0&k=20&c=TfrLVka84V0jdCO1gKU8VoXZEPFdlMMs0KWFnXKPJNk=" class="img-fluid rounded-xl" alt="" width="100%">
+                              </div>
+                              <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                                  <h1>Artikel 4</h1>
+                                  <span class="text-muted"></span>
+                                  <div class="d-flex  my-4">
+                                      <p class="fw-bold me-4">For Example</p>  
+                                  </div>
+                                  <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade show" id="modal13" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+          <div class="modal-wrapper">
+              <div class="modal-dialog modal-fullscreen">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                            <div class="row justify-content-center modal-detail">
+                                <div class="col-lg-7 col-md-10">
+                                    <img src="https://media.istockphoto.com/id/1401208102/id/vektor/tata-letak-surat-kabar-kota-vektor-dengan-berita-utama.jpg?s=612x612&w=0&k=20&c=RX0XFR7DD-aKINscshTBSjmFbaU7R8i6sExXnPKOAgo=" class="img-fluid rounded-xl" alt="" width="100%">
+                                </div>
+                                <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                                    <h1>Artikel 5</h1>
+                                    <span class="text-muted"></span>
+                                    <div class="d-flex  my-4">
+                                        <p class="fw-bold me-4">For Example</p>  
+                                    </div>
+                                    <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="modal-footer">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
     <div class="container swiper"id="Produk">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
@@ -514,331 +813,28 @@
                 </div>
 
 
-      <div class="container swiper"id="Artikel">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
-            <h1 class="mb-5"> Artikel</h1>
-        </div>
-        <div class="slide-container">
-          <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide">
-              <div class="image-box">
-                <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" alt="" />
-              </div>
-                <div class="name-job " >
-                 <br> <h3 align="center"  class="name">Artikel 1</h3></br>
-                 <div class="text-center position-relative">  
-                  <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal9"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
-                </div>
-              </div>
-              <br>
-            </div>
-        
-            <div class="card swiper-slide">
-              <div class="image-box">
-                <img src="https://media.istockphoto.com/id/1222488200/id/vektor/templat-halaman-koran-berita-utama-vektor-mockup-tabloid-jurnal-latar-belakang-sederhana.jpg?s=612x612&w=0&k=20&c=RRJeUifmagX-67gLTWyJLYVGCwIP35zaFpBJEVf_PoQ=" alt="" />
-              </div>
-                <div class="name-job " >
-                  <br> <h3 align="center"  class="name">Artikel 2</h3></br>
-                  <div class="text-center position-relative">  
-                   <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal10"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
-                 </div>
-               </div>
-               <br>
-             </div>
-            <div class="card swiper-slide">
-              <div class="image-box">
-                <img src="https://media.istockphoto.com/id/610658518/id/vektor/template-vektor-jurnal-surat-kabar-vintage.jpg?s=612x612&w=0&k=20&c=rk4eZkaQse5nW6zze368ndaTVGagZj8we0J8XxXQaY8=" alt="" />
-              </div>
-              <div class="name-job " >
-                <br> <h3 align="center"  class="name">Artikel 3</h3></br>
-                <div class="text-center position-relative">  
-                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal11"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
-               </div>
-             </div>
-             <br>
-           </div>
-            <div class="card swiper-slide">
-              <div class="image-box">
-                <img src="https://media.istockphoto.com/id/610120462/id/vektor/gambar-datar-berita-koran.jpg?s=612x612&w=0&k=20&c=E-usDBd07aFLjEwExava7PTHh2eydsxA2JMyeSqXbC8=" alt="" />
-              </div>
-              <div class="name-job " >
-                <br> <h3 align="center"  class="name">Artikel 4</h3></br>
-                <div class="text-center position-relative">  
-                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal12"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
-               </div>
-             </div>
-             <br>
-           </div>
-            <div class="card swiper-slide">
-              <div class="image-box">
-                <img src="https://media.istockphoto.com/id/847662430/id/foto/surat-kabar-berita-dunia.jpg?s=612x612&w=0&k=20&c=sv0p8ooXH62RBjqiqm7Wt35zI41oSLLn4B_TC1hDPHk=" alt="" />
-              </div>
-              <div class="name-job " >
-                <br> <h3 align="center"  class="name">Artikel 5</h3></br>
-                <div class="text-center position-relative">  
-                 <a href="#"class="btn btn-outline-danger my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal13"  style="border-radius: 30px 30px 30px 30px;">Baca Selengkapnya</a>                
-               </div>
-             </div>
-             <br>
-           </div>
-          </div>
-        </div>
-        <div class="swiper-button-next swiper-navBtn"></div>
-        <div class="swiper-button-prev swiper-navBtn"></div>
-        <div class="swiper-pagination"></div>
-      </div>
+    
+    <div class="container mt-5">
 
-
-      <div class="modal fade show" id="modal9" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-        <div class="modal-wrapper">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="container">
-                          <div class="row justify-content-center modal-detail">
-                              <div class="col-lg-7 col-md-10">
-                                  <img src="https://media.istockphoto.com/id/1159237699/id/vektor/tata-letak-koran-artikel-kolom-berita-desain-majalah-newsprint-lembar-surat-kabar-brosur.jpg?s=1024x1024&w=is&k=20&c=SvqoyyyhHCD4ZmhdP475fhv2Sb5xUFQ_h__3xrzz6aA=" class="img-fluid rounded-xl" alt="">
-                              </div>
-                              <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                  <h1>Artikel 1</h1>
-                                  <span class="text-muted"></span>
-                                  <div class="d-flex  my-4">
-                                      <p class="fw-bold me-4">For Example</p>
-                                  </div>
-                                  <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="modal fade show" id="modal10" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-          <div class="modal-wrapper">
-              <div class="modal-dialog modal-fullscreen">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="container">
-                            <div class="row justify-content-center modal-detail">
-                                <div class="col-lg-7 col-md-10">
-                                    <img src="https://media.istockphoto.com/id/1222488200/id/vektor/templat-halaman-koran-berita-utama-vektor-mockup-tabloid-jurnal-latar-belakang-sederhana.jpg?s=612x612&w=0&k=20&c=RRJeUifmagX-67gLTWyJLYVGCwIP35zaFpBJEVf_PoQ=" class="img-fluid rounded-xl" alt="" width="100%">
-                                </div>
-                                <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                    <h1>Artikel 2</h1>
-                                    <span class="text-muted"></span>
-                                    <div class="d-flex  my-4">
-                                        <p class="fw-bold me-4">For Example</p>  
-                                    </div>
-                                    <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                      <div class="modal-footer">
-                      </div>
-                  </div>
-              </div>
-          </div>
-          </div>
-          <div class="modal fade show" id="modal11" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-            <div class="modal-wrapper">
-                <div class="modal-dialog modal-fullscreen">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="container">
-                              <div class="row justify-content-center modal-detail">
-                                  <div class="col-lg-7 col-md-10">
-                                      <img src="https://media.istockphoto.com/id/610658518/id/vektor/template-vektor-jurnal-surat-kabar-vintage.jpg?s=612x612&w=0&k=20&c=rk4eZkaQse5nW6zze368ndaTVGagZj8we0J8XxXQaY8=" class="img-fluid rounded-xl" alt="" width="100%">
-                                  </div>
-                                  <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                      <h1>Artikel 3</h1>
-                                      <span class="text-muted"></span>
-                                      <div class="d-flex  my-4">
-                                          <p class="fw-bold me-4">For Example</p>  
-                                      </div>
-                                      <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                        <div class="modal-footer">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="modal fade show" id="modal12" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-              <div class="modal-wrapper">
-                  <div class="modal-dialog modal-fullscreen">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">
-                            <div class="container">
-                                <div class="row justify-content-center modal-detail">
-                                    <div class="col-lg-7 col-md-10">
-                                        <img src="https://media.istockphoto.com/id/1309699912/id/vektor/ilustrasi-vektor-template-kertas-berita-harian-dengan-tempat-penampung-teks-dan-gambar.jpg?s=612x612&w=0&k=20&c=TfrLVka84V0jdCO1gKU8VoXZEPFdlMMs0KWFnXKPJNk=" class="img-fluid rounded-xl" alt="" width="100%">
-                                    </div>
-                                    <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                        <h1>Artikel 4</h1>
-                                        <span class="text-muted"></span>
-                                        <div class="d-flex  my-4">
-                                            <p class="fw-bold me-4">For Example</p>  
-                                        </div>
-                                        <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                          <div class="modal-footer">
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              </div>
-              <div class="modal fade show" id="modal13" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-                <div class="modal-wrapper">
-                    <div class="modal-dialog modal-fullscreen">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              <div class="container">
-                                  <div class="row justify-content-center modal-detail">
-                                      <div class="col-lg-7 col-md-10">
-                                          <img src="https://media.istockphoto.com/id/1401208102/id/vektor/tata-letak-surat-kabar-kota-vektor-dengan-berita-utama.jpg?s=612x612&w=0&k=20&c=RX0XFR7DD-aKINscshTBSjmFbaU7R8i6sExXnPKOAgo=" class="img-fluid rounded-xl" alt="" width="100%">
-                                      </div>
-                                      <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                          <h1>Artikel 5</h1>
-                                          <span class="text-muted"></span>
-                                          <div class="d-flex  my-4">
-                                              <p class="fw-bold me-4">For Example</p>  
-                                          </div>
-                                          <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                            <div class="modal-footer">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-    
-    
-    
-    
-
-    <!-- About Start -->
-    <div class="container-xxl py-5" id="TentangKami">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-danger pe-3" >TentangKami</h6>
-                    <h1 class="mb-4">Welcome to KaryaSiswa</h1>
-                    <p class="mb-4" align="justify">KaryaSiswa adalah website yang digunakan untuk menunjukkan bakat bakat para siswa yang ingin menampilkan skill apa saja yang mereka punya....</p>
-                    <p class="mb-4" align="justify">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
-            </div>
-        </div>
+      <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Filter</h6>
+        <h1 class="mb-5">Kategori</h1>
     </div>
-    <div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
-        <div class="modal-wrapper">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row justify-content-center modal-detail">
-                                <div class="col-lg-7 col-md-10 ">
-                                    <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" alt="">
-                                </div>
-                                <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
-                                    <h1>TentangKami</h1>
-                                    <span class="text-muted">About Us</span>
-                                    <div class="d-flex  my-4">
+    <div class="row g-4 justify-content-center" >
+        <div class="text-center position-relative overflow-hidden">  
+          <a href="#Produk"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Produk</a>                
+          <a href="#Artikel"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Artikel</a> 
+            <a href="#TentangKami"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#TentangKami</a>                
+            <a href="#Studi"class="btn btn-outline-danger my-button align-self-start " style="border-radius: 30px 30px 30px 30px;">#Studi</a>                
+            <a href="#Karya"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Karya</a>                
+            <a href="#Prestasi"class="btn btn-outline-danger my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Prestasi</a>                               
+          </div>
 
-                                    </div>
-                                    <p align="Justify">Ini adalah kami pada saat........ </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Categories Start -->
-    <div class="container-xxl py-5 category" >
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Keahlian</h6>
-                <h1 class="mb-5"id="Studi">Program Keahlian</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="/Tjkt">
-                                <img class="img-fluid" src="img/Screenshot (420).png" alt="">
-                                <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
-                                    <h5 class="m-0">TJKT</h5>
-                                    <small class="text-danger">5 Materi</small>
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="/Animasi">
-                                <img class="img-fluid" width="100%" height="100%"src="https://www.telkomsel.com/sites/default/files/2023-04/w3-2-04.png " alt="">
-                                <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
-                                    <h5 class="m-0">Animasi</h5>
-                                    <small class="text-danger">6 Materi</small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="/Dkv">
-                        <img class="img-fluid position-absolute w-100 h-100" src="https://asset.kompas.com/crops/K4dJTvUIhBhNwu0fgjZYDOp1iKA=/0x0:1280x853/750x500/data/photo/2023/01/11/63bee80957fca.jpg" alt="" style="object-fit: cover;">
-                        <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
-                            <h5 class="m-0">DKV</h5>
-                            <small class="text-danger">9 Materi</small>
-                        </div>  
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categories Start -->
+  </div>
     
+
+  <br><br><br>
 {{-- card title --}}
 <div class="container "id="Karya">
     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -1021,7 +1017,7 @@
                     <div class="text-center p-4">
                         <h5 class="mb-0">Selamat Kepada Ananda</h5>
                     
-                        <b><p><small><ol><li>🏅G.Banu Prasetyo (XI TJKT 1)....</li></li></ol></p></b>
+                        <br><b><p><small>🏅G.Banu Prasetyo (XI TJKT 1)....</p></b></br>
                         <br>  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Lihat Selengkapnya</a>                
                           
                              </small>
@@ -1418,6 +1414,51 @@
     </div>
     <!-- Team End -->
 
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category" >
+      <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <h6 class="section-title bg-white text-center text-danger px-3">Keahlian</h6>
+              <h1 class="mb-5"id="Studi">Program Keahlian</h1>
+          </div>
+          <div class="row g-3">
+              <div class="col-lg-7 col-md-6">
+                  <div class="row g-3">
+                      <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                          <a class="position-relative d-block overflow-hidden" href="/Tjkt">
+                              <img class="img-fluid" src="img/Screenshot (420).png" alt="">
+                              <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                                  <h5 class="m-0">TJKT</h5>
+                                  <small class="text-danger">5 Materi</small>
+                              </div>
+                          </a>
+                      </div>
+                      
+                      <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                          <a class="position-relative d-block overflow-hidden" href="/Animasi">
+                              <img class="img-fluid" width="100%" height="100%"src="https://www.telkomsel.com/sites/default/files/2023-04/w3-2-04.png " alt="">
+                              <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                                  <h5 class="m-0">Animasi</h5>
+                                  <small class="text-danger">6 Materi</small>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                  <a class="position-relative d-block h-100 overflow-hidden" href="/Dkv">
+                      <img class="img-fluid position-absolute w-100 h-100" src="https://asset.kompas.com/crops/K4dJTvUIhBhNwu0fgjZYDOp1iKA=/0x0:1280x853/750x500/data/photo/2023/01/11/63bee80957fca.jpg" alt="" style="object-fit: cover;">
+                      <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
+                          <h5 class="m-0">DKV</h5>
+                          <small class="text-danger">9 Materi</small>
+                      </div>  
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Categories Start -->
+
     
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
@@ -1431,7 +1472,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">

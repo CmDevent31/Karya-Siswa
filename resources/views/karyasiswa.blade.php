@@ -8,6 +8,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -19,19 +20,27 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -48,7 +57,7 @@
   <!-- Spinner Start -->
  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
-        <span class="sr-only">Loading...</span>
+        <span class="sr-only">Loading Riki...</span>
     </div>
 </div>
 <!-- Spinner End -->
@@ -59,7 +68,7 @@
               <ul>
                 <li>
                     <img class="avatar" src="img/user.png" alt="avatar" />
-              <ul>
+				                 <ul>
                 <li class="sub-item">
                   <span  class="material-icons-outlined"><a href="/MyProfile" class="text-dark">
                     account_circle
@@ -67,11 +76,11 @@
                      <p>My Profile</p></a>
                 </li>
                 <li class="sub-item">
-                    <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
-                      manage_accounts 
-                    </span>
-                       <p>Edit Profile</p></a>
-                  </li>
+                  <span class="material-icons-outlined"><a href="/SettingProfile" class="text-dark">
+                    manage_accounts 
+                  </span>
+                     <p>Edit Profile</p></a>
+                </li>
                 <li class="sub-item">
                   <span class="material-icons-outlined"><a href="/Inbox" class="text-dark">
                     inbox
@@ -84,9 +93,9 @@
                     </span>
                   <p>Setting</p></a>
                 </li>
-               
+                
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -118,26 +127,33 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item text-white bg-danger active">PageNotFound</a>
                     </div>
                 </div>
+                <div class="nav-item dropdown text-danger">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/Article" class="dropdown-item">Artikel</a>
+                      <a href="/Product" class="dropdown-item">Produk</a>
+                      <a href="/KaryaSiswa" class="dropdown-item bg-danger text-white active">KaryaSiswa</a>
+                  </div>
+              </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-danger py-5 mb-5 page-header">
+
+     <!-- Header Start -->
+     <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">PageNotFound</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Karya Siswa</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">PageNotFound</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Karya</li>
                         </ol>
                     </nav>
                 </div>
@@ -145,24 +161,86 @@
         </div>
     </div>
     <!-- Header End -->
-
-
-    <!-- 404 Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <i class="bi bi-exclamation-triangle display-1 text-danger"></i>
-                    <h1 class="display-1">404</h1>
-                    <h1 class="mb-4">Page Not Found</h1>
-                    <p class="mb-4">Were sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
-                    <a class="btn my-button align-self-start-lg-square py-3 px-5" href="/Home">Go Back To Home</a>
-                </div>
-            </div>
-        </div>
+     
+{{-- card title --}}
+<div class="container "id="Karya">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Karya</h6>
+        <h1 class="mb-5">Karya Siswa</h1>
     </div>
-    <!-- 404 End -->
-        
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+      <div class="col-lg-15">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 rounded">
+              <?php
+              // URL API yang akan diakses untuk data artikel
+              $articleApiUrl = 'http://192.168.1.9:8000/api/show';
+              // URL API yang akan diakses untuk data gambar artikel
+              $imageApiUrl = 'http://192.168.1.9:8000/api/show_article_images';
+              // Inisialisasi Guzzle Client
+              $client = new GuzzleHttp\Client();
+              try {
+                  // Kirim permintaan GET ke API untuk data artikel
+                  $articleResponse = $client->get($articleApiUrl);
+                  // Kirim permintaan GET ke API untuk data gambar artikel
+                  $imageResponse = $client->get($imageApiUrl);
+                  // Periksa kode status HTTP untuk kedua permintaan
+                  if ($articleResponse->getStatusCode() == 200 && $imageResponse->getStatusCode() == 200) {
+                      // Dapatkan data JSON dari respons untuk data artikel dan gambar artikel
+                      $articleData = json_decode($articleResponse->getBody(), true);
+                      $imageData = json_decode($imageResponse->getBody(), true);
+  
+                      // Loop melalui data artikel dan tampilkan di halaman HTML
+                      foreach ($articleData as $index => $article) {
+                          $index = (int)$index; // Pastikan $index adalah integer
+                          $orderClass = $index % 2 === 0 ? 'order-lg-2' : 'order-lg-1';
+                          $align = $index % 2 === 0 ? 'left' : 'right';
+                          $image = ''; // Inisialisasi variabel untuk menyimpan URL gambar
+  
+                          // Cari data gambar yang sesuai dengan artikel saat ini
+                          foreach ($imageData as $img) {
+                              if (isset($img['article_id']) && isset($article['id']) && $img['article_id'] == $article['id']) {
+                                  $image = $img['image_url'];
+                                  break;
+                              }
+                          }
+  
+                          // Periksa apakah elemen 'title' ada dalam array $article sebelum mengaksesnya
+                          $title = isset($article['title']) ? $article['title'] : '';
+                          $description = isset($article['description']) ? $article['description'] : '';
+  
+                          echo '
+                          <div class="col">
+                              <div class="card text-center h-100 mb-3">
+                                  <img src="' . $image . '" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
+                                  <div class="card-body">
+                                      <h5 class="card-title">' . $title . '</h5>
+                                      <p class="card-text" align="justify">' . $description . '</p>
+                                  </div>
+                                  <div class="card-footer">
+                                      <a href="#" class="btn my-button align-self-start px-3" data-bs-toggle="modal" data-bs-target="#modal14" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                  </div>
+                              </div>
+                          </div>
+                          ';
+                      }
+                  } else {
+                      echo 'Gagal mengambil data dari API.';
+                  }
+              } catch (GuzzleHttp\Exception\RequestException $e) {
+                  echo 'Error: ' . $e->getMessage();
+              }
+              ?>
+          </div>
+      </div>
+  </div>
+  
+            
+          </div>
+      </div>
+  </div>
+
+
+    
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
@@ -175,7 +253,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">
@@ -216,8 +294,11 @@
     </div>
     <!-- Footer End -->
 
-    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
+    
 
+
+    <!-- Back to Top -->
+    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -230,7 +311,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
-    

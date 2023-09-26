@@ -87,7 +87,7 @@
                 </li>
                 
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -119,11 +119,18 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TentangKami" class="dropdown-item">TentangKami</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
+                <div class="nav-item dropdown text-danger">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+                  <div class="dropdown-menu fade-down m-9">
+                      <a href="/Article" class="dropdown-item">Artikel</a>
+                      <a href="/Product" class="dropdown-item">Produk</a>
+                      <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
+                  </div>
+              </div>
+
             </div>
         </div>
     </nav>
@@ -154,23 +161,44 @@
     </div>
     </div>
     
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+<div id="ekskul-container">
+    <!-- Data ekskul akan ditampilkan di sini -->
+  </div>
+  <?php
+// URL API yang akan diakses
+$apiUrl = 'http://192.168.1.9:8000/api/listgaleri';
+// Inisialisasi Guzzle Client
+$client = new GuzzleHttp\Client();
+try {
+    // Kirim permintaan GET ke API
+    $response = $client->get($apiUrl);
+    // Periksa kode status HTTP
+    if ($response->getStatusCode() == 200) {
+        // Dapatkan data JSON dari respons
+        $data = json_decode($response->getBody(), true);
 
-    <div class=" justify-content-center">
-    <img src="img/highlights - 17899385498311805 (1).jpg" style="border-radius: 30px 30px 30px 30px;"class="img-box" ><img src="img/highlights - 17899385498311805 (2).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"> 
-<img src="img/highlights - 17899385498311805 (3).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (4).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (5).jpg" class="img-box"><img src="img/highlights - 17899385498311805 (6).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (7).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (8).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (9).jpg" class="img-box"><img src="img/highlights - 17899385498311805 (10).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (11).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (12).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (13).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (14).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (15).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (16).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (17).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (18).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (19).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (20).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (21).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (22).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (23).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (24).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (25).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (26).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (27).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (28).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (29).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (30).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (31).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (32).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (33).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (34).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
+        echo '
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="justify-content-center">';
+        
+        // Loop melalui data dan tampilkan di halaman HTML
+        foreach ($data as $index => $galeri) {
+            $index = (int)$index; // Pastikan $index adalah integer
+
+            echo '
+            <img src="' . $galeri['image'] . '" style="border-radius: 30px 30px 30px 30px;" class="img-box">';
+        }
+        
+        echo '
+            </div>
+        </div>';
+    } else {
+        echo 'Gagal mengambil data dari API.';
+    }
+} catch (GuzzleHttp\Exception\RequestException $e) {
+    echo 'Error: ' . $e->getMessage();
+}
+?>
 
 
 
@@ -213,7 +241,7 @@
                  </div>
                  <div class="col-lg-3 col-md-6">
                      <h4 class="text-white mb-3">Contact</h4>
-                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                      <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                      <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                      <div class="d-flex pt-2">

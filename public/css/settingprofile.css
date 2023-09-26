@@ -1,17 +1,17 @@
 
   .card[data-state="#about"] {
-    height: 425px;
+    height: 1100px;
   }
   .card[data-state="#about"] .card-main {
     padding-top: 0;
   }
   
   .card[data-state="#contact"] {
-    height: 425px;
+    height: 630px;
   }
   
   .card[data-state="#experience"] {
-    height: 425px;
+    height: 630px;
   }
   
   .card.is-active .card-header {
@@ -322,3 +322,5 @@
     font-family: "Jost", sans-serif;
     transition: 0.3s;
   }
+
+  

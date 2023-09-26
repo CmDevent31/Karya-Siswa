@@ -83,7 +83,7 @@
                 </li>
                 
                 <li class="sub-item">
-                  <span class="material-icons-outlined"> <a href="/Logout" class="text-dark">logout </span>
+                  <span class="material-icons-outlined"> <a href="#" class="text-dark">logout </span>
                   <p>Logout</p></a>
                 </li>
               </ul>
@@ -115,11 +115,18 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                 <div class="dropdown-menu fade-down m-9">
                     <a href="/TentangKami" class="dropdown-item bg-danger text-white active">TentangKami</a>
-                      <a href="/Guru" class="dropdown-item">GuruKami</a>
                     <a href="/TimKami" class="dropdown-item">TimKami</a>
-                    <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                 </div>
             </div>
+            <div class="nav-item dropdown text-danger">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">+</a>
+              <div class="dropdown-menu fade-down m-9">
+                  <a href="/Article" class="dropdown-item">Artikel</a>
+                  <a href="/Product" class="dropdown-item">Produk</a>
+                  <a href="/KaryaSiswa" class="dropdown-item">KaryaSiswa</a>
+              </div>
+          </div>
+
         </div>
     </div>
 </nav>
@@ -144,7 +151,7 @@
     <!-- Header End -->
 
    <!-- About Start -->
-   <div class="container-xxl py-5" id="TentangKami">
+<div class="container-xxl py-5" id="TentangKami">
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;" >
@@ -160,8 +167,8 @@
                 <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#detailModal" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
         </div>
     </div>
-</div>
-<div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+  </div>
+  <div class="modal fade show" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
     <div class="modal-wrapper">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">
@@ -172,18 +179,15 @@
                     <div class="container">
                         <div class="row justify-content-center modal-detail">
                             <div class="col-lg-7 col-md-10 ">
-                                <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" >
+                                <img src="img/ac39f1e8-655d-41e6-93f5-587b97849ffa.jpg" class="img-fluid rounded-xl" alt="">
                             </div>
                             <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
                                 <h1>TentangKami</h1>
                                 <span class="text-muted">About Us</span>
                                 <div class="d-flex  my-4">
-                                    <p class="fw-bold me-4">Humam</p>
-                                    <a href="https://instagram.com">
-                                        <img src="asset/img/icon/ig.svg" class="sosmed-icon mx-1" alt="">
-                                    </a>
+  
                                 </div>
-                                <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                                <p align="Justify">Ini adalah kami pada saat........ </p>
                             </div>
                         </div>
                     </div>
@@ -191,9 +195,9 @@
             </div>
         </div>
     </div>
+  </div>
 </div>
-   </div>
-<!-- About End -->
+  <!-- About End -->
     
 
         <!-- Footer Start -->
@@ -208,7 +212,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Derwati</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">
