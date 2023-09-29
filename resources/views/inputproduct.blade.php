@@ -165,25 +165,102 @@
     <div class="row g-4 justify-content-center" >
     <div class="col-lg-6">
 <section class="container-i">
-    <form action="#" class="form">
-      <div class="input-box">
-        <label for="text"> Title</label>
-        <input type="text" placeholder="Enter Title"name="text" required />
-      </div>
+    <form action="http://192.168.1.4:8000/api/addproduk" method="post" enctype="multipart/form-data" class="form">
         <div class="input-box">
-            <label for="text">Description</label>
-            <input type="text" placeholder="Enter Description" name="text"required />
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter name" required="required" />
         </div>
         <div class="input-box">
-            <label for="file">image</label>
-            <input type="file" placeholder="Enter Image" name="file"required />
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" placeholder="Enter Description" required="required" onChange="return validateInput(value,'description')" />
         </div>
-      
-      
-      <button>Submit</button>
+        <div class="input-box">
+            <label for="price">Price</label>
+            <input type="text" id="price" name="price" placeholder="Enter Price" required="required" onChange="return validateInput(value,'price')" />
+        </div>
+        <div class="input-box">
+            <label for="brand">Brand</label>
+            <input type="text" id="brand" name="brand" placeholder="Enter Brand" required="required" onChange="return validateInput(value,'brand')" />
+        </div>
+        <div class="input-box">
+            <label for="user_id">User ID</label>
+            <input type="number" id="user_id" name="user_id" placeholder="Enter User ID" required="required" min="1" step="1" />
+        </div>
+        
+        <div class="input-box">
+            <label for="image[]">Image</label>
+            <input type="file" id="image[]" name="image[]" required="required" />
+        </div>
+        <div class="text-center position-relative overflow-hidden">  
+        <button type="submit" class="btn my-button align-self-start px-3 btn-red btn-detail">Submit</button> 
+        </div>
     </form>
+    <?php
+    use GuzzleHttp\Client;
+    
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $client = new Client();
+    
+        $response = $client->post('http://192.168.1.9:8000/api/addproduk', [
+            'multipart' => [
+                [
+                    'name' => 'name', // Ubah ke 'name'
+                    'contents' => $_POST['name'] // Ubah ke 'name'
+                ],
+                [
+                    'name' => 'description',
+                    'contents' => $_POST['description']
+                ],
+                [
+                    'name' => 'price', // Ubah ke 'price'
+                    'contents' => $_POST['price'] // Ubah ke 'price'
+                ],
+                [
+                    'name' => 'brand',
+                    'contents' => $_POST['brand']
+                ],
+                [
+                    'name' => 'user_id',
+                    'contents' => $_POST['user_id']
+                ],
+                [
+                    'name' => 'image[]',
+                    'contents' => fopen($_FILES['image']['tmp_name'], 'r')
+                ]
+            ]
+        ]);
+        
+        header('Location: http://127.0.0.1:8000/Product?success=true');
+exit;
 
-
+    }
+    ?>
+    <script>
+        // Fungsi untuk mendapatkan nilai parameter dari URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+    
+        // Periksa apakah parameter success=true ada di URL
+        var successParam = getParameterByName('success');
+        if (successParam === 'true') {
+            // Tunggu hingga halaman selesai dimuat sebelum menampilkan pesan sukses
+            document.addEventListener('DOMContentLoaded', function () {
+                // Tampilkan pesan sukses (gunakan cara yang sesuai untuk tampilan Anda)
+                alert('Data berhasil disimpan!');
+    
+                // Redirect ke halaman yang sesuai setelah menampilkan pesan sukses
+                window.location.href = 'http://127.0.0.1:8000/Product'; // Ganti dengan URL yang benar
+            });
+        }
+    </script>
+    
   </section>
     </div>
     </div>
@@ -191,10 +268,10 @@
 
 <div class="row g-4 justify-content-center" >
     <div class="text-center position-relative overflow-hidden">  
-      <a href="/Product"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;"><- Product</a>                
+      <a href="/KaryaSiswa"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;"><- Product</a>                
+    
     </div>
 </div>
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
