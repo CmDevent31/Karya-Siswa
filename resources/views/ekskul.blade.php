@@ -178,7 +178,7 @@
 
 <?php
 // URL API yang akan diakses
-$apiUrl = 'http://192.168.1.9:8000/api/listekskul2';
+$apiUrl = 'http://192.168.1.4:8000/api/listekskul2';
 // Inisialisasi Guzzle Client
 $client = new GuzzleHttp\Client();
 try {
