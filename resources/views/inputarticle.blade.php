@@ -161,35 +161,120 @@
     </div>
 </div>
     
-<div class="container-xxl py-5" >
+<div class="container-xxl py-2" >
     <div class="row g-4 justify-content-center" >
     <div class="col-lg-6">
 <section class="container-i">
-    <form action="#" class="form">
-      <div class="input-box">
-        <label for="text"> Title</label>
-        <input type="text" placeholder="Enter Title"name="text" required />
-      </div>
+    <form action="http://192.168.1.4:8000/api/addevent" method="post" enctype="multipart/form-data" class="form">
         <div class="input-box">
-            <label for="text">Description</label>
-            <input type="text" placeholder="Enter Description" name="text"required />
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Enter Title" required="required" />
         </div>
         <div class="input-box">
-            <label for="file">image</label>
-            <input type="file" placeholder="Enter Image" name="file"required />
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" placeholder="Enter Description" required="required" onChange="return validateInput(value,'description')" />
         </div>
-      
-      
-      <button>Submit</button>
+        <div class="input-box">
+            <label for="user_id">User ID</label>
+            <input type="text" id="user_id" name="user_id" placeholder="Enter User ID" required="required" onChange="return validateInput(value,'user_id')" />
+        </div>
+        <div class="input-box">
+            <label for="image[]">Image</label>
+            <input type="file" id="image" name="image" required="required" />
+        </div>
+        <div class="text-center position-relative overflow-hidden">  
+        <button type="submit" class="btn my-button align-self-start px-3 btn-red btn-detail">Submit</button> 
+        </div>
     </form>
+    <?php
+    use GuzzleHttp\Client;
+    
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $client = new Client();
+    
+        $response = $client->post('http://192.168.1.9:8000/api/addevent', [
+            'multipart' => [
+                [
+            'name' => 'title',
+            'contents' => $_POST['title']
+        ],
+        [
+            'name' => 'description',
+            'contents' => $_POST['description']
+        ],
+        [
+            'name' => 'user_id',
+            'contents' => $_POST['user_id']
+        ],
+        [
+            'name' => 'image',
+            'contents' => fopen($_FILES['image']['tmp_name'], 'r') // Menggunakan file yang diunggah
+        ]
+            ]
+        ]);
+        
+        if ($response->getStatusCode()==200){
+            header('Location: http://127.0.0.1:8000/Article?success=true');
+            exit;
+        }
+    }
+?>
+    <script>
+        // Fungsi untuk mendapatkan nilai parameter dari URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+    
+        // Periksa apakah parameter success=true ada di URL
+        var successParam = getParameterByName('success');
+        if (successParam === 'true') {
+            // Tunggu hingga halaman selesai dimuat sebelum menampilkan pesan sukses
+            window.addEventListener('DOMContentLoaded', function () {
+                // Tampilkan pesan sukses (gunakan cara yang sesuai untuk tampilan Anda)
+                alert('Data berhasil disimpan!');
+    
+                // Redirect ke halaman yang sesuai setelah menampilkan pesan sukses
+                window.location.href = 'http://127.0.0.1:8000/Article'; // Ganti dengan URL yang benar
+            });
+        }
+    </script>
+    
 
+
+
+        
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Data has been successfully submitted.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
 
   </section>
     </div>
     </div>
 </div>
 
-<div class="row g-4 justify-content-center" >
+<div class="row g-4 justify-content-center mt-1" >
     <div class="text-center position-relative overflow-hidden">  
       <a href="/Article"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;"><- Artikel</a>                
     
