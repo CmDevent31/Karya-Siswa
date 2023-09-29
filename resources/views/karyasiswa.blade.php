@@ -208,6 +208,45 @@
                 
               </div>
             </div>
+            <div class="col">
+              <div class="card text-center  h-100">
+                <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
+                <div class="card-body">
+                  <h5 class="card-title">Karya 4</h5>
+                  <p class="card-text"  align="justify">Lorem ipsum dolor sit amet, consectetur......</p>
+                </div>
+                <div class="card-footer ">
+                  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal17" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-center  h-100">
+                <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
+                <div class="card-body">
+                  <h5 class="card-title">Karya 5</h5>
+                  <p class="card-text"  align="justify">Lorem ipsum dolor sit amet, consectetur......</p>
+                </div>
+                <div class="card-footer ">
+                  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal18" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-center  h-100">
+                <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
+                <div class="card-body">
+                  <h5 class="card-title">Karya 6</h5>
+                  <p class="card-text"  align="justify">Lorem ipsum dolor sit amet, consectetur......</p>
+                </div>
+                <div class="card-footer ">
+                  <a href="#"class="btn my-button align-self-start px-3"  data-bs-toggle="modal" data-bs-target="#modal19" class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Read More</a>                
+                </div>
+                
+              </div>
+            </div>
           </div>      
         </div>
     </div>
@@ -302,15 +341,93 @@
         </div>
     </div>
     </div>
+  <div class="modal fade show" id="modal17" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                          <div class="col-lg-7 col-md-10">
+                              <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-xl" alt="" width="100%">
+                          </div>
+                          <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                              <h1>Karya 4</h1>
+                              <span class="text-muted"></span>
+                                  <p class="fw-bold me-4">For Example</p>  
+                              <p align="Justify">adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  <div class="modal fade show" id="modal18" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                          <div class="col-lg-7 col-md-10">
+                              <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-xl" alt="" width="100%">
+                          </div>
+                          <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                              <h1>Karya 5</h1>
+                              <span class="text-muted"></span>
+                                  <p class="fw-bold me-4">For Example</p>  
+                              <p align="Justify">adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  <div class="modal fade show" id="modal19" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true" role="dialog">
+    <div class="modal-wrapper">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                      <div class="row justify-content-center modal-detail">
+                          <div class="col-lg-7 col-md-10">
+                              <img src="https://media.japanesestation.com/images/750x422/7-Karya-Seni-Yang-Indah-Ini-Terbuat-Dari-Sampah-4.jpg" class="img-fluid rounded-xl" alt="" width="100%">
+                          </div>
+                          <div class="col-lg-5 col-md-10 mt-4 mt-lg-0">
+                              <h1>Karya 6</h1>
+                              <span class="text-muted"></span>
+                                  <p class="fw-bold me-4">For Example</p>  
+                              <p align="Justify">adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
-    <div class="row g-4 justify-content-center" >
-      <div class="text-center position-relative overflow-hidden">  
-        <a href="/InputKarya"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Input KaryaSiswa -></a>                
-      
-      </div>
- </div>
     
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">

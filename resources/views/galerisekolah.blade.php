@@ -161,23 +161,44 @@
     </div>
     </div>
     
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+<div id="ekskul-container">
+    <!-- Data ekskul akan ditampilkan di sini -->
+  </div>
+  <?php
+// URL API yang akan diakses
+$apiUrl = 'http://192.168.1.9:8000/api/listgaleri';
+// Inisialisasi Guzzle Client
+$client = new GuzzleHttp\Client();
+try {
+    // Kirim permintaan GET ke API
+    $response = $client->get($apiUrl);
+    // Periksa kode status HTTP
+    if ($response->getStatusCode() == 200) {
+        // Dapatkan data JSON dari respons
+        $data = json_decode($response->getBody(), true);
 
-    <div class=" justify-content-center">
-    <img src="img/highlights - 17899385498311805 (1).jpg" style="border-radius: 30px 30px 30px 30px;"class="img-box" ><img src="img/highlights - 17899385498311805 (2).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"> 
-<img src="img/highlights - 17899385498311805 (3).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (4).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (5).jpg" class="img-box"><img src="img/highlights - 17899385498311805 (6).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (7).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (8).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (9).jpg" class="img-box"><img src="img/highlights - 17899385498311805 (10).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (11).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (12).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (13).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (14).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (15).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (16).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (17).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (18).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box">
-<img src="img/highlights - 17899385498311805 (19).jpg"style="border-radius: 30px 30px 30px 30px;" class="img-box"><img src="img/highlights - 17899385498311805 (20).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (21).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (22).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (23).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (24).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (25).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (26).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (27).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (28).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (29).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (30).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (31).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (32).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box"><img src="img/highlights - 17899385498311805 (33).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
-<img src="img/highlights - 17899385498311805 (34).jpg"style="border-radius: 30px 30px 30px 30px;"class="img-box">
+        echo '
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <div class="justify-content-center">';
+        
+        // Loop melalui data dan tampilkan di halaman HTML
+        foreach ($data as $index => $galeri) {
+            $index = (int)$index; // Pastikan $index adalah integer
+
+            echo '
+            <img src="' . $galeri['image'] . '" style="border-radius: 30px 30px 30px 30px;" class="img-box">';
+        }
+        
+        echo '
+            </div>
+        </div>';
+    } else {
+        echo 'Gagal mengambil data dari API.';
+    }
+} catch (GuzzleHttp\Exception\RequestException $e) {
+    echo 'Error: ' . $e->getMessage();
+}
+?>
 
 
 

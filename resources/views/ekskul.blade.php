@@ -176,24 +176,18 @@
   <!-- Data ekskul akan ditampilkan di sini -->
 </div>
 
-
 <?php
-
 // URL API yang akan diakses
-$apiUrl = 'https://backend-karya-siswa-2659a9a81981.herokuapp.com/api/listekskul2';
-
+$apiUrl = 'http://192.168.1.4:8000/api/listekskul2';
 // Inisialisasi Guzzle Client
 $client = new GuzzleHttp\Client();
-
 try {
     // Kirim permintaan GET ke API
     $response = $client->get($apiUrl);
-
     // Periksa kode status HTTP
     if ($response->getStatusCode() == 200) {
         // Dapatkan data JSON dari respons
         $data = json_decode($response->getBody(), true);
-
         // Loop melalui data dan tampilkan di halaman HTML
      foreach ($data as $index => $ekskul) {
     $index = (int)$index; // Pastikan $index adalah integer
@@ -226,7 +220,6 @@ try {
     echo 'Error: ' . $e->getMessage();
 }
 ?>
-
 
 
 

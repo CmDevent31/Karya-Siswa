@@ -472,7 +472,7 @@
     <div class="container swiper"id="Produk">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
-            <h1 class="mb-5" >Produk</h1>
+            <h1 class="mb-2" >Produk</h1>
         </div>
         <div class="slide-container">
           <div class="card-wrapper swiper-wrapper">
