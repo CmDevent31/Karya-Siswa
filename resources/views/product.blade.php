@@ -176,74 +176,36 @@
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script>
-        // URL API yang akan diakses untuk mendapatkan data produk ringkas
-        const apiUrl = 'http://192.168.1.4:8000/api/produk';
-    
-        // Fungsi untuk menampilkan data produk
-        function displayProducts(products) {
-            const productContainer = document.getElementById('product-container');
-            products.forEach(product => {
-                const image = product.images.length > 0 ? product.images[0].image_url : 'default-image.jpg';
-                const name = product.name || 'Judul Produk';
-                const description = product.description || 'Deskripsi produk...';
-                const productId = product.id || '';
-    
-                const productHtml = `
-                    <div class="col">
-                        <div class="card text-center h-100 mb-3">
-                            <img src="${image}" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title">${name}</h5>
-                                <p class="card-text" align="justify">${description}</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn my-button align-self-start px-3 btn-detail" data-product-id="${productId}" data-bs-toggle="modal" data-bs-target="#modal14" style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                productContainer.innerHTML += productHtml;
-            });
-        }
-    
-        // Fungsi untuk menampilkan detail produk
-        function displayProductDetail(product) {
-            // Tambahkan logika untuk menampilkan detail produk sesuai kebutuhan
-            // Misalnya, Anda bisa menggunakan modal untuk menampilkan detail produk.
-            alert(`Detail Produk\nJudul: ${product.name}\nDeskripsi: ${product.description}`);
-        }
-    
-        // Klik tombol "Read More" untuk mendapatkan detail produk
-        document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('btn-detail')) {
-                const productId = event.target.dataset.productId;
-                // Ganti URL API dengan endpoint yang sesuai untuk mendapatkan detail produk berdasarkan productId
-                const detailApiUrl = `http://192.168.1.4:8000/api/detailproduk/${productId}`;
-                
-                axios.get(detailApiUrl)
-                    .then(response => {
-                        const productDetail = response.data.data;
-                        displayProductDetail(productDetail);
-                    })
-                    .catch(error => {
-                        console.error(error);
-                        alert('Gagal mengambil detail produk.');
-                    });
-            }
-        });
-    
-        // Mengambil data produk ringkas saat halaman dimuat
-        axios.get(apiUrl)
-            .then(response => {
-                const products = response.data.data;
-                displayProducts(products);
-            })
-            .catch(error => {
-                console.error(error);
-                alert('Gagal mengambil data produk.');
-            });
-    </script>
+    <?php
+
+use GuzzleHttp\Client;
+
+$apiUrl = 'http://192.168.1.9:8000/api/listproduk';
+$detailApiUrl = 'http://192.168.1.4:8000/api/detailproduk/';
+
+$client = new Client();
+
+// Mengambil data produk ringkas
+$response = $client->get($apiUrl);
+$products = json_decode($response->getBody(), true)['data'];
+
+// Mengambil detai  l produk
+if (isset($_GET['productId'])) {
+    $productId = $_GET['productId'];
+    $detailResponse = $client->get($detailApiUrl . $productId);
+    $productDetail = json_decode($detailResponse->getBody(), true)['data'];
+
+    // Mengirim data produk detail sebagai JSON
+    header('Content-Type: application/json');
+    echo json_encode($productDetail);
+    exit;
+}
+
+// Mengirim data produk ringkas sebagai JSON
+header('Content-Type: application/json');
+echo json_encode($products);
+?>
+
     
 </div>
     
