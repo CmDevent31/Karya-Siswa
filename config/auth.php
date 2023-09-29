@@ -72,8 +72,9 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => \App\Models\User::class,
+            'model' => App\Models\User::class, // Gantilah dengan model pengguna kustom Anda
         ],
+    
     
         'admins' => [
             'driver' => 'eloquent',

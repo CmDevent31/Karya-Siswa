@@ -169,6 +169,18 @@
       <h6 class="section-title bg-white text-center text-danger px-3">List</h6>
       <h1 class="mb-5"> Artikel</h1>
   </div>
+       
+  <div class="row g-4 justify-content-end"> <!-- Menggunakan 'justify-content-end' untuk menggeser ke kanan -->
+    <div class="col-auto"> <!-- Menggunakan kolom otomatis untuk membatasi lebar tombol -->
+        <div class="text-center position-relative overflow-hidden">
+            <a href="/InputArticle" class="btn my-button px-3" style="border-radius: 30px 30px 30px 30px;">
+                Input Artikel ->
+            </a>
+        </div>
+    </div>
+</div>
+
+
   <div class="slide-container">
     <div class="card-wrapper swiper-wrapper" >
       <div class="card swiper-slide">
@@ -391,13 +403,105 @@
           </div>
           </div>
 
-          <div class="row g-4 justify-content-center" >
-            <div class="text-center position-relative overflow-hidden">  
-              <a href="/InputArticle"class="btn my-button align-self-start px-3"   class="btn btn-red btn-detail" style="border-radius: 30px 30px 30px 30px;">Input Article -></a>                
-            
-            </div>
-        </div>
+    <!-- Modal -->
+<div id="successModal" class="popup">
+  <div class="popup-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p>Artikel Berhasil Disimpan!</p>
+      <button type="button" class="btn btn-primary" onclick="closeModal()">OK</button>
+  </div>
+</div>
+<style>
+  /* Styles untuk modal pop-up */
+  .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px; /* Tambahkan radius border untuk membuatnya berbentuk rounded */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      z-index: 1;
+  }
 
+  .popup-content {
+      text-align: center;
+  }
+
+  .popup-content .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      color: red; /* Ganti warna ikon close menjadi merah */
+  }
+
+  .popup-content p {
+      margin-bottom: 15px; /* Berikan jarak bawah pada paragraf */
+  }
+
+  .popup-content button {
+      background-color: red; /* Ganti warna tombol menjadi merah */
+      color: white; /* Ganti warna teks tombol menjadi putih */
+      border: none;
+      border-radius: 5px; /* Tambahkan radius border untuk membuatnya berbentuk rounded */
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s; /* Efek hover untuk perubahan warna latar belakang */
+  }
+
+  /* Efek saat tombol hover */
+  .popup-content button:hover {
+      background-color: rgb(255, 0, 0); /* Warna latar belakang saat hover */
+  }
+
+  /* Efek saat tombol ditekan (mousedown) */
+  .popup-content button:active {
+      background-color: darkred; /* Warna latar belakang saat tombol ditekan */
+  }
+</style>
+
+
+
+
+<script>
+  // JavaScript untuk menampilkan dan menyembunyikan modal
+  function showModal() {
+      const successModal = document.getElementById("successModal");
+      successModal.style.display = "block";
+  }
+
+  function closeModal() {
+      const successModal = document.getElementById("successModal");
+      successModal.style.display = "none";
+  }
+</script>
+
+        <script>
+            // JavaScript code to handle the modal
+            document.addEventListener("DOMContentLoaded", function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const successParam = urlParams.get("success");
+                
+                if (successParam === "true") {
+                    const successModal = document.getElementById("successModal");
+                    const closeModalButton = successModal.querySelector(".close");
+                    
+                    successModal.style.display = "block";
+                    
+                    closeModalButton.addEventListener("click", function() {
+                        successModal.style.display = "none";
+                    });
+                    
+                    // Close the modal after a certain time (e.g., 5 seconds)
+                    setTimeout(function() {
+                        successModal.style.display = "none";
+                    }, 5000); // Adjust the time as needed
+                }
+            });
+        </script>
     
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
