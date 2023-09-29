@@ -165,24 +165,95 @@
     <div class="row g-4 justify-content-center" >
     <div class="col-lg-6">
 <section class="container-i">
-    <form action="#" class="form">
-      <div class="input-box">
-        <label for="text"> Title</label>
-        <input type="text" placeholder="Enter Title"name="text" required />
-      </div>
+    <form action="http://192.168.1.4:8000/api/create" method="post" enctype="multipart/form-data" class="form">
         <div class="input-box">
-            <label for="text">Description</label>
-            <input type="text" placeholder="Enter Description" name="text"required />
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Enter Title" required />
         </div>
         <div class="input-box">
-            <label for="file">image</label>
-            <input type="file" placeholder="Enter Image" name="file"required />
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" placeholder="Enter Description" required />
         </div>
-      
-      
-      <button>Submit</button>
+        <div class="input-box">
+            <label for="user_id">User ID</label>
+            <input type="text" id="user_id" name="user_id" placeholder="Enter User ID" required />
+        </div>
+        <div class="input-box">
+            <label for="category_id">Category ID</label>
+            <input type="text" id="categori_id" name="categori_id" placeholder="Enter Category ID" required />
+        </div>
+        <div class="input-box">
+            <label for="image">Image</label>
+            <input type="file" id="image[]" name="image[]" required />
+        </div>
+    
+        <button type="submit" href="/article">Submit</button>
     </form>
-
+    
+    <?php
+    // require 'vendor/autoload.php'; //? Include autoload file dari Guzzle
+    
+    use GuzzleHttp\Client;
+    
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $client = new Client();
+    
+        // Mengirim permintaan ke API
+        $response = $client->post('URL_API_ANDA', [
+            'multipart' => [
+                [
+                    'name' => 'title',
+                    'contents' => $_POST['title']
+                ],
+                [
+                    'name' => 'description',
+                    'contents' => $_POST['description']
+                ],
+                [
+                    'name' => 'user_id',
+                    'contents' => $_POST['user_id']
+                ],
+                [
+                    'name' => 'categori_id',
+                    'contents' => $_POST['categori_id']
+                ],
+                [
+                    'name' => 'image[]',
+                    'contents' => fopen($_FILES['image']['tmp_name'], 'r') // Menggunakan file yang diunggah
+                ]
+            ]
+        ]);
+    
+        // Mengecek respons dari API
+        $data = json_decode($response->getBody(), true);
+    
+        // Menggunakan data respons sesuai kebutuhan Anda
+        // ...
+    
+        // Redirect atau menampilkan pesan sukses
+        header('Location: success.php');
+    }
+    ?>
+        
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Data has been successfully submitted.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
 
   </section>
     </div>

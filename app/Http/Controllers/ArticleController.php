@@ -9,6 +9,6 @@ use App\Http\Controllers\ArticleController;
 class ArticleController extends Controller
 {
     public function index(){
-		return view('Article');
+		return view('article');
 	}
 }
