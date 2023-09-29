@@ -183,64 +183,141 @@
             </div>
         </div>
     </div>
+    <?php
+    // URL API yang akan diakses
+    $apiUrl = 'http://192.168.1.9:8000/api/listproduk';
+    
+    // Inisialisasi Guzzle Client
+    $client = new GuzzleHttp\Client();
+    
+    try {
+        // Kirim permintaan GET ke API
+        $response = $client->get($apiUrl);
+    
+        // Periksa kode status HTTP
+        if ($response->getStatusCode() == 200) {
+            // Dapatkan data JSON dari respons
+            $data = json_decode($response->getBody(), true);
+    
+            // Loop melalui data dan tampilkan di halaman HTML
+            foreach ($data as $index => $product) {
+                if (is_array($product)) { // Periksa apakah $product adalah array
+                    $index = (int)$index; // Pastikan $index adalah integer
+    
+                    // Sesuaikan kelas dan tampilan berdasarkan indeks
+                    $orderClass = $index % 2 === 0 ? 'order-lg-2' : 'order-lg-1';
+                    $align = $index % 2 === 0 ? 'left' : 'right';
+    
+                    // Ambil data yang dibutuhkan dari $product
+                    $image = isset($product['image']) ? $product['image'] : 'default-image.jpg';
+                    $name = isset($product['name']) ? $product['name'] : 'Judul Produk';
+                    $description = isset($product['description']) ? $product['description'] : 'Deskripsi produk...';
+                    $productId = isset($product['id']) ? $product['id'] : '';
+    
+                    // Cetak informasi produk untuk tujuan debugging
+                    // Hapus ini setelah data tampil dengan benar
+                 
+    
+                    echo '
+                    <div class="col">
+                      <div class="card text-center h-100 mb-3">
+                        <img src="' . $image . '" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
+                        <div class="card-body">
+                          <h5 class="card-title">' . $name . '</h5>
+                          <p class="card-text" align="justify">' . $description . '</p>
+                        </div>  
+                        <div class="card-footer">
+                          <button class="btn my-button align-self-start px-3 btn-detail" data-product-id="' . $productId . '" data-bs-toggle="modal" data-bs-target="#modal14" style="border-radius: 30px 30px 30px 30px;">Read More</button>
+                        </div>
+                      </div>
+                    </div>
+                    ';
+                }
+            }
+        } else {
+            echo 'Gagal mengambil data dari API.';
+        }
+    } catch (GuzzleHttp\Exception\RequestException $e) {
+        echo 'Error: ' . $e->getMessage();
+    }
+    ?>
+        
+    <div class="modal fade" id="modal14" tabindex="-1" aria-labelledby="modal14Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal14Label">Detail Produk</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Di sini, Anda dapat menambahkan elemen HTML untuk menampilkan detail produk -->
+                    <div id="product-details">
+                        <!-- Data produk akan ditampilkan di sini -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.btn-detail').click(function() {
+                var productId = $(this).data('product-id');
+                $.ajax({
+                    url: 'http://192.168.1.9:8000/api/detailproduk/' + productId,
+                    method: 'GET',
+                    success: function(data) {
+                        // Di sini Anda dapat mengisi detail produk ke dalam modal
+                        $('#product-details').html(data);
+                    },
+                    error: function() {
+                        alert('Gagal mengambil detail produk.');
+                    }
+                });
+            });
+        });
+    </script>
+    
     
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
         // URL API yang akan diakses untuk mendapatkan data produk ringkas
-        const apiUrl = 'http://192.168.1.4:8000/api/produk';
-    
-        // Fungsi untuk menampilkan data produk
-        function displayProducts(products) {
-            const productContainer = document.getElementById('product-container');
-            products.forEach(product => {
-                const image = product.images.length > 0 ? product.images[0].image_url : 'default-image.jpg';
-                const name = product.name || 'Judul Produk';
-                const description = product.description || 'Deskripsi produk...';
-                const productId = product.id || '';
-    
-                const productHtml = `
-                    <div class="col">
-                        <div class="card text-center h-100 mb-3">
-                            <img src="${image}" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
-                            <div class="card-body">
-                                <h5 class="card-title">${name}</h5>
-                                <p class="card-text" align="justify">${description}</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn my-button align-self-start px-3 btn-detail" data-product-id="${productId}" data-bs-toggle="modal" data-bs-target="#modal14" style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                productContainer.innerHTML += productHtml;
-            });
-        }
-    
+      
         // Fungsi untuk menampilkan detail produk
-        function displayProductDetail(product) {
-            // Tambahkan logika untuk menampilkan detail produk sesuai kebutuhan
-            // Misalnya, Anda bisa menggunakan modal untuk menampilkan detail produk.
-            alert(`Detail Produk\nJudul: ${product.name}\nDeskripsi: ${product.description}`);
-        }
+        // function displayProductDetail(product) {
+        //     // Tambahkan logika untuk menampilkan detail produk sesuai kebutuhan
+        //     // Misalnya, Anda bisa menggunakan modal untuk menampilkan detail produk.
+        //     const detailHtml = `
+        //         <div>
+        //             <h3>${product.name}</h3>
+        //             <p>${product.description.toUpperCase()}</p>
+        //         </div>
+        //     `;
+        //     alert(detailHtml);
+        // }
     
-        // Klik tombol "Read More" untuk mendapatkan detail produk
-        document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('btn-detail')) {
-                const productId = event.target.dataset.productId;
-                // Ganti URL API dengan endpoint yang sesuai untuk mendapatkan detail produk berdasarkan productId
-                const detailApiUrl = `http://192.168.1.4:8000/api/detailproduk/${productId}`;
-                
-                axios.get(detailApiUrl)
-                    .then(response => {
-                        const productDetail = response.data.data;
-                        displayProductDetail(productDetail);
-                    })
-                    .catch(error => {
-                        console.error(error);
-                        alert('Gagal mengambil detail produk.');
-                    });
-            }
-        });
+        // // Klik tombol "Read More" untuk mendapatkan detail produk
+        // document.addEventListener('click', function(event) {
+        //     if (event.target.classList.contains('btn-detail')) {
+        //         const productId = event.target.dataset.productId;
+        //         // Ganti URL API dengan endpoint yang sesuai untuk mendapatkan detail produk berdasarkan productId
+        //         const detailApiUrl = `http://192.168.1.9:8000/api/detailproduk/${productId}`;
+    
+        //         axios.get(detailApiUrl)
+        //             .then(response => {
+        //                 const productDetail = response.data.data;
+        //                 displayProductDetail(productDetail);
+        //             })
+        //             .catch(error => {
+        //                 console.error(error);
+        //                 alert('Failed to retrieve product data. Please try again later.');
+        //             });
+        //     }
+        // });
     
         // Mengambil data produk ringkas saat halaman dimuat
         axios.get(apiUrl)
@@ -250,9 +327,10 @@
             })
             .catch(error => {
                 console.error(error);
-                alert('Gagal mengambil data produk.');
+                alert('Failed to retrieve product data. Please try again later.');
             });
     </script>
+
     
 </div>
     
